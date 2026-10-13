@@ -1,0 +1,188 @@
+{
+  "repositories": [
+    {
+      "repo": "weilai0980/IMV-LSTM",
+      "commit": "eb7720175975f106ab3b8fd415e764e59bc574b4"
+    },
+    {
+      "repo": "KurochkinAlexey/IMV_LSTM",
+      "commit": "c2552282d9995dfb03ef714168c78329e01374cf"
+    }
+  ],
+  "assets": [
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/config_data.json",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/config_data.json",
+      "sha256": "24be93b6bf7d53e09752804a7340e45a1e04cd17072f2196dfb19dac692ba761"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/config_hyper_para.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/config_hyper_para.py",
+      "sha256": "030661b6b75314f24c736e5231f8760984b4150457a4a9ec83b33f2eb8278c07"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/mv_rnn_cell.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/mv_rnn_cell.py",
+      "sha256": "79fe50b258b23bf2d661502bea3d2b064d77e2902f2bc2bce1299229addf011f"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/README.md",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/README.md",
+      "sha256": "462fe5ab543a5c10d9b38d1984711dcf9a988ad1a321029cb5c11f8bd4f0de59"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/train_mv_rnn.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/train_mv_rnn.py",
+      "sha256": "409f3972f48e497c8fb0ca2bc95c001b6188d4ca6be36fcb1367c7d8062791eb"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/ts_mv_rnn.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/ts_mv_rnn.py",
+      "sha256": "e7b956c04ef6ad053fa4c4aae9b286641f1e58d8e437e463d8f4b608c000f891"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/ts_mv_rnn_attention.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/ts_mv_rnn_attention.py",
+      "sha256": "4f39f7e93ea631b5c5f9187b18a60421522c4f9f8ccb3bb5322204d473a7e56a"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/ts_mv_rnn_basics.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/ts_mv_rnn_basics.py",
+      "sha256": "a81b52f67a58dda98afcc1b2892832baaf86abf3333e9e33539b65289a1ca0bb"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/utils_causal.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/utils_causal.py",
+      "sha256": "921ea6337fe7cd7f781835dc3cf7c30edabd6deb088ace4b99fe7aaea015cf33"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/utils_data_prep.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/utils_data_prep.py",
+      "sha256": "1d2d000552febc80bc4f531b288be1880231c7e6d1142948b4229caa064cf818"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/utils_libs.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/utils_libs.py",
+      "sha256": "5a77602997b34cffecc8ecb3b95a7e6131366f84eb5f411160ab0ddfd5fbf53a"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/utils_results_analysis.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/utils_results_analysis.py",
+      "sha256": "df5f7f357a1ce156a51303979a5602d7929fb00a748729326cc9e5caf6cd7504"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/simplified_version/config_data.json",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/simplified_version/config_data.json",
+      "sha256": "92656e9d3f509bd29846285e2a02360bf37a8f8bccf1f68294cdc894de453272"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/simplified_version/config_hyper_para_mv.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/simplified_version/config_hyper_para_mv.py",
+      "sha256": "9f624bad3513c1124bb29e85506e244500dd06b3234875d057880b78f7ee54ca"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/simplified_version/main_mv_rnn.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/simplified_version/main_mv_rnn.py",
+      "sha256": "996df03126f127645c8acfbe15e5bb4aebfbe65853b922db1755961a0c521afe"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/simplified_version/mv_rnn_cell.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/simplified_version/mv_rnn_cell.py",
+      "sha256": "79fe50b258b23bf2d661502bea3d2b064d77e2902f2bc2bce1299229addf011f"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/simplified_version/ts_mv_rnn.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/simplified_version/ts_mv_rnn.py",
+      "sha256": "fc2b778d5d618ad8c7966da50bba3dd0b74f144d3eb7b1968359c912719930c1"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/simplified_version/ts_mv_rnn_attention.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/simplified_version/ts_mv_rnn_attention.py",
+      "sha256": "34a1dc8a4f46082e9ace587d3989c09f0aefaaa2f6b443057d90aae6dff5da92"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/simplified_version/ts_mv_rnn_eval.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/simplified_version/ts_mv_rnn_eval.py",
+      "sha256": "343fe9e1f96822f9e5168f60986de3e0eb221d5b330109e0f5ee7bf9534c9ea4"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/simplified_version/ts_mv_rnn_layers.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/simplified_version/ts_mv_rnn_layers.py",
+      "sha256": "05472eaab4e8914f6530925e59f757a85c68943c4888fc4238806e6bf4a84d63"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/simplified_version/utils_causal.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/simplified_version/utils_causal.py",
+      "sha256": "921ea6337fe7cd7f781835dc3cf7c30edabd6deb088ace4b99fe7aaea015cf33"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/simplified_version/utils_data_prep.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/simplified_version/utils_data_prep.py",
+      "sha256": "be7ce42b863205fcdd312f1526f6fd72eb06a7abba320739f2a6d427d4683438"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV-LSTM/simplified_version/utils_libs.py",
+      "url": "https://raw.githubusercontent.com/weilai0980/IMV-LSTM/eb7720175975f106ab3b8fd415e764e59bc574b4/simplified_version/utils_libs.py",
+      "sha256": "5a77602997b34cffecc8ecb3b95a7e6131366f84eb5f411160ab0ddfd5fbf53a"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV_LSTM_pytorch/networks.py",
+      "url": "https://raw.githubusercontent.com/KurochkinAlexey/IMV_LSTM/c2552282d9995dfb03ef714168c78329e01374cf/networks.py",
+      "sha256": "92d8aa1bede401d12767577df0f1ea960033173a7c38e8d54a2298c696e2ac3e"
+    },
+    {
+      "kind": "source",
+      "path": "upstream/IMV_LSTM_pytorch/README.md",
+      "url": "https://raw.githubusercontent.com/KurochkinAlexey/IMV_LSTM/c2552282d9995dfb03ef714168c78329e01374cf/README.md",
+      "sha256": "c7d262ad571feefbec4ff37c51b4159f3f7de7f554900f9f8cca9f0b5f0b17a1"
+    },
+    {
+      "kind": "data",
+      "path": "data/raw/NASDAQ/nasdaq100_padding.csv",
+      "url": "https://raw.githubusercontent.com/KurochkinAlexey/IMV_LSTM/c2552282d9995dfb03ef714168c78329e01374cf/NASDAQ/nasdaq100_padding.csv",
+      "sha256": "ed007eaac00124279a11d7fc15aaaa6cfed3c9f7cadfed65876e7d13830efa84"
+    },
+    {
+      "kind": "data",
+      "path": "data/raw/PM25/PRSA_data_2010.1.1-2014.12.31.csv",
+      "url": "https://raw.githubusercontent.com/KurochkinAlexey/IMV_LSTM/c2552282d9995dfb03ef714168c78329e01374cf/PM25/PRSA_data_2010.1.1-2014.12.31.csv",
+      "sha256": "4127f868775e31b3956522adc0ec75af8937dde6a3896e8beed3a376c6d27f1c"
+    },
+    {
+      "kind": "data",
+      "path": "data/raw/SML2010/NEW-DATA-1.T15.txt",
+      "url": "https://raw.githubusercontent.com/KurochkinAlexey/IMV_LSTM/c2552282d9995dfb03ef714168c78329e01374cf/SML2010/NEW-DATA-1.T15.txt",
+      "sha256": "bd5a4c4f1f6a0652258179c9963fb5c90885eedee4a981617898c18d6b5c4541"
+    },
+    {
+      "kind": "data",
+      "path": "data/raw/SML2010/NEW-DATA-2.T15.txt",
+      "url": "https://raw.githubusercontent.com/KurochkinAlexey/IMV_LSTM/c2552282d9995dfb03ef714168c78329e01374cf/SML2010/NEW-DATA-2.T15.txt",
+      "sha256": "1c008643381903a51557a0599cbd7706ae71b07f2d449d165b17f13b6e12a97e"
+    }
+  ]
+}

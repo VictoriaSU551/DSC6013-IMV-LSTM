@@ -1,0 +1,15 @@
+.venv/
+.cache/
+__pycache__/
+.pytest_cache/
+*.pyc
+*.pdf
+upstream/
+code/vendor/
+data/raw/
+data/processed/
+output/*
+!output/.gitkeep
+.env
+.env.*
+*.log
