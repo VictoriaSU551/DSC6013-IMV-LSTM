@@ -1,0 +1,174 @@
+{
+  "params": [
+    20,
+    0.0005,
+    0.2,
+    0.0001
+  ],
+  "val_rmse_scaled": 0.15135310673438798,
+  "run": "nasdaq_tensor_10",
+  "all_valid": [
+    {
+      "params": [
+        10,
+        0.0005,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.16994266190551477,
+      "run": "nasdaq_tensor_00"
+    },
+    {
+      "params": [
+        15,
+        0.001,
+        0.2,
+        0.001
+      ],
+      "val_rmse_scaled": 0.170033463494174,
+      "run": "nasdaq_tensor_01"
+    },
+    {
+      "params": [
+        20,
+        0.005,
+        0.5,
+        0.01
+      ],
+      "val_rmse_scaled": 0.20334818437965713,
+      "run": "nasdaq_tensor_02"
+    },
+    {
+      "params": [
+        25,
+        0.01,
+        0,
+        0.1
+      ],
+      "val_rmse_scaled": 0.23319196513924667,
+      "run": "nasdaq_tensor_03"
+    },
+    {
+      "params": [
+        10,
+        0.05,
+        0.2,
+        1
+      ],
+      "val_rmse_scaled": 0.21599029266273556,
+      "run": "nasdaq_tensor_04"
+    },
+    {
+      "params": [
+        15,
+        0.0005,
+        0.5,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.17833885266385371,
+      "run": "nasdaq_tensor_05"
+    },
+    {
+      "params": [
+        20,
+        0.001,
+        0,
+        0.001
+      ],
+      "val_rmse_scaled": 0.1815123268558196,
+      "run": "nasdaq_tensor_06"
+    },
+    {
+      "params": [
+        25,
+        0.005,
+        0.2,
+        0.01
+      ],
+      "val_rmse_scaled": 0.2008332969836115,
+      "run": "nasdaq_tensor_07"
+    },
+    {
+      "params": [
+        10,
+        0.01,
+        0.5,
+        0.1
+      ],
+      "val_rmse_scaled": 0.23249465653136664,
+      "run": "nasdaq_tensor_08"
+    },
+    {
+      "params": [
+        15,
+        0.05,
+        0,
+        1
+      ],
+      "val_rmse_scaled": 0.22077073796200977,
+      "run": "nasdaq_tensor_09"
+    },
+    {
+      "params": [
+        20,
+        0.0005,
+        0.2,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.15135310673438798,
+      "run": "nasdaq_tensor_10"
+    },
+    {
+      "params": [
+        25,
+        0.001,
+        0.5,
+        0.001
+      ],
+      "val_rmse_scaled": 0.1557167243674196,
+      "run": "nasdaq_tensor_11"
+    },
+    {
+      "params": [
+        10,
+        0.005,
+        0,
+        0.01
+      ],
+      "val_rmse_scaled": 0.20397195478977592,
+      "run": "nasdaq_tensor_12"
+    },
+    {
+      "params": [
+        15,
+        0.01,
+        0.2,
+        0.1
+      ],
+      "val_rmse_scaled": 0.23461531013348122,
+      "run": "nasdaq_tensor_13"
+    },
+    {
+      "params": [
+        20,
+        0.05,
+        0.5,
+        1
+      ],
+      "val_rmse_scaled": 0.2159781768660873,
+      "run": "nasdaq_tensor_14"
+    },
+    {
+      "params": [
+        25,
+        0.0005,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.1717843826972111,
+      "run": "nasdaq_tensor_15"
+    }
+  ],
+  "selection_criterion": "validation RMSE, never test",
+  "candidate_count": 16
+}

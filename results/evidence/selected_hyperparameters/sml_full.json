@@ -1,0 +1,174 @@
+{
+  "params": [
+    25,
+    0.001,
+    0.5,
+    0.001
+  ],
+  "val_rmse_scaled": 0.008358545828733502,
+  "run": "sml_full_11",
+  "all_valid": [
+    {
+      "params": [
+        10,
+        0.0005,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.009396258294072543,
+      "run": "sml_full_00"
+    },
+    {
+      "params": [
+        15,
+        0.001,
+        0.2,
+        0.001
+      ],
+      "val_rmse_scaled": 0.011120626756024475,
+      "run": "sml_full_01"
+    },
+    {
+      "params": [
+        20,
+        0.005,
+        0.5,
+        0.01
+      ],
+      "val_rmse_scaled": 0.034716419573204774,
+      "run": "sml_full_02"
+    },
+    {
+      "params": [
+        25,
+        0.01,
+        0,
+        0.1
+      ],
+      "val_rmse_scaled": 0.133754821543469,
+      "run": "sml_full_03"
+    },
+    {
+      "params": [
+        10,
+        0.05,
+        0.2,
+        1
+      ],
+      "val_rmse_scaled": 0.22708297987135334,
+      "run": "sml_full_04"
+    },
+    {
+      "params": [
+        15,
+        0.0005,
+        0.5,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.025740182227250098,
+      "run": "sml_full_05"
+    },
+    {
+      "params": [
+        20,
+        0.001,
+        0,
+        0.001
+      ],
+      "val_rmse_scaled": 0.009115479824318037,
+      "run": "sml_full_06"
+    },
+    {
+      "params": [
+        25,
+        0.005,
+        0.2,
+        0.01
+      ],
+      "val_rmse_scaled": 0.014735753458255643,
+      "run": "sml_full_07"
+    },
+    {
+      "params": [
+        10,
+        0.01,
+        0.5,
+        0.1
+      ],
+      "val_rmse_scaled": 0.09705396710842315,
+      "run": "sml_full_08"
+    },
+    {
+      "params": [
+        15,
+        0.05,
+        0,
+        1
+      ],
+      "val_rmse_scaled": 0.23827120054259007,
+      "run": "sml_full_09"
+    },
+    {
+      "params": [
+        20,
+        0.0005,
+        0.2,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.009060266339464962,
+      "run": "sml_full_10"
+    },
+    {
+      "params": [
+        25,
+        0.001,
+        0.5,
+        0.001
+      ],
+      "val_rmse_scaled": 0.008358545828733502,
+      "run": "sml_full_11"
+    },
+    {
+      "params": [
+        10,
+        0.005,
+        0,
+        0.01
+      ],
+      "val_rmse_scaled": 0.02899269496763085,
+      "run": "sml_full_12"
+    },
+    {
+      "params": [
+        15,
+        0.01,
+        0.2,
+        0.1
+      ],
+      "val_rmse_scaled": 0.057475015561812726,
+      "run": "sml_full_13"
+    },
+    {
+      "params": [
+        20,
+        0.05,
+        0.5,
+        1
+      ],
+      "val_rmse_scaled": 0.24486286062792964,
+      "run": "sml_full_14"
+    },
+    {
+      "params": [
+        25,
+        0.0005,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.014079920263880025,
+      "run": "sml_full_15"
+    }
+  ],
+  "selection_criterion": "validation RMSE, never test",
+  "candidate_count": 16
+}

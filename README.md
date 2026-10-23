@@ -1,3 +1,19 @@
+# IMV-LSTM：三套公开数据的完整实验与严格核验
+
+基于 Guo, Lin & Antulov-Fantulin 的ICML2019论文独立实现。此次独立autoDL实验包含概率混合EM、五种子重复、基线、变量选择和解释核验；旧第三方MSE短跑链路保留在下方历史说明，二者输出和实现分开。
+
+- **已验证**：150项HPO、105次全变量训练、90次变量选择重训；195正式深度run全部独立checkpoint核验通过，15组经典基线全部严格通过，科学测试77项通过。
+- **实际结论**：Full在PM2.5上RMSE约21.13，persistence约22.13（改善4.53%）；SML/NASDAQ及Tensor存在明显负结果。六个IMV变量选择组合中，Pearson均优于后验排名。未重现论文普遍性能优势，未隐藏失败或挑seed。
+- **复现范围**：SML2010、PM2.5、NASDAQ；PLANT原始快照未取得，16组主模型搜索并非论文300组穷举，缩放/PM协议及统计exact-diffuse初始化变体均披露。不能称四数据集数值完全复现。
+
+阅读[详细中文实验报告](results/reproduction_20261018/复现实验报告.md)、[汇总指标](results/reproduction_20261018/summary_metrics.csv)、[数据与来源审计](docs/SOURCE_AUDIT.md)、[独立运行与恢复](docs/RUNNING_AUTODL.md)。完整过程和失败保留记录见[LEDGER](docs/LEDGER.md)，数值恢复细节见[REPAIR_NEXT](docs/REPAIR_NEXT.md)。
+
+`code/repro/`为独立自写概率模型/训练/统计修复/核验/报告；`configs/reproduction.json`为预登记预算与种子，Linux直接依赖和实际环境锁为`requirements-autodl*.txt`。原始数据、无明确许可第三方代码、权重和大日志不发布；小结果与来源指纹在`results/`。本次公开commit不触发额外云端训练，已在独立autoDL环境执行测试与核验。
+
+## 历史：2026-10-14的六次短跑链路
+
+以下保留原说明，仅描述原commit89433d8及此前的短跑；其中“尚未完成”等状态不代表本次`code/repro`实验状态。
+
 # DSC6013 - IMV-LSTM 论文复现
 
 Guo, Lin & Antulov-Fantulin, **Exploring Interpretable LSTM Neural Networks over Multi-Variable Data**, ICML 2019。

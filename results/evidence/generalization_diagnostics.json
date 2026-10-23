@@ -1,0 +1,396 @@
+{
+  "scope": "descriptive post-evaluation diagnostics; no model or tuning changes",
+  "source_sha256": "f96fb3261d0fd632712abb3bb9cd7a7d8e05aa4da69e27357a8908436af6e3b6",
+  "rows": [
+    {
+      "dataset": "sml",
+      "y_min": 11.076,
+      "y_scale": 17.471999999999998,
+      "test_scaled_min": 0.3274553716182709,
+      "test_scaled_max": 0.9112465381622314,
+      "test_outside_train_fraction": 0.0,
+      "train_n": 3180,
+      "test_n": 521,
+      "full": {
+        "selected": {
+          "units": 25,
+          "lr": 0.001,
+          "dropout": 0.5,
+          "l2": 0.001
+        },
+        "runs": [
+          {
+            "seed": 11,
+            "best_epoch": 46,
+            "epochs": 81,
+            "val_rmse_scaled": 0.008358545828733502,
+            "test_rmse_scaled": 0.012971510170346577,
+            "test_mean_error_raw": -0.01396765922941842,
+            "prediction_scaled_min": 0.33214045,
+            "prediction_scaled_max": 0.9072873
+          },
+          {
+            "seed": 23,
+            "best_epoch": 23,
+            "epochs": 58,
+            "val_rmse_scaled": 0.009404857141254164,
+            "test_rmse_scaled": 0.01550405005163762,
+            "test_mean_error_raw": -0.07647874857267438,
+            "prediction_scaled_min": 0.32226968,
+            "prediction_scaled_max": 0.9076725
+          },
+          {
+            "seed": 47,
+            "best_epoch": 60,
+            "epochs": 95,
+            "val_rmse_scaled": 0.008935814009602498,
+            "test_rmse_scaled": 0.011437167126565666,
+            "test_mean_error_raw": 0.05110345054963211,
+            "prediction_scaled_min": 0.33676937,
+            "prediction_scaled_max": 0.9033752
+          },
+          {
+            "seed": 71,
+            "best_epoch": 43,
+            "epochs": 78,
+            "val_rmse_scaled": 0.009450707674370486,
+            "test_rmse_scaled": 0.014099342454875556,
+            "test_mean_error_raw": -0.1525757926552866,
+            "prediction_scaled_min": 0.31720513,
+            "prediction_scaled_max": 0.8911211
+          },
+          {
+            "seed": 101,
+            "best_epoch": 44,
+            "epochs": 79,
+            "val_rmse_scaled": 0.0076545197301477975,
+            "test_rmse_scaled": 0.010412887545484922,
+            "test_mean_error_raw": -0.07684373961611651,
+            "prediction_scaled_min": 0.3261813,
+            "prediction_scaled_max": 0.9025989
+          }
+        ]
+      },
+      "tensor": {
+        "selected": {
+          "units": 25,
+          "lr": 0.0005,
+          "dropout": 0,
+          "l2": 0.0001
+        },
+        "runs": [
+          {
+            "seed": 11,
+            "best_epoch": 70,
+            "epochs": 105,
+            "val_rmse_scaled": 0.0337656727872609,
+            "test_rmse_scaled": 0.05257507868721816,
+            "test_mean_error_raw": 0.4992399847883631,
+            "prediction_scaled_min": 0.44148126,
+            "prediction_scaled_max": 0.8680226
+          },
+          {
+            "seed": 23,
+            "best_epoch": 107,
+            "epochs": 142,
+            "val_rmse_scaled": 0.04887931088191822,
+            "test_rmse_scaled": 0.04588436762523624,
+            "test_mean_error_raw": 0.14751595805528686,
+            "prediction_scaled_min": 0.43168625,
+            "prediction_scaled_max": 0.8405144
+          },
+          {
+            "seed": 47,
+            "best_epoch": 42,
+            "epochs": 77,
+            "val_rmse_scaled": 0.08226011138890904,
+            "test_rmse_scaled": 0.05145426392803334,
+            "test_mean_error_raw": -0.5150594629540332,
+            "prediction_scaled_min": 0.38020286,
+            "prediction_scaled_max": 0.79490334
+          },
+          {
+            "seed": 71,
+            "best_epoch": 44,
+            "epochs": 79,
+            "val_rmse_scaled": 0.06364022511969121,
+            "test_rmse_scaled": 0.04336590134412605,
+            "test_mean_error_raw": -0.21809817079335478,
+            "prediction_scaled_min": 0.39863122,
+            "prediction_scaled_max": 0.82250696
+          },
+          {
+            "seed": 101,
+            "best_epoch": 58,
+            "epochs": 93,
+            "val_rmse_scaled": 0.059943447451791275,
+            "test_rmse_scaled": 0.04307736385622836,
+            "test_mean_error_raw": -0.2082900563003927,
+            "prediction_scaled_min": 0.39637482,
+            "prediction_scaled_max": 0.82622
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "pm25",
+      "y_min": 0.0,
+      "y_scale": 994.0,
+      "test_scaled_min": 0.0020120723638683558,
+      "test_scaled_max": 0.6750503182411194,
+      "test_outside_train_fraction": 0.0,
+      "train_n": 23185,
+      "test_n": 8359,
+      "full": {
+        "selected": {
+          "units": 10,
+          "lr": 0.0005,
+          "dropout": 0,
+          "l2": 0.0001
+        },
+        "runs": [
+          {
+            "seed": 11,
+            "best_epoch": 146,
+            "epochs": 150,
+            "val_rmse_scaled": 0.023634306898455353,
+            "test_rmse_scaled": 0.021285242141826314,
+            "test_mean_error_raw": -0.3589576614998569,
+            "prediction_scaled_min": -0.0012483122,
+            "prediction_scaled_max": 0.59850246
+          },
+          {
+            "seed": 23,
+            "best_epoch": 148,
+            "epochs": 150,
+            "val_rmse_scaled": 0.023537264909162695,
+            "test_rmse_scaled": 0.02126703645383782,
+            "test_mean_error_raw": 0.4318299026182588,
+            "prediction_scaled_min": -0.0023819283,
+            "prediction_scaled_max": 0.612769
+          },
+          {
+            "seed": 47,
+            "best_epoch": 148,
+            "epochs": 150,
+            "val_rmse_scaled": 0.023688359201074195,
+            "test_rmse_scaled": 0.021122497000532522,
+            "test_mean_error_raw": -0.37613228547738536,
+            "prediction_scaled_min": 0.0024237274,
+            "prediction_scaled_max": 0.6040925
+          },
+          {
+            "seed": 71,
+            "best_epoch": 140,
+            "epochs": 150,
+            "val_rmse_scaled": 0.02377044812677658,
+            "test_rmse_scaled": 0.02130549826450296,
+            "test_mean_error_raw": 0.6018247021262917,
+            "prediction_scaled_min": 0.00090284925,
+            "prediction_scaled_max": 0.5949433
+          },
+          {
+            "seed": 101,
+            "best_epoch": 146,
+            "epochs": 150,
+            "val_rmse_scaled": 0.02377502758865008,
+            "test_rmse_scaled": 0.021314491641970544,
+            "test_mean_error_raw": 0.14031554860766954,
+            "prediction_scaled_min": 0.0017667759,
+            "prediction_scaled_max": 0.60083824
+          }
+        ]
+      },
+      "tensor": {
+        "selected": {
+          "units": 20,
+          "lr": 0.0005,
+          "dropout": 0.2,
+          "l2": 0.0001
+        },
+        "runs": [
+          {
+            "seed": 11,
+            "best_epoch": 36,
+            "epochs": 71,
+            "val_rmse_scaled": 0.053557278863516126,
+            "test_rmse_scaled": 0.05217399841105797,
+            "test_mean_error_raw": -1.4548288727976237,
+            "prediction_scaled_min": 0.031111218,
+            "prediction_scaled_max": 0.36341825
+          },
+          {
+            "seed": 23,
+            "best_epoch": 74,
+            "epochs": 109,
+            "val_rmse_scaled": 0.05421467263076,
+            "test_rmse_scaled": 0.052958157294423436,
+            "test_mean_error_raw": -2.546557917953418,
+            "prediction_scaled_min": 0.02555181,
+            "prediction_scaled_max": 0.3607517
+          },
+          {
+            "seed": 47,
+            "best_epoch": 73,
+            "epochs": 108,
+            "val_rmse_scaled": 0.054238082857892056,
+            "test_rmse_scaled": 0.05285543150008195,
+            "test_mean_error_raw": -1.9809670719920962,
+            "prediction_scaled_min": 0.027303688,
+            "prediction_scaled_max": 0.36308092
+          },
+          {
+            "seed": 71,
+            "best_epoch": 42,
+            "epochs": 77,
+            "val_rmse_scaled": 0.0538048830007349,
+            "test_rmse_scaled": 0.052624360890183325,
+            "test_mean_error_raw": -0.736368095616124,
+            "prediction_scaled_min": 0.031610347,
+            "prediction_scaled_max": 0.36804795
+          },
+          {
+            "seed": 101,
+            "best_epoch": 38,
+            "epochs": 73,
+            "val_rmse_scaled": 0.054936987299358774,
+            "test_rmse_scaled": 0.053585052344759555,
+            "test_mean_error_raw": -2.198645573354057,
+            "prediction_scaled_min": 0.028986014,
+            "prediction_scaled_max": 0.34987086
+          }
+        ]
+      }
+    },
+    {
+      "dataset": "nasdaq",
+      "y_min": 4649.127,
+      "y_scale": 262.34699999999975,
+      "test_scaled_min": 0.9740153551101685,
+      "test_scaled_max": 1.1940826177597046,
+      "test_outside_train_fraction": 0.973992673992674,
+      "train_n": 35090,
+      "test_n": 2730,
+      "full": {
+        "selected": {
+          "units": 25,
+          "lr": 0.0005,
+          "dropout": 0,
+          "l2": 0.0001
+        },
+        "runs": [
+          {
+            "seed": 11,
+            "best_epoch": 29,
+            "epochs": 64,
+            "val_rmse_scaled": 0.02083233021264229,
+            "test_rmse_scaled": 0.057795814148822594,
+            "test_mean_error_raw": -14.144177227166242,
+            "prediction_scaled_min": 0.942392,
+            "prediction_scaled_max": 1.1143758
+          },
+          {
+            "seed": 23,
+            "best_epoch": 22,
+            "epochs": 57,
+            "val_rmse_scaled": 0.02398527912708279,
+            "test_rmse_scaled": 0.06550712823898305,
+            "test_mean_error_raw": -15.509724348056574,
+            "prediction_scaled_min": 0.98254824,
+            "prediction_scaled_max": 1.0789568
+          },
+          {
+            "seed": 47,
+            "best_epoch": 19,
+            "epochs": 54,
+            "val_rmse_scaled": 0.026884816759659123,
+            "test_rmse_scaled": 0.08533804006108821,
+            "test_mean_error_raw": -21.461506140116935,
+            "prediction_scaled_min": 0.9548131,
+            "prediction_scaled_max": 1.069321
+          },
+          {
+            "seed": 71,
+            "best_epoch": 23,
+            "epochs": 58,
+            "val_rmse_scaled": 0.036564380972668176,
+            "test_rmse_scaled": 0.12510114971236647,
+            "test_mean_error_raw": -31.34293885659016,
+            "prediction_scaled_min": 0.9504975,
+            "prediction_scaled_max": 1.0080283
+          },
+          {
+            "seed": 101,
+            "best_epoch": 118,
+            "epochs": 150,
+            "val_rmse_scaled": 0.025204072054771518,
+            "test_rmse_scaled": 0.08560078308015857,
+            "test_mean_error_raw": -21.50094649131846,
+            "prediction_scaled_min": 0.9534425,
+            "prediction_scaled_max": 1.063741
+          }
+        ]
+      },
+      "tensor": {
+        "selected": {
+          "units": 20,
+          "lr": 0.0005,
+          "dropout": 0.2,
+          "l2": 0.0001
+        },
+        "runs": [
+          {
+            "seed": 11,
+            "best_epoch": 70,
+            "epochs": 105,
+            "val_rmse_scaled": 0.14514037695730014,
+            "test_rmse_scaled": 0.3836630862818957,
+            "test_mean_error_raw": -99.8095026566919,
+            "prediction_scaled_min": 0.68540144,
+            "prediction_scaled_max": 0.80688703
+          },
+          {
+            "seed": 23,
+            "best_epoch": 22,
+            "epochs": 57,
+            "val_rmse_scaled": 0.16423390317925118,
+            "test_rmse_scaled": 0.3857801367285886,
+            "test_mean_error_raw": -100.64412358203842,
+            "prediction_scaled_min": 0.706146,
+            "prediction_scaled_max": 0.74939126
+          },
+          {
+            "seed": 47,
+            "best_epoch": 80,
+            "epochs": 115,
+            "val_rmse_scaled": 0.15717039234973645,
+            "test_rmse_scaled": 0.3937487565970261,
+            "test_mean_error_raw": -102.68828763873239,
+            "prediction_scaled_min": 0.6836992,
+            "prediction_scaled_max": 0.76788026
+          },
+          {
+            "seed": 71,
+            "best_epoch": 99,
+            "epochs": 134,
+            "val_rmse_scaled": 0.15035217435240572,
+            "test_rmse_scaled": 0.38631921327489177,
+            "test_mean_error_raw": -100.67215727040445,
+            "prediction_scaled_min": 0.68237686,
+            "prediction_scaled_max": 0.77677023
+          },
+          {
+            "seed": 101,
+            "best_epoch": 47,
+            "epochs": 82,
+            "val_rmse_scaled": 0.15010302687054497,
+            "test_rmse_scaled": 0.3929843035438324,
+            "test_mean_error_raw": -102.46027907786858,
+            "prediction_scaled_min": 0.6882682,
+            "prediction_scaled_max": 0.77325106
+          }
+        ]
+      }
+    }
+  ]
+}

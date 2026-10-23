@@ -13,3 +13,8 @@ output/*
 .env
 .env.*
 *.log
+
+# Full reproduction runtime is never published.
+__pycache__/
+.pytest_cache/
+.superpowers/

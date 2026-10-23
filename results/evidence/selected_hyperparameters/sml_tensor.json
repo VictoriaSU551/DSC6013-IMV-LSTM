@@ -1,0 +1,174 @@
+{
+  "params": [
+    25,
+    0.0005,
+    0,
+    0.0001
+  ],
+  "val_rmse_scaled": 0.0337656727872609,
+  "run": "sml_tensor_15",
+  "all_valid": [
+    {
+      "params": [
+        10,
+        0.0005,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.09763275665833517,
+      "run": "sml_tensor_00"
+    },
+    {
+      "params": [
+        15,
+        0.001,
+        0.2,
+        0.001
+      ],
+      "val_rmse_scaled": 0.070310654993696,
+      "run": "sml_tensor_01"
+    },
+    {
+      "params": [
+        20,
+        0.005,
+        0.5,
+        0.01
+      ],
+      "val_rmse_scaled": 0.05873456357753829,
+      "run": "sml_tensor_02"
+    },
+    {
+      "params": [
+        25,
+        0.01,
+        0,
+        0.1
+      ],
+      "val_rmse_scaled": 0.26520299041039935,
+      "run": "sml_tensor_03"
+    },
+    {
+      "params": [
+        10,
+        0.05,
+        0.2,
+        1
+      ],
+      "val_rmse_scaled": 0.2267837071342626,
+      "run": "sml_tensor_04"
+    },
+    {
+      "params": [
+        15,
+        0.0005,
+        0.5,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.0847809722765779,
+      "run": "sml_tensor_05"
+    },
+    {
+      "params": [
+        20,
+        0.001,
+        0,
+        0.001
+      ],
+      "val_rmse_scaled": 0.0787121384421134,
+      "run": "sml_tensor_06"
+    },
+    {
+      "params": [
+        25,
+        0.005,
+        0.2,
+        0.01
+      ],
+      "val_rmse_scaled": 0.09503916564456502,
+      "run": "sml_tensor_07"
+    },
+    {
+      "params": [
+        10,
+        0.01,
+        0.5,
+        0.1
+      ],
+      "val_rmse_scaled": 0.26133256770284413,
+      "run": "sml_tensor_08"
+    },
+    {
+      "params": [
+        15,
+        0.05,
+        0,
+        1
+      ],
+      "val_rmse_scaled": 0.24508325622874755,
+      "run": "sml_tensor_09"
+    },
+    {
+      "params": [
+        20,
+        0.0005,
+        0.2,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.0827566063111022,
+      "run": "sml_tensor_10"
+    },
+    {
+      "params": [
+        25,
+        0.001,
+        0.5,
+        0.001
+      ],
+      "val_rmse_scaled": 0.0855564196053992,
+      "run": "sml_tensor_11"
+    },
+    {
+      "params": [
+        10,
+        0.005,
+        0,
+        0.01
+      ],
+      "val_rmse_scaled": 0.09398568687155998,
+      "run": "sml_tensor_12"
+    },
+    {
+      "params": [
+        15,
+        0.01,
+        0.2,
+        0.1
+      ],
+      "val_rmse_scaled": 0.2645530767434307,
+      "run": "sml_tensor_13"
+    },
+    {
+      "params": [
+        20,
+        0.05,
+        0.5,
+        1
+      ],
+      "val_rmse_scaled": 0.24909483195644608,
+      "run": "sml_tensor_14"
+    },
+    {
+      "params": [
+        25,
+        0.0005,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.0337656727872609,
+      "run": "sml_tensor_15"
+    }
+  ],
+  "selection_criterion": "validation RMSE, never test",
+  "candidate_count": 16
+}

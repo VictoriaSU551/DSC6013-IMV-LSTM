@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "scope": "all delivered aggregate means/SD/SE independently recomputed from234 seed metric rows;54 summary groups;195deep/15classical independently verified;6state-space audits; two plots visually checked",
+  "seed_metric_rows": 234,
+  "summary_groups": 54,
+  "tests": 77,
+  "test_log": "logs/tests_publish.log",
+  "test_log_sha256": "ee0f49dbdbf7957f3f70705592de13042891392615ae46de724efa7ba2725641",
+  "verification_sha256": "9e7418176063376d68d3d00c1c9dcccc57b5bb1eb526f20fbb41856642fae2c5",
+  "statistical_audit_sha256": "259a55eafcf595748064c1580393ab91e80f67e5d05dd4ad88935081c93bde98",
+  "updated_utc": "2026-10-23T21:12:29Z"
+}

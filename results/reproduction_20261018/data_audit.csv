@@ -1,0 +1,4 @@
+dataset,raw_rows,variables,window,train,val,test,dropped_windows
+sml,4137,17,10,3180,400,521,26
+pm25,43824,11,10,23185,8340,8359,3930
+nasdaq,40560,82,10,35090,2730,2730,0

@@ -1,0 +1,174 @@
+{
+  "params": [
+    20,
+    0.0005,
+    0.2,
+    0.0001
+  ],
+  "val_rmse_scaled": 0.053557278863516126,
+  "run": "pm25_tensor_10",
+  "all_valid": [
+    {
+      "params": [
+        10,
+        0.0005,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.055392873161769336,
+      "run": "pm25_tensor_00"
+    },
+    {
+      "params": [
+        15,
+        0.001,
+        0.2,
+        0.001
+      ],
+      "val_rmse_scaled": 0.05471871009372495,
+      "run": "pm25_tensor_01"
+    },
+    {
+      "params": [
+        20,
+        0.005,
+        0.5,
+        0.01
+      ],
+      "val_rmse_scaled": 0.05905917856957363,
+      "run": "pm25_tensor_02"
+    },
+    {
+      "params": [
+        25,
+        0.01,
+        0,
+        0.1
+      ],
+      "val_rmse_scaled": 0.0957769700021818,
+      "run": "pm25_tensor_03"
+    },
+    {
+      "params": [
+        10,
+        0.05,
+        0.2,
+        1
+      ],
+      "val_rmse_scaled": 0.09723584839462018,
+      "run": "pm25_tensor_04"
+    },
+    {
+      "params": [
+        15,
+        0.0005,
+        0.5,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.0543480795596696,
+      "run": "pm25_tensor_05"
+    },
+    {
+      "params": [
+        20,
+        0.001,
+        0,
+        0.001
+      ],
+      "val_rmse_scaled": 0.05524328787545535,
+      "run": "pm25_tensor_06"
+    },
+    {
+      "params": [
+        25,
+        0.005,
+        0.2,
+        0.01
+      ],
+      "val_rmse_scaled": 0.05704618036563442,
+      "run": "pm25_tensor_07"
+    },
+    {
+      "params": [
+        10,
+        0.01,
+        0.5,
+        0.1
+      ],
+      "val_rmse_scaled": 0.09586871215264144,
+      "run": "pm25_tensor_08"
+    },
+    {
+      "params": [
+        15,
+        0.05,
+        0,
+        1
+      ],
+      "val_rmse_scaled": 0.15000533999472432,
+      "run": "pm25_tensor_09"
+    },
+    {
+      "params": [
+        20,
+        0.0005,
+        0.2,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.053557278863516126,
+      "run": "pm25_tensor_10"
+    },
+    {
+      "params": [
+        25,
+        0.001,
+        0.5,
+        0.001
+      ],
+      "val_rmse_scaled": 0.05445892665618786,
+      "run": "pm25_tensor_11"
+    },
+    {
+      "params": [
+        10,
+        0.005,
+        0,
+        0.01
+      ],
+      "val_rmse_scaled": 0.05648593104394016,
+      "run": "pm25_tensor_12"
+    },
+    {
+      "params": [
+        15,
+        0.01,
+        0.2,
+        0.1
+      ],
+      "val_rmse_scaled": 0.09563269366924625,
+      "run": "pm25_tensor_13"
+    },
+    {
+      "params": [
+        20,
+        0.05,
+        0.5,
+        1
+      ],
+      "val_rmse_scaled": 0.09747884245674847,
+      "run": "pm25_tensor_14"
+    },
+    {
+      "params": [
+        25,
+        0.0005,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.0543325099457994,
+      "run": "pm25_tensor_15"
+    }
+  ],
+  "selection_criterion": "validation RMSE, never test",
+  "candidate_count": 16
+}

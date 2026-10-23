@@ -1,0 +1,74 @@
+{
+  "params": [
+    64,
+    0.001,
+    0,
+    0.0001
+  ],
+  "val_rmse_scaled": 0.0074576865140207295,
+  "run": "nasdaq_retain_02",
+  "all_valid": [
+    {
+      "params": [
+        16,
+        0.001,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.009854946705700241,
+      "run": "nasdaq_retain_00"
+    },
+    {
+      "params": [
+        32,
+        0.005,
+        0.2,
+        0.001
+      ],
+      "val_rmse_scaled": 0.03660233067492105,
+      "run": "nasdaq_retain_01"
+    },
+    {
+      "params": [
+        64,
+        0.001,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.0074576865140207295,
+      "run": "nasdaq_retain_02"
+    },
+    {
+      "params": [
+        128,
+        0.0005,
+        0.2,
+        0.001
+      ],
+      "val_rmse_scaled": 0.04367451987840411,
+      "run": "nasdaq_retain_03"
+    },
+    {
+      "params": [
+        256,
+        0.001,
+        0.5,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.030907977157573843,
+      "run": "nasdaq_retain_04"
+    },
+    {
+      "params": [
+        512,
+        0.0005,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.022134640363242274,
+      "run": "nasdaq_retain_05"
+    }
+  ],
+  "selection_criterion": "validation RMSE, never test",
+  "candidate_count": 6
+}

@@ -1,0 +1,1436 @@
+{
+  "status": "PASS",
+  "rule": "same QR, log variance, regression SD scale; score<=1e-6, boundary<=1e-6, three central directions with fixed 12-step grid and three-adjacent plateau atol2e-6; actual positive variances unchanged",
+  "source_sha256": "8d0266669c20568db7572754df31c58aa6a2e5dcc175b35224419be8d9e33598",
+  "certification_source_sha256": "fc74db4db3eed1f5088d0149d2d631525752d61cd7061734ef7b120d3f869964",
+  "dependencies": {
+    "repairs.py": "ea4d3b2c40ffa517eb389477d42d5a39c1b5c6d7e7c951fb64ff04617dc67568",
+    "engine.py": "e4ccf129cc65e21e0bc563e02132d54c1d0a023ea4541cc3ab8226d6eb5cd791",
+    "lifecycle.py": "580c2023c8b7ccb0baadb60718a05df2bfdbe2dcc5ecc424ac6cea4fb52fc30c",
+    "classical.py": "89fa3dc884d1527a37163de08923ad7a73f097c11350160af06e11af8125ed6a"
+  },
+  "used_sources_sha256": {
+    "code/repro/audit_stats_multistep.py": "8d0266669c20568db7572754df31c58aa6a2e5dcc175b35224419be8d9e33598",
+    "code/repro/stats_solver.py": "6d71fea26bb1b607f4ca2f51191884cf536b4b57f94874af29b2e1c7a58bb4d4",
+    "code/repro/stats_certify.py": "fc74db4db3eed1f5088d0149d2d631525752d61cd7061734ef7b120d3f869964",
+    "code/repro/audited_repairs.py": "742e1bcfe339fa616ca07beae50b2c66874a17da2956f0a331ee40962b29744b",
+    "configs/statistical_audit_policy.json": "b8c0b211b7d290959923e5837534b465526bfc2f63f6ca12f41c3f4d0d69aba9"
+  },
+  "runtime": {
+    "python": "3.10.8",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "statsmodels": "0.14.4"
+  },
+  "data_metadata_sha256": {
+    "sml": "987d5d800fc64552bc126e6cbd53d2d0fbea2803acc4b24fbde460c9a26ad047",
+    "pm25": "0feb9a058033666d55f2b3d700e0e3ee760f56d17571a98b4403e9b691236984",
+    "nasdaq": "6086add1ff89e046b3518b957547076ffb1af9815202adf8764aaf34e5449b6f"
+  },
+  "data_sha256": {
+    "sml": "d87da0e50f1295f216a6aae4589a022c5cb56efdfcb167816d56a3a029e98448",
+    "pm25": "c0b2e908895de142c6e2640fe22c3332dea6581adc1dd2372ee4867d79f6211d",
+    "nasdaq": "cb1958ef2287cbf8f4de19cf335d9d0f10d01da1ae65d60b605952b2b50562b5"
+  },
+  "training_only": true,
+  "groups": {
+    "sml_strx": {
+      "status": "PASS",
+      "score": 6.236715713177734e-08,
+      "boundary_violation": 0.0,
+      "directions": [
+        {
+          "seed": 11,
+          "step": 0.0003,
+          "central": -8.264648225046282e-08,
+          "score": -5.5195859158831745e-08,
+          "plateau": [
+            {
+              "step": 0.001,
+              "central": -1.294773177562547e-07
+            },
+            {
+              "step": 0.0003,
+              "central": -8.264648225046282e-08
+            },
+            {
+              "step": 0.0001,
+              "central": -7.851941319358957e-08
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": -1.294773177562547e-07
+            },
+            {
+              "step": 0.0003,
+              "central": -8.264648225046282e-08
+            },
+            {
+              "step": 0.0001,
+              "central": -7.851941319358957e-08
+            },
+            {
+              "step": 3e-05,
+              "central": -7.808568606530268e-08
+            },
+            {
+              "step": 1e-05,
+              "central": -7.793765632868599e-08
+            },
+            {
+              "step": 3e-06,
+              "central": -7.830773067022771e-08
+            },
+            {
+              "step": 1e-06,
+              "central": -7.72715225139109e-08
+            },
+            {
+              "step": 3e-07,
+              "central": -7.993605777301127e-08
+            },
+            {
+              "step": 1e-07,
+              "central": -7.993605777301127e-08
+            },
+            {
+              "step": 3e-08,
+              "central": -4.440892098500627e-08
+            },
+            {
+              "step": 1e-08,
+              "central": -1.3322676295501878e-07
+            },
+            {
+              "step": 3e-09,
+              "central": 1.4802973661668753e-07
+            }
+          ],
+          "pass": true
+        },
+        {
+          "seed": 23,
+          "step": 0.0003,
+          "central": -1.4788170688007087e-08,
+          "score": -1.3423616569569888e-08,
+          "plateau": [
+            {
+              "step": 0.001,
+              "central": -1.5917933637865644e-08
+            },
+            {
+              "step": 0.0003,
+              "central": -1.4788170688007087e-08
+            },
+            {
+              "step": 0.0001,
+              "central": -1.4699352846037073e-08
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": -1.5917933637865644e-08
+            },
+            {
+              "step": 0.0003,
+              "central": -1.4788170688007087e-08
+            },
+            {
+              "step": 0.0001,
+              "central": -1.4699352846037073e-08
+            },
+            {
+              "step": 3e-05,
+              "central": -1.4654943925052066e-08
+            },
+            {
+              "step": 1e-05,
+              "central": -1.4743761767022077e-08
+            },
+            {
+              "step": 3e-06,
+              "central": -1.4654943925052066e-08
+            },
+            {
+              "step": 1e-06,
+              "central": -1.4654943925052066e-08
+            },
+            {
+              "step": 3e-07,
+              "central": -1.3322676295501878e-08
+            },
+            {
+              "step": 1e-07,
+              "central": -1.7763568394002505e-08
+            },
+            {
+              "step": 3e-08,
+              "central": 0.0
+            },
+            {
+              "step": 1e-08,
+              "central": -4.440892098500626e-08
+            },
+            {
+              "step": 3e-09,
+              "central": 1.4802973661668753e-07
+            }
+          ],
+          "pass": true
+        },
+        {
+          "seed": 47,
+          "step": 0.0003,
+          "central": 3.230156882712739e-08,
+          "score": 1.9823921165006204e-08,
+          "plateau": [
+            {
+              "step": 0.001,
+              "central": 3.810507465118462e-08
+            },
+            {
+              "step": 0.0003,
+              "central": 3.230156882712739e-08
+            },
+            {
+              "step": 0.0001,
+              "central": 3.178790564106748e-08
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": 3.810507465118462e-08
+            },
+            {
+              "step": 0.0003,
+              "central": 3.230156882712739e-08
+            },
+            {
+              "step": 0.0001,
+              "central": 3.178790564106748e-08
+            },
+            {
+              "step": 3e-05,
+              "central": 3.172277255695614e-08
+            },
+            {
+              "step": 1e-05,
+              "central": 3.170796958329447e-08
+            },
+            {
+              "step": 3e-06,
+              "central": 3.182639337258782e-08
+            },
+            {
+              "step": 1e-06,
+              "central": 3.1530333899354446e-08
+            },
+            {
+              "step": 3e-07,
+              "central": 3.4046839421838136e-08
+            },
+            {
+              "step": 1e-07,
+              "central": 3.552713678800501e-08
+            },
+            {
+              "step": 3e-08,
+              "central": 7.401486830834378e-08
+            },
+            {
+              "step": 1e-08,
+              "central": 1.3322676295501878e-07
+            },
+            {
+              "step": 3e-09,
+              "central": 1.4802973661668753e-07
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "initialization": "exact_diffuse",
+      "original_variances": [
+        4.058690495551041e-27,
+        2.792136429341948e-06,
+        2.009042896872054e-06
+      ],
+      "folder": "repairs/sml_strx_auditv2_742e1bcf_a1de13e0_d05027a4",
+      "result_sha256": "90193dc8f55ec691014f15985b2ac58517f530e7dd47d3c05f1846d1951d2b4f",
+      "manifest_sha256": "6300f33ea96ccfe30a73fd2611b2f9aa101bfd665d3b23223a0c6e076afde5a7",
+      "parameters_sha256": "96fece2219fc5284fa88adaa5808bbda4019a9a39876f77dd219bffd55fd4ee5",
+      "data_sha256": "d87da0e50f1295f216a6aae4589a022c5cb56efdfcb167816d56a3a029e98448"
+    },
+    "sml_arimax": {
+      "status": "PASS",
+      "score": 2.273151562412027e-08,
+      "boundary_violation": 0.0,
+      "directions": [
+        {
+          "seed": 11,
+          "step": 1e-05,
+          "central": 1.5472068071176182e-07,
+          "score": 1.798309269648526e-08,
+          "plateau": [
+            {
+              "step": 3e-05,
+              "central": 1.2834326194403427e-06
+            },
+            {
+              "step": 1e-05,
+              "central": 1.5472068071176182e-07
+            },
+            {
+              "step": 3e-06,
+              "central": 2.5905203907920317e-08
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": 0.0014110235597719623
+            },
+            {
+              "step": 0.0003,
+              "central": 0.00012700437442466259
+            },
+            {
+              "step": 0.0001,
+              "central": 1.4123613389926959e-05
+            },
+            {
+              "step": 3e-05,
+              "central": 1.2834326194403427e-06
+            },
+            {
+              "step": 1e-05,
+              "central": 1.5472068071176182e-07
+            },
+            {
+              "step": 3e-06,
+              "central": 2.5905203907920317e-08
+            },
+            {
+              "step": 1e-06,
+              "central": 1.554312234475219e-08
+            },
+            {
+              "step": 3e-07,
+              "central": 1.0362081563168129e-08
+            },
+            {
+              "step": 1e-07,
+              "central": 1.7763568394002505e-08
+            },
+            {
+              "step": 3e-08,
+              "central": 2.960594732333751e-08
+            },
+            {
+              "step": 1e-08,
+              "central": 1.3322676295501878e-07
+            },
+            {
+              "step": 3e-09,
+              "central": 1.4802973661668753e-07
+            }
+          ],
+          "pass": true
+        },
+        {
+          "seed": 23,
+          "step": 3e-05,
+          "central": -1.1112592327814733e-07,
+          "score": 3.66012287426302e-09,
+          "plateau": [
+            {
+              "step": 0.0001,
+              "central": -1.2715828390241768e-06
+            },
+            {
+              "step": 3e-05,
+              "central": -1.1112592327814733e-07
+            },
+            {
+              "step": 1e-05,
+              "central": -9.14823772291129e-09
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": -0.00012749165323455713
+            },
+            {
+              "step": 0.0003,
+              "central": -1.1473189805618253e-05
+            },
+            {
+              "step": 0.0001,
+              "central": -1.2715828390241768e-06
+            },
+            {
+              "step": 3e-05,
+              "central": -1.1112592327814733e-07
+            },
+            {
+              "step": 1e-05,
+              "central": -9.14823772291129e-09
+            },
+            {
+              "step": 3e-06,
+              "central": 2.3684757858670005e-09
+            },
+            {
+              "step": 1e-06,
+              "central": 3.552713678800501e-09
+            },
+            {
+              "step": 3e-07,
+              "central": 4.440892098500626e-09
+            },
+            {
+              "step": 1e-07,
+              "central": -8.881784197001252e-09
+            },
+            {
+              "step": 3e-08,
+              "central": -1.4802973661668755e-08
+            },
+            {
+              "step": 1e-08,
+              "central": 4.440892098500626e-08
+            },
+            {
+              "step": 3e-09,
+              "central": 2.9605947323337506e-07
+            }
+          ],
+          "pass": true
+        },
+        {
+          "seed": 47,
+          "step": 3e-06,
+          "central": 2.4424906541753444e-08,
+          "score": 3.567959086176983e-09,
+          "plateau": [
+            {
+              "step": 1e-05,
+              "central": 2.746247673712787e-07
+            },
+            {
+              "step": 3e-06,
+              "central": 2.4424906541753444e-08
+            },
+            {
+              "step": 1e-06,
+              "central": 3.1086244689504383e-09
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": 0.0027460037843596297
+            },
+            {
+              "step": 0.0003,
+              "central": 0.00024714004028444003
+            },
+            {
+              "step": 0.0001,
+              "central": 2.745996763309222e-05
+            },
+            {
+              "step": 3e-05,
+              "central": 2.4713564528155985e-06
+            },
+            {
+              "step": 1e-05,
+              "central": 2.746247673712787e-07
+            },
+            {
+              "step": 3e-06,
+              "central": 2.4424906541753444e-08
+            },
+            {
+              "step": 1e-06,
+              "central": 3.1086244689504383e-09
+            },
+            {
+              "step": 3e-07,
+              "central": 0.0
+            },
+            {
+              "step": 1e-07,
+              "central": 0.0
+            },
+            {
+              "step": 3e-08,
+              "central": 1.4802973661668755e-08
+            },
+            {
+              "step": 1e-08,
+              "central": -8.881784197001252e-08
+            },
+            {
+              "step": 3e-09,
+              "central": 1.4802973661668753e-07
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "initialization": "exact_diffuse",
+      "original_variances": [
+        5.687364471604099e-06
+      ],
+      "folder": "repairs/sml_arimax_ea4d3b2c40_d0121cc114",
+      "result_sha256": "e3dc4424759340146f8c3f161f6876ce9e464acbfbc0f97081d2b4fab14b052c",
+      "manifest_sha256": "c592b5b06d780210e3164ac56411ffa76af5427468bbba522a6225d64359a604",
+      "parameters_sha256": "88354086e55253b6374edf7442664215e6477ad8da84529fdebf1b8ead2d7994",
+      "data_sha256": "d87da0e50f1295f216a6aae4589a022c5cb56efdfcb167816d56a3a029e98448"
+    },
+    "pm25_strx": {
+      "status": "PASS",
+      "score": 4.257995269078347e-09,
+      "boundary_violation": 0.0,
+      "directions": [
+        {
+          "seed": 11,
+          "step": 0.0003,
+          "central": -1.295260195396016e-08,
+          "score": -1.504122082435179e-09,
+          "plateau": [
+            {
+              "step": 0.001,
+              "central": -1.2870038368362202e-07
+            },
+            {
+              "step": 0.0003,
+              "central": -1.295260195396016e-08
+            },
+            {
+              "step": 0.0001,
+              "central": -2.7755575615628914e-09
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": -1.2870038368362202e-07
+            },
+            {
+              "step": 0.0003,
+              "central": -1.295260195396016e-08
+            },
+            {
+              "step": 0.0001,
+              "central": -2.7755575615628914e-09
+            },
+            {
+              "step": 3e-05,
+              "central": -1.6209256159527285e-09
+            },
+            {
+              "step": 1e-05,
+              "central": -1.5321077739827158e-09
+            },
+            {
+              "step": 3e-06,
+              "central": -1.4802973661668752e-09
+            },
+            {
+              "step": 1e-06,
+              "central": -1.3322676295501878e-09
+            },
+            {
+              "step": 3e-07,
+              "central": -7.401486830834377e-10
+            },
+            {
+              "step": 1e-07,
+              "central": -2.220446049250313e-09
+            },
+            {
+              "step": 3e-08,
+              "central": 7.4014868308343775e-09
+            },
+            {
+              "step": 1e-08,
+              "central": 0.0
+            },
+            {
+              "step": 3e-09,
+              "central": 0.0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "seed": 23,
+          "step": 0.0003,
+          "central": -2.0872192862952946e-10,
+          "score": 1.4927612629552493e-10,
+          "plateau": [
+            {
+              "step": 0.001,
+              "central": -3.824496275228739e-09
+            },
+            {
+              "step": 0.0003,
+              "central": -2.0872192862952946e-10
+            },
+            {
+              "step": 0.0001,
+              "central": 1.0880185641326534e-10
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": -3.824496275228739e-09
+            },
+            {
+              "step": 0.0003,
+              "central": -2.0872192862952946e-10
+            },
+            {
+              "step": 0.0001,
+              "central": 1.0880185641326534e-10
+            },
+            {
+              "step": 3e-05,
+              "central": 1.4062824978585317e-10
+            },
+            {
+              "step": 1e-05,
+              "central": 1.5543122344752192e-10
+            },
+            {
+              "step": 3e-06,
+              "central": 1.4802973661668753e-10
+            },
+            {
+              "step": 1e-06,
+              "central": 4.440892098500626e-10
+            },
+            {
+              "step": 3e-07,
+              "central": 0.0
+            },
+            {
+              "step": 1e-07,
+              "central": 0.0
+            },
+            {
+              "step": 3e-08,
+              "central": 0.0
+            },
+            {
+              "step": 1e-08,
+              "central": 0.0
+            },
+            {
+              "step": 3e-09,
+              "central": 0.0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "seed": 47,
+          "step": 0.0003,
+          "central": -7.453297238650218e-10,
+          "score": -5.466629873948621e-10,
+          "plateau": [
+            {
+              "step": 0.001,
+              "central": -2.7469138075275623e-09
+            },
+            {
+              "step": 0.0003,
+              "central": -7.453297238650218e-10
+            },
+            {
+              "step": 0.0001,
+              "central": -5.706546346573305e-10
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": -2.7469138075275623e-09
+            },
+            {
+              "step": 0.0003,
+              "central": -7.453297238650218e-10
+            },
+            {
+              "step": 0.0001,
+              "central": -5.706546346573305e-10
+            },
+            {
+              "step": 3e-05,
+              "central": -5.477100254817439e-10
+            },
+            {
+              "step": 1e-05,
+              "central": -5.551115123125783e-10
+            },
+            {
+              "step": 3e-06,
+              "central": -5.181040781584064e-10
+            },
+            {
+              "step": 1e-06,
+              "central": -6.661338147750939e-10
+            },
+            {
+              "step": 3e-07,
+              "central": -7.401486830834377e-10
+            },
+            {
+              "step": 1e-07,
+              "central": 0.0
+            },
+            {
+              "step": 3e-08,
+              "central": 0.0
+            },
+            {
+              "step": 1e-08,
+              "central": 0.0
+            },
+            {
+              "step": 3e-09,
+              "central": 0.0
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "initialization": "exact_diffuse",
+      "original_variances": [
+        2.657244470697808e-34,
+        0.0005942641531290133,
+        1.339789516918355e-47
+      ],
+      "folder": "repairs/pm25_strx_ea4d3b2c40_9710f836c1",
+      "result_sha256": "677e89a9fde23f6a0ec39698f5443266730747833215c8eec4f2c0b543c15d29",
+      "manifest_sha256": "1dc5835178f989a5a88764e6bef6c11688bd6b80f91c9fb6e54212fb905c7d2a",
+      "parameters_sha256": "d1ab6e710f1c8fbc7a9fea7bbd928bcc547fc3263dec15d28a4d4c3770c50424",
+      "data_sha256": "c0b2e908895de142c6e2640fe22c3332dea6581adc1dd2372ee4867d79f6211d"
+    },
+    "pm25_arimax": {
+      "status": "PASS",
+      "score": 4.4603680533799314e-08,
+      "boundary_violation": 0.0,
+      "directions": [
+        {
+          "seed": 11,
+          "step": 1e-06,
+          "central": -9.259260025373806e-08,
+          "score": 1.670922104338601e-08,
+          "plateau": [
+            {
+              "step": 3e-06,
+              "central": -9.618972285352356e-07
+            },
+            {
+              "step": 1e-06,
+              "central": -9.259260025373806e-08
+            },
+            {
+              "step": 3e-07,
+              "central": 1.554312234475219e-08
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": -0.11958824709656923
+            },
+            {
+              "step": 0.0003,
+              "central": -0.009870798176603301
+            },
+            {
+              "step": 0.0001,
+              "central": -0.001088373857704994
+            },
+            {
+              "step": 3e-05,
+              "central": -9.785311079942478e-05
+            },
+            {
+              "step": 1e-05,
+              "central": -1.0856981980111867e-05
+            },
+            {
+              "step": 3e-06,
+              "central": -9.618972285352356e-07
+            },
+            {
+              "step": 1e-06,
+              "central": -9.259260025373806e-08
+            },
+            {
+              "step": 3e-07,
+              "central": 1.554312234475219e-08
+            },
+            {
+              "step": 1e-07,
+              "central": 2.4424906541753444e-08
+            },
+            {
+              "step": 3e-08,
+              "central": 7.4014868308343775e-09
+            },
+            {
+              "step": 1e-08,
+              "central": 6.661338147750939e-08
+            },
+            {
+              "step": 3e-09,
+              "central": 7.401486830834376e-08
+            }
+          ],
+          "pass": true
+        },
+        {
+          "seed": 23,
+          "step": 3e-06,
+          "central": -8.704148513061227e-08,
+          "score": -3.0689029807504113e-09,
+          "plateau": [
+            {
+              "step": 1e-05,
+              "central": -9.37028232783632e-07
+            },
+            {
+              "step": 3e-06,
+              "central": -8.704148513061227e-08
+            },
+            {
+              "step": 1e-06,
+              "central": -1.354472090042691e-08
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": -0.009210159088279823
+            },
+            {
+              "step": 0.0003,
+              "central": -0.000839603380153875
+            },
+            {
+              "step": 0.0001,
+              "central": -9.339692796928034e-05
+            },
+            {
+              "step": 3e-05,
+              "central": -8.40966555652282e-06
+            },
+            {
+              "step": 1e-05,
+              "central": -9.37028232783632e-07
+            },
+            {
+              "step": 3e-06,
+              "central": -8.704148513061227e-08
+            },
+            {
+              "step": 1e-06,
+              "central": -1.354472090042691e-08
+            },
+            {
+              "step": 3e-07,
+              "central": -8.881784197001252e-09
+            },
+            {
+              "step": 1e-07,
+              "central": 6.661338147750939e-09
+            },
+            {
+              "step": 3e-08,
+              "central": 7.4014868308343775e-09
+            },
+            {
+              "step": 1e-08,
+              "central": -4.440892098500626e-08
+            },
+            {
+              "step": 3e-09,
+              "central": 0.0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "seed": 47,
+          "step": 1e-06,
+          "central": 1.0325074129013956e-07,
+          "score": 2.2674222766808193e-08,
+          "plateau": [
+            {
+              "step": 3e-06,
+              "central": 7.495485713585973e-07
+            },
+            {
+              "step": 1e-06,
+              "central": 1.0325074129013956e-07
+            },
+            {
+              "step": 3e-07,
+              "central": 3.034609600642095e-08
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": 0.07790844492006066
+            },
+            {
+              "step": 0.0003,
+              "central": 0.007250337878961234
+            },
+            {
+              "step": 0.0001,
+              "central": 0.0008079974267438672
+            },
+            {
+              "step": 3e-05,
+              "central": 7.276493481829978e-05
+            },
+            {
+              "step": 1e-05,
+              "central": 8.105294213578418e-06
+            },
+            {
+              "step": 3e-06,
+              "central": 7.495485713585973e-07
+            },
+            {
+              "step": 1e-06,
+              "central": 1.0325074129013956e-07
+            },
+            {
+              "step": 3e-07,
+              "central": 3.034609600642095e-08
+            },
+            {
+              "step": 1e-07,
+              "central": 2.886579864025407e-08
+            },
+            {
+              "step": 3e-08,
+              "central": -7.4014868308343775e-09
+            },
+            {
+              "step": 1e-08,
+              "central": -2.220446049250313e-08
+            },
+            {
+              "step": 3e-09,
+              "central": 0.0
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "initialization": "exact_diffuse",
+      "original_variances": [
+        0.0005560440555190469
+      ],
+      "folder": "repairs/pm25_arimax_ea4d3b2c40_d16815aed6",
+      "result_sha256": "1b8aeb3cb63bec49e4357672b33d6a810b6daccd200f3889445bba43b4de6bff",
+      "manifest_sha256": "50d715e2c3952f6c390e8f1db7318060ac564df461c3d41e851f04d513658eae",
+      "parameters_sha256": "a5a476069181e1311c412f8a817801c32d44f04283c8f6c828ae20ea8eb80aaa",
+      "data_sha256": "c0b2e908895de142c6e2640fe22c3332dea6581adc1dd2372ee4867d79f6211d"
+    },
+    "nasdaq_strx": {
+      "status": "PASS",
+      "score": 2.7446457029451124e-08,
+      "boundary_violation": 0.0,
+      "directions": [
+        {
+          "seed": 11,
+          "step": 0.0003,
+          "central": 2.139029694111135e-09,
+          "score": 2.5355096970364588e-09,
+          "plateau": [
+            {
+              "step": 0.001,
+              "central": 1.5270007480694403e-09
+            },
+            {
+              "step": 0.0003,
+              "central": 2.139029694111135e-09
+            },
+            {
+              "step": 0.0001,
+              "central": 2.1938006966593093e-09
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": 1.5270007480694403e-09
+            },
+            {
+              "step": 0.0003,
+              "central": 2.139029694111135e-09
+            },
+            {
+              "step": 0.0001,
+              "central": 2.1938006966593093e-09
+            },
+            {
+              "step": 3e-05,
+              "central": 2.1908401019269754e-09
+            },
+            {
+              "step": 1e-05,
+              "central": 2.19824158875781e-09
+            },
+            {
+              "step": 3e-06,
+              "central": 2.3684757858670005e-09
+            },
+            {
+              "step": 1e-06,
+              "central": 2.4424906541753444e-09
+            },
+            {
+              "step": 3e-07,
+              "central": 2.220446049250313e-09
+            },
+            {
+              "step": 1e-07,
+              "central": 0.0
+            },
+            {
+              "step": 3e-08,
+              "central": 7.4014868308343775e-09
+            },
+            {
+              "step": 1e-08,
+              "central": 2.220446049250313e-08
+            },
+            {
+              "step": 3e-09,
+              "central": 0.0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "seed": 23,
+          "step": 0.0003,
+          "central": -3.677798806241602e-09,
+          "score": -3.5683363442014037e-09,
+          "plateau": [
+            {
+              "step": 0.001,
+              "central": -3.988365193663412e-09
+            },
+            {
+              "step": 0.0003,
+              "central": -3.677798806241602e-09
+            },
+            {
+              "step": 0.0001,
+              "central": -3.6504133049675147e-09
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": -3.988365193663412e-09
+            },
+            {
+              "step": 0.0003,
+              "central": -3.677798806241602e-09
+            },
+            {
+              "step": 0.0001,
+              "central": -3.6504133049675147e-09
+            },
+            {
+              "step": 3e-05,
+              "central": -3.6637359812630166e-09
+            },
+            {
+              "step": 1e-05,
+              "central": -3.663735981263016e-09
+            },
+            {
+              "step": 3e-06,
+              "central": -3.6267285471088444e-09
+            },
+            {
+              "step": 1e-06,
+              "central": -3.3306690738754696e-09
+            },
+            {
+              "step": 3e-07,
+              "central": -4.440892098500626e-09
+            },
+            {
+              "step": 1e-07,
+              "central": -4.440892098500626e-09
+            },
+            {
+              "step": 3e-08,
+              "central": -2.2204460492503134e-08
+            },
+            {
+              "step": 1e-08,
+              "central": 0.0
+            },
+            {
+              "step": 3e-09,
+              "central": 0.0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "seed": 47,
+          "step": 0.0003,
+          "central": -1.2671345454388454e-09,
+          "score": -1.3132184843860119e-09,
+          "plateau": [
+            {
+              "step": 0.001,
+              "central": -1.0766942892814768e-09
+            },
+            {
+              "step": 0.0003,
+              "central": -1.2671345454388454e-09
+            },
+            {
+              "step": 0.0001,
+              "central": -1.2856382625159313e-09
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": -1.0766942892814768e-09
+            },
+            {
+              "step": 0.0003,
+              "central": -1.2671345454388454e-09
+            },
+            {
+              "step": 0.0001,
+              "central": -1.2856382625159313e-09
+            },
+            {
+              "step": 3e-05,
+              "central": -1.2804572217343473e-09
+            },
+            {
+              "step": 1e-05,
+              "central": -1.3100631690576845e-09
+            },
+            {
+              "step": 3e-06,
+              "central": -1.3322676295501878e-09
+            },
+            {
+              "step": 1e-06,
+              "central": -1.3322676295501878e-09
+            },
+            {
+              "step": 3e-07,
+              "central": -7.401486830834377e-10
+            },
+            {
+              "step": 1e-07,
+              "central": 0.0
+            },
+            {
+              "step": 3e-08,
+              "central": 7.4014868308343775e-09
+            },
+            {
+              "step": 1e-08,
+              "central": -2.220446049250313e-08
+            },
+            {
+              "step": 3e-09,
+              "central": 7.401486830834376e-08
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "initialization": "exact_diffuse",
+      "original_variances": [
+        2.4696116863649324e-05,
+        5.962579485908174e-06,
+        7.006620010564228e-20
+      ],
+      "folder": "repairs/nasdaq_strx_auditv2_742e1bcf_61769b09_d05027a4",
+      "result_sha256": "19c735431c920211711432216541040bc24f6e9a5411a08e0f56f969be11b89e",
+      "manifest_sha256": "91909ab68d1cef3768abf5d9dc0f0ed85f6ebc33873b1b812a463fd8287ef67d",
+      "parameters_sha256": "55122eeabca75fff5bc391659664efb71a9c414b08764cdc85d7c6aae7b89bea",
+      "data_sha256": "cb1958ef2287cbf8f4de19cf335d9d0f10d01da1ae65d60b605952b2b50562b5"
+    },
+    "nasdaq_arimax": {
+      "status": "PASS",
+      "score": 1.5248436751040383e-08,
+      "boundary_violation": 0.0,
+      "directions": [
+        {
+          "seed": 11,
+          "step": 0.0003,
+          "central": -1.2865634483697857e-07,
+          "score": -1.6139577503027045e-09,
+          "plateau": [
+            {
+              "step": 0.001,
+              "central": -1.4130534520262472e-06
+            },
+            {
+              "step": 0.0003,
+              "central": -1.2865634483697857e-07
+            },
+            {
+              "step": 0.0001,
+              "central": -1.574296248918472e-08
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": -1.4130534520262472e-06
+            },
+            {
+              "step": 0.0003,
+              "central": -1.2865634483697857e-07
+            },
+            {
+              "step": 0.0001,
+              "central": -1.574296248918472e-08
+            },
+            {
+              "step": 3e-05,
+              "central": -2.90878432451791e-09
+            },
+            {
+              "step": 1e-05,
+              "central": -1.7985612998927534e-09
+            },
+            {
+              "step": 3e-06,
+              "central": -1.7023419710919066e-09
+            },
+            {
+              "step": 1e-06,
+              "central": -1.1102230246251565e-09
+            },
+            {
+              "step": 3e-07,
+              "central": -2.960594732333751e-09
+            },
+            {
+              "step": 1e-07,
+              "central": 0.0
+            },
+            {
+              "step": 3e-08,
+              "central": -1.4802973661668755e-08
+            },
+            {
+              "step": 1e-08,
+              "central": -6.661338147750939e-08
+            },
+            {
+              "step": 3e-09,
+              "central": 1.4802973661668753e-07
+            }
+          ],
+          "pass": true
+        },
+        {
+          "seed": 23,
+          "step": 3e-05,
+          "central": 1.782944162679693e-07,
+          "score": 4.367743200023452e-09,
+          "plateau": [
+            {
+              "step": 0.0001,
+              "central": 1.9372703441433714e-06
+            },
+            {
+              "step": 3e-05,
+              "central": 1.782944162679693e-07
+            },
+            {
+              "step": 1e-05,
+              "central": 2.3625545964023328e-08
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": 0.00019329983724780675
+            },
+            {
+              "step": 0.0003,
+              "central": 1.7400875555277178e-05
+            },
+            {
+              "step": 0.0001,
+              "central": 1.9372703441433714e-06
+            },
+            {
+              "step": 3e-05,
+              "central": 1.782944162679693e-07
+            },
+            {
+              "step": 1e-05,
+              "central": 2.3625545964023328e-08
+            },
+            {
+              "step": 3e-06,
+              "central": 5.921189464667501e-09
+            },
+            {
+              "step": 1e-06,
+              "central": 4.440892098500626e-09
+            },
+            {
+              "step": 3e-07,
+              "central": 5.181040781584064e-09
+            },
+            {
+              "step": 1e-07,
+              "central": 4.440892098500626e-09
+            },
+            {
+              "step": 3e-08,
+              "central": 0.0
+            },
+            {
+              "step": 1e-08,
+              "central": -2.220446049250313e-08
+            },
+            {
+              "step": 3e-09,
+              "central": 0.0
+            }
+          ],
+          "pass": true
+        },
+        {
+          "seed": 47,
+          "step": 0.0001,
+          "central": -2.0875301487421893e-07,
+          "score": -2.6821591256799283e-09,
+          "plateau": [
+            {
+              "step": 0.0003,
+              "central": -1.8570959584944073e-06
+            },
+            {
+              "step": 0.0001,
+              "central": -2.0875301487421893e-07
+            },
+            {
+              "step": 3e-05,
+              "central": -2.1242267204494663e-08
+            }
+          ],
+          "criterion": "first/largest-step three-adjacent agreement; score tolerance unchanged",
+          "curve": [
+            {
+              "step": 0.001,
+              "central": -2.0607118456084095e-05
+            },
+            {
+              "step": 0.0003,
+              "central": -1.8570959584944073e-06
+            },
+            {
+              "step": 0.0001,
+              "central": -2.0875301487421893e-07
+            },
+            {
+              "step": 3e-05,
+              "central": -2.1242267204494663e-08
+            },
+            {
+              "step": 1e-05,
+              "central": -4.796163466380676e-09
+            },
+            {
+              "step": 3e-06,
+              "central": -2.812564995717063e-09
+            },
+            {
+              "step": 1e-06,
+              "central": -2.886579864025407e-09
+            },
+            {
+              "step": 3e-07,
+              "central": -7.401486830834377e-10
+            },
+            {
+              "step": 1e-07,
+              "central": -2.220446049250313e-09
+            },
+            {
+              "step": 3e-08,
+              "central": 1.4802973661668755e-08
+            },
+            {
+              "step": 1e-08,
+              "central": -6.661338147750939e-08
+            },
+            {
+              "step": 3e-09,
+              "central": 0.0
+            }
+          ],
+          "pass": true
+        }
+      ],
+      "initialization": "exact_diffuse",
+      "original_variances": [
+        3.9333730201750876e-05
+      ],
+      "folder": "repairs/nasdaq_arimax_auditv2_742e1bcf_7969af03_d05027a4",
+      "result_sha256": "558bd47b9fe99bae8549d96365de506bc7b5e77ffb3659c5cd56bd71ac78599a",
+      "manifest_sha256": "b19a447cd9034e3a50dce1dbe861e2e66887bc90038c49512d7d738caf5ef7bf",
+      "parameters_sha256": "24316097290597f176508cd9d473d659aefba040ebc92253979eba0cc33377f6",
+      "data_sha256": "cb1958ef2287cbf8f4de19cf335d9d0f10d01da1ae65d60b605952b2b50562b5"
+    }
+  }
+}

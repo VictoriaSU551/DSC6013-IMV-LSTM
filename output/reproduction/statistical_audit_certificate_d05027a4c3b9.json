@@ -1,0 +1,194 @@
+{
+  "status": "pending_or_diagnosis",
+  "rule": "same QR, log variance, regression SD scale; score<=1e-6, boundary<=1e-6, three central directions atol2e-6",
+  "source_sha256": "94e2014fb923e64f347a6baf47cba7a15472df284b5b56ba04e1a74982e46839",
+  "dependencies": {
+    "repairs.py": "ea4d3b2c40ffa517eb389477d42d5a39c1b5c6d7e7c951fb64ff04617dc67568",
+    "engine.py": "e4ccf129cc65e21e0bc563e02132d54c1d0a023ea4541cc3ab8226d6eb5cd791",
+    "lifecycle.py": "580c2023c8b7ccb0baadb60718a05df2bfdbe2dcc5ecc424ac6cea4fb52fc30c",
+    "classical.py": "89fa3dc884d1527a37163de08923ad7a73f097c11350160af06e11af8125ed6a"
+  },
+  "runtime": {
+    "python": "3.10.8",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "statsmodels": "0.14.4"
+  },
+  "data_metadata_sha256": {
+    "sml": "987d5d800fc64552bc126e6cbd53d2d0fbea2803acc4b24fbde460c9a26ad047",
+    "pm25": "0feb9a058033666d55f2b3d700e0e3ee760f56d17571a98b4403e9b691236984",
+    "nasdaq": "6086add1ff89e046b3518b957547076ffb1af9815202adf8764aaf34e5449b6f"
+  },
+  "data_sha256": {
+    "sml": "d87da0e50f1295f216a6aae4589a022c5cb56efdfcb167816d56a3a029e98448",
+    "pm25": "c0b2e908895de142c6e2640fe22c3332dea6581adc1dd2372ee4867d79f6211d",
+    "nasdaq": "cb1958ef2287cbf8f4de19cf335d9d0f10d01da1ae65d60b605952b2b50562b5"
+  },
+  "training_only": true,
+  "groups": {
+    "sml_strx": {
+      "status": "needs_training_diagnosis",
+      "score": 0.048631865640421996,
+      "boundary_violation": 0.0,
+      "directions": [
+        {
+          "score": -0.014546739781537955,
+          "central": -0.01899528485616031,
+          "pass": false
+        },
+        {
+          "score": -0.009224045903442205,
+          "central": -0.009062952655014556,
+          "pass": true
+        },
+        {
+          "score": 0.003613854240485288,
+          "central": 0.008062491962945728,
+          "pass": false
+        }
+      ],
+      "initialization": "approximate_diffuse",
+      "original_variances": [
+        3.2662817560594223e-07,
+        9.879996573019813e-07,
+        3.630349444946655e-06
+      ],
+      "folder": "classic/sml_strx",
+      "result_sha256": "e170e2a440203e96ccb831a5a6ec743b80f4ddb130fa75a985f9f4becf552d96",
+      "manifest_sha256": "7c12482f98f2e3b8e90d65039801823b7b416f8338416990ba8cd80efa5d039b",
+      "parameters_sha256": "8cfedf36cfc4493e4c803111bdbd51315307fb7697b27697cfe4bba8f26c04ec",
+      "data_sha256": "d87da0e50f1295f216a6aae4589a022c5cb56efdfcb167816d56a3a029e98448"
+    },
+    "sml_arimax": {
+      "status": "PASS",
+      "score": 2.273151562412027e-08,
+      "boundary_violation": 0.0,
+      "directions": [
+        {
+          "score": 1.798309269648526e-08,
+          "central": 1.546762717907768e-07,
+          "pass": true
+        },
+        {
+          "score": 3.66012287426302e-09,
+          "central": -9.14823772291129e-09,
+          "pass": true
+        },
+        {
+          "score": 3.567959086176983e-09,
+          "central": 2.746247673712787e-07,
+          "pass": true
+        }
+      ],
+      "initialization": "exact_diffuse",
+      "original_variances": [
+        5.687364471604099e-06
+      ],
+      "folder": "repairs/sml_arimax_ea4d3b2c40_d0121cc114",
+      "result_sha256": "e3dc4424759340146f8c3f161f6876ce9e464acbfbc0f97081d2b4fab14b052c",
+      "manifest_sha256": "c592b5b06d780210e3164ac56411ffa76af5427468bbba522a6225d64359a604",
+      "parameters_sha256": "88354086e55253b6374edf7442664215e6477ad8da84529fdebf1b8ead2d7994",
+      "data_sha256": "d87da0e50f1295f216a6aae4589a022c5cb56efdfcb167816d56a3a029e98448"
+    },
+    "pm25_strx": {
+      "status": "PASS",
+      "score": 3.492017944746341e-08,
+      "boundary_violation": 0.0,
+      "directions": [
+        {
+          "score": -1.533492790743125e-08,
+          "central": -2.975397705995419e-09,
+          "pass": true
+        },
+        {
+          "score": -2.073574956872409e-09,
+          "central": -2.620126338115369e-09,
+          "pass": true
+        },
+        {
+          "score": -3.4707218538668878e-09,
+          "central": -2.1338486533295505e-08,
+          "pass": true
+        }
+      ],
+      "initialization": "exact_diffuse",
+      "original_variances": [
+        2.657244470697808e-34,
+        0.0005942641531290133,
+        1.339789516918355e-47
+      ],
+      "folder": "repairs/pm25_strx_ea4d3b2c40_9710f836c1",
+      "result_sha256": "677e89a9fde23f6a0ec39698f5443266730747833215c8eec4f2c0b543c15d29",
+      "manifest_sha256": "1dc5835178f989a5a88764e6bef6c11688bd6b80f91c9fb6e54212fb905c7d2a",
+      "parameters_sha256": "d1ab6e710f1c8fbc7a9fea7bbd928bcc547fc3263dec15d28a4d4c3770c50424",
+      "data_sha256": "c0b2e908895de142c6e2640fe22c3332dea6581adc1dd2372ee4867d79f6211d"
+    },
+    "pm25_arimax": {
+      "status": "pending"
+    },
+    "nasdaq_strx": {
+      "status": "needs_training_diagnosis",
+      "score": 0.0032849373557838468,
+      "boundary_violation": 0.0,
+      "directions": [
+        {
+          "score": -0.0006698636925945162,
+          "central": -0.0006460360246762775,
+          "pass": false
+        },
+        {
+          "score": -0.00047970191186015777,
+          "central": -0.0004794287633558269,
+          "pass": true
+        },
+        {
+          "score": 0.0004451165313902418,
+          "central": 0.0004294351318989697,
+          "pass": false
+        }
+      ],
+      "initialization": "approximate_diffuse",
+      "original_variances": [
+        1.646807351949164e-06,
+        3.751550752340524e-05,
+        2.505311382446654e-11
+      ],
+      "folder": "classic/nasdaq_strx",
+      "result_sha256": "814b5014ae94c629ebe389cc91e2592733b0c8ce7a5c623909f371762deb5f26",
+      "manifest_sha256": "3c7a0682b4d78e9c2538093c47b79c540f8eacffa8b13c2c145a8e8861bdbb79",
+      "parameters_sha256": "723da877a9818b53eca6019fbbb5a8b5c869bb68eb531a1bad1818aca05b82a4",
+      "data_sha256": "cb1958ef2287cbf8f4de19cf335d9d0f10d01da1ae65d60b605952b2b50562b5"
+    },
+    "nasdaq_arimax": {
+      "status": "needs_training_diagnosis",
+      "score": 0.05752465242433011,
+      "boundary_violation": 0.0,
+      "directions": [
+        {
+          "score": 0.002246892216636764,
+          "central": 0.002246879327039153,
+          "pass": true
+        },
+        {
+          "score": -0.00917106374478295,
+          "central": -0.009171294879095626,
+          "pass": true
+        },
+        {
+          "score": -0.016980551332216084,
+          "central": -0.01698013254447517,
+          "pass": true
+        }
+      ],
+      "initialization": "approximate_diffuse",
+      "original_variances": [
+        3.0419963355573737e-05
+      ],
+      "folder": "classic/nasdaq_arimax",
+      "result_sha256": "e138ec323de4de568291c0fc903cd74da574cb2d631bb6a3a329ce9062170906",
+      "manifest_sha256": "adfb46e113d02db73651b17e24ce896f0c41a5ff669f38ec06cdad3c359c82b0",
+      "parameters_sha256": "f648c4c7c7129e1244e8033c2759ad85bf3a0670068010f3c3b704fb6a984772",
+      "data_sha256": "cb1958ef2287cbf8f4de19cf335d9d0f10d01da1ae65d60b605952b2b50562b5"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "certificates": [
+    {
+      "path": "output/reproduction/statistical_audit_certificate_d05027a4c3b9.json",
+      "program_sha256": "94e2014fb923e64f347a6baf47cba7a15472df284b5b56ba04e1a74982e46839",
+      "purpose": "post-hoc stronger numerical standard; no test-driven selection",
+      "rejected_groups": [
+        "sml_strx",
+        "nasdaq_strx",
+        "nasdaq_arimax"
+      ],
+      "rule_version": "common_coordinate_training_v1",
+      "sha256": "d05027a4c3b91ccacdecfe432da0756eedf219f1cd14be8a3316c596552fce35"
+    }
+  ],
+  "version": 2
+}

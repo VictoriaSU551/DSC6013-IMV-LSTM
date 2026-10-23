@@ -1,0 +1,2427 @@
+{
+  "function_sha256": "8f066f23abdf58ec3bb4e59d6d60e608817048cacf7c5b4b869d40894b614e1d",
+  "source_sha256": {
+    "models.py": "d5c8ccd69e79917f20a9dc8e0af016b9888a05922ca17762117a792d3e4d2740",
+    "engine.py": "e4ccf129cc65e21e0bc563e02132d54c1d0a023ea4541cc3ab8226d6eb5cd791",
+    "lifecycle.py": "580c2023c8b7ccb0baadb60718a05df2bfdbe2dcc5ecc424ac6cea4fb52fc30c"
+  },
+  "data_sha256": {
+    "nasdaq.json": "6086add1ff89e046b3518b957547076ffb1af9815202adf8764aaf34e5449b6f",
+    "nasdaq.npz": "cb1958ef2287cbf8f4de19cf335d9d0f10d01da1ae65d60b605952b2b50562b5",
+    "pm25.json": "0feb9a058033666d55f2b3d700e0e3ee760f56d17571a98b4403e9b691236984",
+    "pm25.npz": "c0b2e908895de142c6e2640fe22c3332dea6581adc1dd2372ee4867d79f6211d",
+    "sml.json": "987d5d800fc64552bc126e6cbd53d2d0fbea2803acc4b24fbde460c9a26ad047",
+    "sml.npz": "d87da0e50f1295f216a6aae4589a022c5cb56efdfcb167816d56a3a029e98448"
+  },
+  "status": "PASS",
+  "verified": 195,
+  "expected": 195,
+  "runs": [
+    {
+      "run": "sml_tensor_seed11",
+      "status": "PASS",
+      "best_epoch": 70,
+      "n": 521,
+      "proof": {
+        "config.json": "0b6685f7928888dd3c44e441c49833a5fbccf9368644297da9a12a3eefa1784e",
+        "result.json": "f7afa7585def2c32298b8250a68a3a82c7b1399d5d9c020a67ef1cdff6643f92",
+        "artifacts.json": "bd118d7c163b7a4ca50d0ed65c48e6bd05f70cb01628df13392925acd0d0c737",
+        "complete.json": "03b5b8a09c3ac84998ca30a82b457cdb8953dd637fc54ed4f9b9e26d40fdc487"
+      }
+    },
+    {
+      "run": "sml_tensor_seed11_mse",
+      "status": "PASS",
+      "best_epoch": 142,
+      "n": 521,
+      "proof": {
+        "config.json": "6668f1e7d5229b38355f1624bdadf14e8ec52ed45da39ca2e10116fd9032bfed",
+        "result.json": "919a2d36dd1fc8e487f3f62dd44f472013de98d150cfc20ea90a201f3c1f6f14",
+        "artifacts.json": "c29cc973e069226e2b1bbae6845f0c6426fd826410c89a5b5827290baff9ec73",
+        "complete.json": "5ef2557a5de141449721bf02d5e01762ba8f6488049cd6da5c379109fe403ed8"
+      }
+    },
+    {
+      "run": "sml_tensor_seed11_importance",
+      "status": "PASS",
+      "best_epoch": 64,
+      "n": 521,
+      "proof": {
+        "config.json": "6a2d4466d4ae9bab6771af39ed6b0dadb7694a576755bc1d5158dd1ba564eed5",
+        "result.json": "4918ff68e9094bec5ac7239b9a0a1b60bc615435902caa758ec7d5ba80b0e145",
+        "artifacts.json": "54f4eb5ae6bf7493d95327436846e06b3be751dee09798e07e2c718aa296ed74",
+        "complete.json": "80e85868e1c4a489809cb1865023c9d09847f1133c38c24acb243ff9f91de437"
+      }
+    },
+    {
+      "run": "sml_tensor_seed11_pearson",
+      "status": "PASS",
+      "best_epoch": 45,
+      "n": 521,
+      "proof": {
+        "config.json": "80612256c39c29559d36be4e9a114201dc74f0bc9ee4c2445195b83fc545f30c",
+        "result.json": "6484afb498ae04f3c36abcfafdc19cc70b98e40144da16fef9031d2aa5773e8c",
+        "artifacts.json": "f2824352a4e1a760ae2d468f34d29051b8266c9eb3e1ec03b32941984993427b",
+        "complete.json": "53bff3c3e93da643892bb5833d87ad8a57537bc2b1196e7c1fd61e189b347cab"
+      }
+    },
+    {
+      "run": "sml_tensor_seed23",
+      "status": "PASS",
+      "best_epoch": 107,
+      "n": 521,
+      "proof": {
+        "config.json": "bee291ca2d7493b6e9757048066b6493199ea8bf493ef257f67f51352810d026",
+        "result.json": "4ac54813460333f8d2c9258cfff9f5142a328e0212f29a63b85fed64bd3271b0",
+        "artifacts.json": "194883130c557181dbe9461937f89b04afa0d8937512a88c92a6de6ea1293d12",
+        "complete.json": "a588badd53d16bec9b19cfb1ae8b81c8993a0af2609a2fc478a66dbe908b0a2c"
+      }
+    },
+    {
+      "run": "sml_tensor_seed23_mse",
+      "status": "PASS",
+      "best_epoch": 43,
+      "n": 521,
+      "proof": {
+        "config.json": "e189bf02528ae381a0ea5bc4285d35547fc22c0e4c2fb02fe18a774de7458ba9",
+        "result.json": "d128aea1a4b6a18ca1a82348d047ebde0001503276efdb7164b4fa8033ba2c90",
+        "artifacts.json": "a24eb488830e43fa8adbeb7baebc9fdc316178f93488b3210e63ebbb5c77f933",
+        "complete.json": "0b9e45e85fdee15c0867b2fb041eca4215fc9fe57c0ca78b17e7b21f7e86cadc"
+      }
+    },
+    {
+      "run": "sml_tensor_seed23_importance",
+      "status": "PASS",
+      "best_epoch": 63,
+      "n": 521,
+      "proof": {
+        "config.json": "4f59f454e923a07e2f933e4cfc92b98b625f990b2708db01af4405134811f44b",
+        "result.json": "ed5030fea5962e0c1dde40ebcf3dbedb24cc6815ac9add9c915e6ca6f59c3e40",
+        "artifacts.json": "476ccc7dcec8cd47a04554e189c98ddc0a64b625db0e8f81001c67dd6206affb",
+        "complete.json": "98521f3dc490cf21df4464583fe68b5c1e38ae60c92c9a4bc46881356701d988"
+      }
+    },
+    {
+      "run": "sml_tensor_seed23_pearson",
+      "status": "PASS",
+      "best_epoch": 71,
+      "n": 521,
+      "proof": {
+        "config.json": "00464173118a74ec7fceec1fb0653077c5d5874163360ed898bdb49adf2831e6",
+        "result.json": "6c6cf104ecbe10c477e27c1ffdf32c5a0f048f1ff4c69fdbbdee812f39b5c90b",
+        "artifacts.json": "24d98cd8ff0053045360e26c02fc76d575ac78034e2bd4a7c442266305faf0cd",
+        "complete.json": "97660e5b13789e9692143cf98e4c523510a34df664043481713f09cbcab5350e"
+      }
+    },
+    {
+      "run": "sml_tensor_seed47",
+      "status": "PASS",
+      "best_epoch": 42,
+      "n": 521,
+      "proof": {
+        "config.json": "7decad99111205e8d114feaf8907401563e6f62764b6b18fb4bb82ad91c20876",
+        "result.json": "012598aa82c10907bb4b01f550d60056970e49a86b3ec100b63b0c6a63053cfc",
+        "artifacts.json": "24e9f02c59c2f31643f516fecd77ee831bfa3f219cf6c994a878259214063e90",
+        "complete.json": "607b8e855cda9d272902154b753fbe92f8cc9c7af1fa65e62d196b1e743375b1"
+      }
+    },
+    {
+      "run": "sml_tensor_seed47_mse",
+      "status": "PASS",
+      "best_epoch": 144,
+      "n": 521,
+      "proof": {
+        "config.json": "34de367b8503c418ac9051078d70bb379656cdd19736a95bb2dc2f69ab7f31c6",
+        "result.json": "58e63205361c2cb63c3ecc88be62aa0816f892421a20c037699b4b3f8564a01c",
+        "artifacts.json": "cb627f5536262f2b2d3a8bc46cd9ad2e7524adca0aee86fce8fd2a5ec4ecb5db",
+        "complete.json": "97f93a35d8c4df5c2e91a16c25c50cb1788c20bd9a502e1feb63dfd3d0c12a89"
+      }
+    },
+    {
+      "run": "sml_tensor_seed47_importance",
+      "status": "PASS",
+      "best_epoch": 104,
+      "n": 521,
+      "proof": {
+        "config.json": "a794bac79f945622984038bdce01d68b334b1e7e394a271759d820ea5c413aef",
+        "result.json": "9e55b7befac7aef6fd43c0b121381a95a5eb1a4b4856cdddc8c0dfd097c64c9f",
+        "artifacts.json": "4534ce0c1d72d53bb63f351ca6cde8e3934bd2ac927b96a3a9ed12d27c8973f2",
+        "complete.json": "457a1cd2e3e2c191caa67ade05ef08ddb5cb9444a77e3d8828a650f686f07113"
+      }
+    },
+    {
+      "run": "sml_tensor_seed47_pearson",
+      "status": "PASS",
+      "best_epoch": 62,
+      "n": 521,
+      "proof": {
+        "config.json": "7c3169c41d8e57ecb27098288488aadd3434f34016c262a45e5cb55df2f37272",
+        "result.json": "c49caee8cafe75bb035d925528edbe2529b13e47336527c1ff3a97a93e6fcbbb",
+        "artifacts.json": "07fad3de27457e1abc29d912fd2f6e297a1ca86537d87f5b224edd8dd4b2b625",
+        "complete.json": "b75ea84b16af33e7a16beaf61b8330e562317065d9031528640f90b0d8fc7c87"
+      }
+    },
+    {
+      "run": "sml_tensor_seed71",
+      "status": "PASS",
+      "best_epoch": 44,
+      "n": 521,
+      "proof": {
+        "config.json": "0f8caf6de62de48968a72b77f04ea2b0a044413b440ab44b6160df6b2c357a01",
+        "result.json": "06ecf68593f73a118d0e56bccdffd679e9a41080c13aa5c285ac67e90d09a2e6",
+        "artifacts.json": "6e63657732ef7c983ed902ca4dddeaa43e0c43a7d2772081879a4a48c39401e4",
+        "complete.json": "b7f2135832a7d9c5813d8ca826c0b1db1875dedde3c6fae544f8afd86a696802"
+      }
+    },
+    {
+      "run": "sml_tensor_seed71_mse",
+      "status": "PASS",
+      "best_epoch": 147,
+      "n": 521,
+      "proof": {
+        "config.json": "fc763f5c3500704d711a37d17775ae49da53c05fd575b1c4be0869f85bc3eaf0",
+        "result.json": "bc4b838628bbacd5fdc04d782c7f53ee20515922d5b13b6db3ea98180a93eb2a",
+        "artifacts.json": "59a75ce02a82e75f56bd95ff3284953793490c2ae211c5e8b116fa6c494da402",
+        "complete.json": "237558b2a236d0309cee9239ebfdfe3c39173dc175edc2126211c64ba2c65806"
+      }
+    },
+    {
+      "run": "sml_tensor_seed71_importance",
+      "status": "PASS",
+      "best_epoch": 34,
+      "n": 521,
+      "proof": {
+        "config.json": "d0663318f030db0595e626c70b3b16af52a6838e0239180a9e8d986dd0f41260",
+        "result.json": "fd1eeb00a51f819ae3eb70b2dec375ef6baa306ab5d55f8888ddf637b9a8eb10",
+        "artifacts.json": "140340b5cd62d8aef765fe52adcdc0a10ae06534ae0044bb18fcefd62c1f81ec",
+        "complete.json": "f3172aebdc75fe523810040e418dfddd938a1ced47f0831e018f2fa89fb833d2"
+      }
+    },
+    {
+      "run": "sml_tensor_seed71_pearson",
+      "status": "PASS",
+      "best_epoch": 124,
+      "n": 521,
+      "proof": {
+        "config.json": "8ab5c5ddce1b1f079c2d033191618933c60c14e1e9a55dd14361084231fc9818",
+        "result.json": "392b1858875aef2d0201d9c1623b904c056c3158727cfbde11ef80b15f63cc27",
+        "artifacts.json": "4dcfe7d4393ea70fd3ae1c7ac69ea817dbe0822ed32b80b15e279f56d98e2525",
+        "complete.json": "daa2606b25c2a9d7b1960ac1b3da94f048e34b952bcda159571c14dd6d692da7"
+      }
+    },
+    {
+      "run": "sml_tensor_seed101",
+      "status": "PASS",
+      "best_epoch": 58,
+      "n": 521,
+      "proof": {
+        "config.json": "acbf1bc303488ea0c53476bbd0610597b423195bc9f2e280cfb7a117b9defd9e",
+        "result.json": "9a589a556066d56170b34f3d8d7550f39e681df58d977c07775e9a992def796d",
+        "artifacts.json": "1e29a3d29cb8cda523e85002fb88d7be110f96407d586ae6836dfae16818973c",
+        "complete.json": "e1173fe78ab79431a7bef602217ca93cc8606408a72e9c819ee9946d38b508de"
+      }
+    },
+    {
+      "run": "sml_tensor_seed101_mse",
+      "status": "PASS",
+      "best_epoch": 147,
+      "n": 521,
+      "proof": {
+        "config.json": "4ffa7202fb45ebf8d651b8837e6054973976e1578e59da3e11825fd86d358f41",
+        "result.json": "ec3918384a84fbc68901af6f4db7b11da30f170189519b15c8b4cfbaefa8cc09",
+        "artifacts.json": "fbb63ecc9f34656d9d2624bf06f6e47b52bc201b350042c676fdec8863959f92",
+        "complete.json": "fe7ab0da40acddfee2e4435f80581e1e1442090d094fcf93d05171c891856a35"
+      }
+    },
+    {
+      "run": "sml_tensor_seed101_importance",
+      "status": "PASS",
+      "best_epoch": 84,
+      "n": 521,
+      "proof": {
+        "config.json": "db2edff60baac64a02751fb1873ae0eb50bc0fbad9f22a67b6d4109a069fe47c",
+        "result.json": "f077832fa5a2b260fc6bd4120adffff7ab76ad876c2ded443280d67dec870ecb",
+        "artifacts.json": "e616a2d73ad4aea64011cd6a26943dd4c041b9a82283b11cf24b5b27eb162b45",
+        "complete.json": "ad64f508bacdd244b39acc1296028a51ab9abef2deb7bf06b12fe61cfa248dab"
+      }
+    },
+    {
+      "run": "sml_tensor_seed101_pearson",
+      "status": "PASS",
+      "best_epoch": 28,
+      "n": 521,
+      "proof": {
+        "config.json": "a56a4430efac695821d2b1288f1e7d54e4598767b978d43e5cf0418148fb03f0",
+        "result.json": "429b8896cab388c72c2d051b245b291970b9a4b7ce80ad610e42c7b2d43b572f",
+        "artifacts.json": "f50bb6e661eb24503e34665e52893252bd168321c2e941df8939c4ea1022e804",
+        "complete.json": "6891a768e99d96cc7254841f019910746945cea9c43f040daed22673ea54d00f"
+      }
+    },
+    {
+      "run": "sml_full_seed11",
+      "status": "PASS",
+      "best_epoch": 46,
+      "n": 521,
+      "proof": {
+        "config.json": "983c414956a2dff86856e37034a4f42eb8e44d8967b3d2632773d69a0d78cdc8",
+        "result.json": "a244ad5a3ee0c9b6958d4925f7f2445570165bf2a4d90acb522a789d375d21b7",
+        "artifacts.json": "46e0c1ee0e2b6f60b0393b3e36441f3318976f579ddac444e73ce755e849ed49",
+        "complete.json": "70752c612cde9a3e4a8c29fc3a4cae4696886f53b59d0ce14aaa70b78d42820c"
+      }
+    },
+    {
+      "run": "sml_full_seed11_mse",
+      "status": "PASS",
+      "best_epoch": 25,
+      "n": 521,
+      "proof": {
+        "config.json": "4fe35c9cecc56f6caf9e31da45e388123033bb36ad7b3a30a1d1385043ddc93a",
+        "result.json": "b51fa7804488fe9c8dcb5f17ba18b550d765db840a91ca2183ead83703db92f4",
+        "artifacts.json": "a5d65b95d8cdd144277bc752f782cd5633e7e82bae0a05f78db2385d25dd5f8b",
+        "complete.json": "9a0adf733722eaef8de63981e369e6c5669960cd775c566581aa0e59cc62ea96"
+      }
+    },
+    {
+      "run": "sml_full_seed11_importance",
+      "status": "PASS",
+      "best_epoch": 108,
+      "n": 521,
+      "proof": {
+        "config.json": "4c80042a0e6b7bd0a5a92a69aa677e3ccf90377f2988058c8b9ce7fdcdafa3f4",
+        "result.json": "8f90c2752bb34d2a96c545e27c257b31aeaa12e4d43d8f422892fc1e6851c6d0",
+        "artifacts.json": "06e957dac9f2fa1d0e73910ecf5b8227bf3cd367b54b74e4cb28e35d67b50deb",
+        "complete.json": "8b04c84ac5eb69ad8e9b60e097f334390d429dbcf7e48bfd0d41d43107333470"
+      }
+    },
+    {
+      "run": "sml_full_seed11_pearson",
+      "status": "PASS",
+      "best_epoch": 150,
+      "n": 521,
+      "proof": {
+        "config.json": "3f07d431030439f5ecd76b3f042aeb3866c59408523a6fdb6798d090c2969d65",
+        "result.json": "74ddf6bc2e30373914b978693d8548557c94c7f26054acb7cfff819c3498468b",
+        "artifacts.json": "83b7540a98a999ae678628ed4c6b5afd3cca0ff2ae7038c32ec3dcfdc692fc61",
+        "complete.json": "636fc401ad379a16f651f6e046f62dd985c4eca42555a566adafc02c2efcbc9e"
+      }
+    },
+    {
+      "run": "sml_full_seed23",
+      "status": "PASS",
+      "best_epoch": 23,
+      "n": 521,
+      "proof": {
+        "config.json": "21a235f0e52ef312750c0e7accf37c0295aea9433088ea2d83babce5850944a8",
+        "result.json": "33588791591332793c9af38d0e3821742811812f20f36bbb24fde170578b4a3f",
+        "artifacts.json": "40d3739a5bc62f40cc17ecf73691ec3bc058c0e4cd9e157ba1c03fbe01423294",
+        "complete.json": "189fd82a99a249add624567521891a7e218b039f5c455c93d5789c417732d9d4"
+      }
+    },
+    {
+      "run": "sml_full_seed23_mse",
+      "status": "PASS",
+      "best_epoch": 9,
+      "n": 521,
+      "proof": {
+        "config.json": "a31bbfb0dcbfcbd0946a968ab5f73ade0483d6d4ef2598d5902d2afb46d419b9",
+        "result.json": "9e5e4d6d38655f1fc2cb798e8c523705aa0d98c35aadff6f37dd4ecbfd22192b",
+        "artifacts.json": "1dfbaed4b48f3c19f1bfe0a0714e2764e74827a88a46fe6ea6b0d2146116078c",
+        "complete.json": "ef78a59d0b50c8210c103588f4b43b4645412280af8f4a652d13f5241e3fe78b"
+      }
+    },
+    {
+      "run": "sml_full_seed23_importance",
+      "status": "PASS",
+      "best_epoch": 125,
+      "n": 521,
+      "proof": {
+        "config.json": "c48663de7804e4eacaee974393a1b63ad9bbe767f5332dec686fcdbf47fcb67e",
+        "result.json": "229e59600e73000c4a22bfe5181300f4cb01afa96ba5ed2b2938ee40370b2944",
+        "artifacts.json": "9c66f9e600019ffa9daf04bf636d2f0621f9aa45fff305dd3e6baacffd517abd",
+        "complete.json": "1c201c79d1b9fa16107e17ec2f9bc0b22bb4ed9fb7ea613a993657caafb93ce7"
+      }
+    },
+    {
+      "run": "sml_full_seed23_pearson",
+      "status": "PASS",
+      "best_epoch": 106,
+      "n": 521,
+      "proof": {
+        "config.json": "c8168a558a91ce4814b327f1e6f4b553aa2468eb81c7b03944003cf65bd0c0bc",
+        "result.json": "e2053066a7f33302f10f65ee73b72276ebf8192fbd628e6292634b8fa3402a81",
+        "artifacts.json": "e22ca844c7edc68e831729ccb08f2e272bc2e9bb9781443991a1b0a3380fef59",
+        "complete.json": "749c4e890a2009ed0a4dfe4a33c7e7f4e1291cd930f1e101fcfa280200be6e17"
+      }
+    },
+    {
+      "run": "sml_full_seed47",
+      "status": "PASS",
+      "best_epoch": 60,
+      "n": 521,
+      "proof": {
+        "config.json": "3155c9afb7ef4c33bf892829e4e837649ea07313f2f20b85d658e3d7261d5c34",
+        "result.json": "7241ba4417691d0502039da78c9ff1572be83b11184d544257c2e93c19c03657",
+        "artifacts.json": "ded2ef9a518b0fc858ea3b5a189ccad21f2c5a346b9e933fa8b381a3bef667ee",
+        "complete.json": "23ac58f70db8bccbe360a42f7b489aaf02923b01c0945124fe793d46306c6462"
+      }
+    },
+    {
+      "run": "sml_full_seed47_mse",
+      "status": "PASS",
+      "best_epoch": 20,
+      "n": 521,
+      "proof": {
+        "config.json": "337702f07dcd6ea4ad5098036d64d56c92d63f5e21e5ac9c3a2e92bdf98a7391",
+        "result.json": "a3de0d7d26f0745563a520bd608ca0dd0dbc96c12f249c4fc29d6e9eef8aa792",
+        "artifacts.json": "71041bca49f062cbd05dae505046cf36472e005c3a0ac4c5bffec7a16f0f2e22",
+        "complete.json": "f599bbecc5d056857f604a92f124892819b58a37ba564c8ad86fecba49a41768"
+      }
+    },
+    {
+      "run": "sml_full_seed47_importance",
+      "status": "PASS",
+      "best_epoch": 78,
+      "n": 521,
+      "proof": {
+        "config.json": "c97fe78aef6a457d0b66cd0b80af7228dbae9457efd64f1031252f9d2e4fcaa2",
+        "result.json": "0f9b8494e74c8543e3ecf0eb0af66b4f88e80c33bebf5d8044b25b6314a917cf",
+        "artifacts.json": "3cffbaccb635d6129b99b499129ab521c91fafde26e957852a7e0ee7fe2279c1",
+        "complete.json": "f714b8a2e7628db8370be726321bd54e17bd661decbdc3d7289a3761758fcdac"
+      }
+    },
+    {
+      "run": "sml_full_seed47_pearson",
+      "status": "PASS",
+      "best_epoch": 68,
+      "n": 521,
+      "proof": {
+        "config.json": "2469b37fe7f1bcb5424118fd96ac0bbd9ec1a4064fdc910eab28edbb83c3c1df",
+        "result.json": "7fddd8b4446cb07876d22a96709b6820c5bb28ebdd5c2638e9ed98459b204ed0",
+        "artifacts.json": "de69f09a85dde50353601e035c4978ed3c6115beee3e151269ccba8fb04c50fb",
+        "complete.json": "5e2d48d6f9ccce4725d40a9d9bccff00a0f84c018e287e473671fbc619bc5518"
+      }
+    },
+    {
+      "run": "sml_full_seed71",
+      "status": "PASS",
+      "best_epoch": 43,
+      "n": 521,
+      "proof": {
+        "config.json": "f6f8b641cca76a345f7b528f0ef912ef7e1c7170987180eb098fb7b3d81c4b51",
+        "result.json": "26dc0084bf8641135791831d7360bcda5c860e9834b32a348fcc729b753d7302",
+        "artifacts.json": "66ac761fdba83d3b2e2ff6d858785c703ab0023155b8dc4b09a2b73a719fecf2",
+        "complete.json": "f7903630578f0e912bae385c8e141fc86c12ae5021e46f80e20bffeddbd8fde9"
+      }
+    },
+    {
+      "run": "sml_full_seed71_mse",
+      "status": "PASS",
+      "best_epoch": 52,
+      "n": 521,
+      "proof": {
+        "config.json": "c7c1b184e342927740f31bfde05907fb3c5ad186212a7767ce498cbef678e114",
+        "result.json": "734d3d695b5170883925422567a9a444abedfc2d8351452845e275cd58e71041",
+        "artifacts.json": "f84c78a9bf556439f3466a01604a5b4b9c49d373df83cb434bf1e58bdd2801a3",
+        "complete.json": "1f67ed847abaae418fa32a48e9873d05e6c60a6effda82bcceaf7d18adefe9b4"
+      }
+    },
+    {
+      "run": "sml_full_seed71_importance",
+      "status": "PASS",
+      "best_epoch": 108,
+      "n": 521,
+      "proof": {
+        "config.json": "dd413cbf7923cd8f28320dc6fd81ad58b267c62d7a694adc937c57c0d2ef1b20",
+        "result.json": "7e8c89c299cef4a3898b4a3298461f4dddc6b02a77a5c537e2f70ff78459026b",
+        "artifacts.json": "466e62bbb6062f8b56280637d99d034c74fa17a819b5178cdfaa3f6e89ea77cb",
+        "complete.json": "8511f68e3f66de36be193b8526a5b616c5eb254aeb728e62da5b700b8dd5fc13"
+      }
+    },
+    {
+      "run": "sml_full_seed71_pearson",
+      "status": "PASS",
+      "best_epoch": 129,
+      "n": 521,
+      "proof": {
+        "config.json": "3264e3429d794796d8389d62cda679a8a635dea2709f10ce3c2b482f5057ccd0",
+        "result.json": "1d501a9c484ce34e69b4e73c347c49e0141cd462e4177ee8b0cb70f445a82b72",
+        "artifacts.json": "2d5de3ebbcdf3bcdc77008511976875c95b413548dec0604aab3bd1048e89d62",
+        "complete.json": "c1c599bd0dfa6b1d762a66a6fb8e7a4a4031cf3debb9f122db35297f40d543ff"
+      }
+    },
+    {
+      "run": "sml_full_seed101",
+      "status": "PASS",
+      "best_epoch": 44,
+      "n": 521,
+      "proof": {
+        "config.json": "0609574ffa10c2342559668d0061b59bcc9dc1ca1cc977b0a0319a7e366025ff",
+        "result.json": "75f55431c50b011c8aff74c7f60041556e4ba71cfa25530f26aca28eda608b2e",
+        "artifacts.json": "ddd6a2e0274afac12483cdffe21f8bd4d1ab3fff37438650bce4fc91ab6dfd59",
+        "complete.json": "6a2141fc798f8f2224b80861323a117a297ac62976c4ad001f30955f9eb6efad"
+      }
+    },
+    {
+      "run": "sml_full_seed101_mse",
+      "status": "PASS",
+      "best_epoch": 33,
+      "n": 521,
+      "proof": {
+        "config.json": "4482ed95c9b2f5764abc70cde6d8afe43796b8beb2d730f3d3a03fb9c65164d5",
+        "result.json": "ab0dadb8b52be739d3d0c31cb6199a5ab671c27448866bdfe2bb272312fd4ed3",
+        "artifacts.json": "d773eabe4410a66d13ac72c9352192d4f9625dc335606cd46dfc26ce365b6c4d",
+        "complete.json": "b9e35b8cc5104f910dd98dcb74cffd1517eb9d2ae3c51f716baf6d15ee269778"
+      }
+    },
+    {
+      "run": "sml_full_seed101_importance",
+      "status": "PASS",
+      "best_epoch": 21,
+      "n": 521,
+      "proof": {
+        "config.json": "6f0bab51db9e8bfdf3ff5790c32757a8d2f65c43424fce79ccd9282760b97838",
+        "result.json": "5423f627a0206bcfbfca31e33473aadff0202c69298f7ca80882bfbab5d75221",
+        "artifacts.json": "a3d958e60d46ae177e81dad013f38c1ff875d5be11a2745725012b792a3687b2",
+        "complete.json": "60f8abdeb2421cf68a10a6fe7ab5cb1a2f9671f55aa8422a5c6082441967630a"
+      }
+    },
+    {
+      "run": "sml_full_seed101_pearson",
+      "status": "PASS",
+      "best_epoch": 89,
+      "n": 521,
+      "proof": {
+        "config.json": "c05c75f21ec6afaff29fc2676cd6390500b6543ce62f9ba4d8e98a5c42078316",
+        "result.json": "dff61856ea7d8d4f4f3ed5b96b58862b2b844372f7fb7fb7a2a46e5eb60be00e",
+        "artifacts.json": "985c17afe88c54b6e9ee9c2fbd49c4eeaaa0d0029a6040e49b711a4966b247af",
+        "complete.json": "95a46b77d44cde50a80a80b072e2c0bebbd97f45741db65789bc4ad757fa5fac"
+      }
+    },
+    {
+      "run": "sml_lstm_seed11",
+      "status": "PASS",
+      "best_epoch": 92,
+      "n": 521,
+      "proof": {
+        "config.json": "238de671d6bae1ca64fca77662a6838b5c5cf7e636420f7cef9e27edd0c2b558",
+        "result.json": "9dff1d07d31e6d38ce454d90bfb8f211a788a0d5368f96a176224b3ee76e2b1a",
+        "artifacts.json": "b205781d03f42a1765b431df8625f38a8c221938c96b874a4a29f48a57e71a99",
+        "complete.json": "e5c7ce51662c092d3c690e48e2e54051c772682d7440bed6c9a34408a050eac4"
+      }
+    },
+    {
+      "run": "sml_lstm_seed23",
+      "status": "PASS",
+      "best_epoch": 131,
+      "n": 521,
+      "proof": {
+        "config.json": "83af0c86c83d69f67c5473a76e6c8c6c052013ba3f2bc6e83d62b4a5f9326220",
+        "result.json": "87ca895c7681829c611e3cba1faf3141ec680d30f61f7eac5016c128cf918f42",
+        "artifacts.json": "6581fc9119285a80643e6ffca49cbdd59efbd2416b8fe06e3f0f4b9ad5270eaa",
+        "complete.json": "47281986204a3ec92039e3659ad57cf7e56af62e66b73adda0ff60fc13d16ac2"
+      }
+    },
+    {
+      "run": "sml_lstm_seed47",
+      "status": "PASS",
+      "best_epoch": 142,
+      "n": 521,
+      "proof": {
+        "config.json": "29fe28c08d29b1682154f6f311ddd424fd0f7d9be4f152cd3c8e786a0e94fad5",
+        "result.json": "011b7316a8c881fe454d61f340ffa1c977e0b09e108123687d6dcef28d2c4223",
+        "artifacts.json": "a7291ac00357b2f7577ebe5688732a3e76c3e1f8742b25f58d8cfafdda7a71e3",
+        "complete.json": "aefc22eced10547d66c0e9f02a2b8ff46e20892e5fc823302a026d8348e9ddcf"
+      }
+    },
+    {
+      "run": "sml_lstm_seed71",
+      "status": "PASS",
+      "best_epoch": 127,
+      "n": 521,
+      "proof": {
+        "config.json": "cf698143272e2c9b04ca300e4a974869a0b99694d87a11a8783711b8d43c5958",
+        "result.json": "806070b5f43b075938fa7b36768dfa082d9594c1a10f900cfb50b98e2570949c",
+        "artifacts.json": "69a28a1912abdff14cce51bf16e54f1fea2507905edd0fcab8bfdc344df78724",
+        "complete.json": "bad72e82a28f6b093c0f6e17a08b231358840cf088199c1b0b9903598c434620"
+      }
+    },
+    {
+      "run": "sml_lstm_seed101",
+      "status": "PASS",
+      "best_epoch": 78,
+      "n": 521,
+      "proof": {
+        "config.json": "f9ece76e79e49a244fafdcd4bbc95a8dce8f63526bf9d7387b14e67f7765380c",
+        "result.json": "6970f7fb2a1bfc51bfa856118b6e1b23f71e5ab44807f6a8928677f60a24be0f",
+        "artifacts.json": "45fcac466ed4aefe81f7075e81930d7a4d23fa175857a8b7a4cdcea2931e4997",
+        "complete.json": "83451b5dbdc66039bd0ad0e13879cb5eb8a01dae6e83dc604faf34e7ed5c7942"
+      }
+    },
+    {
+      "run": "sml_dual_seed11",
+      "status": "PASS",
+      "best_epoch": 124,
+      "n": 521,
+      "proof": {
+        "config.json": "f6d01de9ebb9a13ae7ab50e5cdfa06a2eb6f7c82288f044dd5e4383c1a74e295",
+        "result.json": "af67b058881d467d93bc7fc8a27f93b51c0d93a7ef53dd01eb7eab87cd1cdb71",
+        "artifacts.json": "52fe176b4d4afbaea2fbf6430b09f64f005fede43e4d3a9a4a3c2e38e75e70fe",
+        "complete.json": "7d10512b9d49315a2d0fb9f87085f2a9ee8eb1df19d1d5f7b06da2bde08f2cd2"
+      }
+    },
+    {
+      "run": "sml_dual_seed11_importance",
+      "status": "PASS",
+      "best_epoch": 117,
+      "n": 521,
+      "proof": {
+        "config.json": "e8cb6f6f4002674e86d6dbd560d847ff2f994405e5121c9698601d2f3da76e1d",
+        "result.json": "a4c0165e915dc76dc936e44517da73d74ec7799b5658ecdbf40f073aeaf56c69",
+        "artifacts.json": "13dbe57e0bb65151aae435ffe517d2688cfa03f04bb38e8ff6304adf206790c2",
+        "complete.json": "64e19c9bb12aba5b2bd940517a32b1863823a704575f86aec72bc654ae7ac867"
+      }
+    },
+    {
+      "run": "sml_dual_seed23",
+      "status": "PASS",
+      "best_epoch": 128,
+      "n": 521,
+      "proof": {
+        "config.json": "7a1eb51380e513789fd7845b29d31c3784c58d7fdf9e784f2ec55a2acc3ec7df",
+        "result.json": "f28040d955b28d8cd03573ef3a63d0c81459f4cb71fcf9dbe98686c164d0742d",
+        "artifacts.json": "8a2b5de91c3362ce9fa37b7484a0a47d0d8dd58a289869567eda1a0043608821",
+        "complete.json": "5a39c2fc047fef6a34806b2271e8abcc0d1f1c9d9e6304ff9468db1a29e61562"
+      }
+    },
+    {
+      "run": "sml_dual_seed23_importance",
+      "status": "PASS",
+      "best_epoch": 124,
+      "n": 521,
+      "proof": {
+        "config.json": "9af1d0a3571bcf81e5dfe2ad2d58c1af3dbd44cf20e62d945953c58584dd2c1e",
+        "result.json": "44ef49f1ffafada493a0f06000b3149ef399420a9c0a688ddbd54887bc47bffb",
+        "artifacts.json": "f527c7a56f9216723448cfe52044a858f656e517d615bfdd1f640d0573de87ed",
+        "complete.json": "6b78a05df3e553341fb17c0f8b5564c486cf5f557aa3b0af788ee4ddee2834d6"
+      }
+    },
+    {
+      "run": "sml_dual_seed47",
+      "status": "PASS",
+      "best_epoch": 128,
+      "n": 521,
+      "proof": {
+        "config.json": "c0b8f42827bf4612c55d5ecca6939a501b53ca3fc7d3a500005b1bd017b8cab9",
+        "result.json": "f9a17a51ed5b344bd9279f1167d83b1dba7b266a98a7ccfc8be1fcd23be9289b",
+        "artifacts.json": "7453b8ccebe60d8e954ac7452bec3df353e8c24d7e77a9f3da99c706b5a57999",
+        "complete.json": "2088ea03ba7c132b2d5e1ea559bfd961fe949006bba5c0bf456d5359ea172c56"
+      }
+    },
+    {
+      "run": "sml_dual_seed47_importance",
+      "status": "PASS",
+      "best_epoch": 139,
+      "n": 521,
+      "proof": {
+        "config.json": "cc821955e7a8b02c052295409508c8a4214c61b904eadf81c16307acb171354d",
+        "result.json": "10ca79fcfc486af1327d2fa16c1d86f0c817945559544670fff9e88eadb6d32d",
+        "artifacts.json": "43353a1aae7486b2d82d46cecedaba2a007af9caddbf015533183f437c50a9e0",
+        "complete.json": "13032f2dc127b7adf6fb5951c3e9ea5fcf22353ab41698bc7965cb435bc1ad15"
+      }
+    },
+    {
+      "run": "sml_dual_seed71",
+      "status": "PASS",
+      "best_epoch": 137,
+      "n": 521,
+      "proof": {
+        "config.json": "038e79247b43118cfc510fe0381db2563bd5988ab7f2b97a19eeae821a08ef94",
+        "result.json": "503b9507598e8a2cb47d58ba8bebe733b3a7d81b5eecade55e94beb0434c4b7c",
+        "artifacts.json": "7ea7f60a2e270b3d6f7ec30faa7a467d004f23097dcfddbc08d6aa9ad7da045c",
+        "complete.json": "5ddfe405ce450c687cacf0fb80e33195efd1042944958e95f67f823b1189cfd5"
+      }
+    },
+    {
+      "run": "sml_dual_seed71_importance",
+      "status": "PASS",
+      "best_epoch": 141,
+      "n": 521,
+      "proof": {
+        "config.json": "8aef3f61e237d1c739d9d28eb503f1cb2ee30b2d2484c6068f291a2162013796",
+        "result.json": "5b4d81253d5c7a575f069ab8b9d100a37f1c669de27dfda3906762474b73bc1f",
+        "artifacts.json": "3e571d13a2ade0ec854487d1c4d4daf52e95f22a557a11da310452f5464d0e60",
+        "complete.json": "fa239dc3e36af7791e42e0213cf2e50436d42cf9bc49e077d7c158f4ae65dd75"
+      }
+    },
+    {
+      "run": "sml_dual_seed101",
+      "status": "PASS",
+      "best_epoch": 19,
+      "n": 521,
+      "proof": {
+        "config.json": "cc151aa1dc774e2fb4adce2960cbe3d523428d6ee58481d891a6a8952b4d116a",
+        "result.json": "b32af9d9472be145d582b809f383c7b0685f56ca7f1b1fcbd438213509949ea8",
+        "artifacts.json": "e9d221d3b69a7c55d73b73f63e3d2bed7095a5d3fd35416a012d8e5a8747d6ae",
+        "complete.json": "8cd3c20a24ce4c4dc61041e074137510e14d470df32236d2ce3ffb5e4cb56ab4"
+      }
+    },
+    {
+      "run": "sml_dual_seed101_importance",
+      "status": "PASS",
+      "best_epoch": 139,
+      "n": 521,
+      "proof": {
+        "config.json": "98366770fe553303d5d5ec79a06c5a80007bf890f801abb9d1337832394e3547",
+        "result.json": "e96097c929331d109dc96f1f4749a30c1e1c26b0757e6fd4130d6beefee3e933",
+        "artifacts.json": "ed5678b39b79f8dfda3b12f97e63553c93511e7b346dcf3a9ef1bb012463c812",
+        "complete.json": "df1f59153d87942e67582099efd3af6f412f436111efbd60b5e48a4f91bda6a7"
+      }
+    },
+    {
+      "run": "sml_retain_seed11",
+      "status": "PASS",
+      "best_epoch": 34,
+      "n": 521,
+      "proof": {
+        "config.json": "d4e7690833dfcbdbb026cfef96f54e56314c8a35b0c4c0a9cd5d3bb516bb087e",
+        "result.json": "6903ca28bf4cff47caa3b4e9422c4e13118e2954220d1485eccc72c8973eed95",
+        "artifacts.json": "1a16ed4240b0d52a8e39f6b2e087c0c72621c8451408079265ce8f2370e3d7b7",
+        "complete.json": "82ff09a896b3709c348d6bff1860f597b75d20e4790772daa06c44d6dd523e8e"
+      }
+    },
+    {
+      "run": "sml_retain_seed11_importance",
+      "status": "PASS",
+      "best_epoch": 127,
+      "n": 521,
+      "proof": {
+        "config.json": "8173e0f7612ce0240738139cd2c86c613ec96681c5fea805f0c856154fdce169",
+        "result.json": "47404fb7b3a08a2d4a0d52d2b741cde1e0853ac17ce3971651d644e3d6c5e914",
+        "artifacts.json": "111fc198a9c1e531d2aae7ef75dd5509901ceeda6f479c45bf72d594ec938d76",
+        "complete.json": "8386c866fec19b880b42f192c297e41cde0365d8ad4a018b164349875d68581b"
+      }
+    },
+    {
+      "run": "sml_retain_seed23",
+      "status": "PASS",
+      "best_epoch": 48,
+      "n": 521,
+      "proof": {
+        "config.json": "d2f8c9dcafcec7ed8df1a8e518b157d97b505c7b12eb7eb944f84bd08516e912",
+        "result.json": "2d370e6c62f3384648597122569ae9dee7f1ea29d1f3ac263ed9b00b41d4e062",
+        "artifacts.json": "8f1194337b22f7585050bc8f28792af89089a3f40b9c387e5e74568a5be0155a",
+        "complete.json": "95021d8ba279a10cc37f9f03fc6d1f5f7c36c0588e3547f25679317421ca867b"
+      }
+    },
+    {
+      "run": "sml_retain_seed23_importance",
+      "status": "PASS",
+      "best_epoch": 48,
+      "n": 521,
+      "proof": {
+        "config.json": "b9ae091777794250b1967ac423c3911fb33a96c3b2f27c37e4eb2b11427c09a7",
+        "result.json": "2b27beab41370e2ae3842b39e1d2cfe6fe0d72c53cf43ffc283f7adb2f55a731",
+        "artifacts.json": "9b763ba43658c1de05c94f075f1350561f65cb7c61b4046d5e28dcca76ba6c79",
+        "complete.json": "cffbd87f555044d17390ef189052a09f0d61d40aa797688527fd6397d74549f1"
+      }
+    },
+    {
+      "run": "sml_retain_seed47",
+      "status": "PASS",
+      "best_epoch": 24,
+      "n": 521,
+      "proof": {
+        "config.json": "dac0d4b52e05eb7e663fb9d9d6c69ef41629579c2d72ee8f5b2f3f0977a24f42",
+        "result.json": "eec78cc26d7fbf42f93391a24fc4e03c11af5b98813522e64500684b9bb8b523",
+        "artifacts.json": "797d7ead5f288a986a83604e4c565f762e49de206e315edb4d7498ee20691679",
+        "complete.json": "3ae3784e5439592d7acbe828aaf56dbd2c1a709177d69e2d1d07d323d7b368e0"
+      }
+    },
+    {
+      "run": "sml_retain_seed47_importance",
+      "status": "PASS",
+      "best_epoch": 59,
+      "n": 521,
+      "proof": {
+        "config.json": "198e470bed841acc266e9993fb1f262c4d1086758b2a45503ea63ce360ba3cf7",
+        "result.json": "8a1f1bc84ad0f4090a8d3f4f0b0018963f935360ecd8731e5e747412ba29bfd7",
+        "artifacts.json": "619b303c756d2df539a78beddc2fd53afe0ff114860a91875725b402d88a2444",
+        "complete.json": "9db22bdea017577a0d5e4bff64ce208e29e9fc89274aa2d8b93696a0b07518a2"
+      }
+    },
+    {
+      "run": "sml_retain_seed71",
+      "status": "PASS",
+      "best_epoch": 27,
+      "n": 521,
+      "proof": {
+        "config.json": "4c1871c160d19a218a63462f64f85c5258e198e1ed93a6102b5235df2b8c339c",
+        "result.json": "9bb6f7ca2919d936eb2e47a79a14239b7a8e455997a8263b41820622de070386",
+        "artifacts.json": "264aaea3724f90cf3945a777d15a35644c9edec54667c40bdf2b2b52ed12f9e3",
+        "complete.json": "47b0491396d15b1462adbd340f3e370c4042640666f92b129db2b3372c0782bb"
+      }
+    },
+    {
+      "run": "sml_retain_seed71_importance",
+      "status": "PASS",
+      "best_epoch": 70,
+      "n": 521,
+      "proof": {
+        "config.json": "f23aec8b5dc6e06dbf9077e9894535ca19113d55f10c98e3b9a6d0b7a69334c2",
+        "result.json": "e0617d87fc0c9e7f30e9894c6aa4d8f3acf67db6e57325c9a4d949904a132ae0",
+        "artifacts.json": "c5ff15711a40bd76fb11b4ab93d27ba1f068696b8b1590c06dee3d2b408241f3",
+        "complete.json": "24543de6bf4ac758de5fe0710fcea8e2b7253bf6acc128fdd0dbeadd9c634450"
+      }
+    },
+    {
+      "run": "sml_retain_seed101",
+      "status": "PASS",
+      "best_epoch": 13,
+      "n": 521,
+      "proof": {
+        "config.json": "d31651391577dd7ebebe5058cb62c5a77b38c135d14fc49d37587db72f5a96a8",
+        "result.json": "44315280cecf63b4e0a268d42beb367b49f1f29953077f06363f43baf6d340a5",
+        "artifacts.json": "b00585be4235df28d778ce422082997c0ae82605187a64314d8e6b22dcc223b2",
+        "complete.json": "30be18617b79c7f7895ea0980ec13d4799be8c21d79b6587746510c948bbaa6a"
+      }
+    },
+    {
+      "run": "sml_retain_seed101_importance",
+      "status": "PASS",
+      "best_epoch": 49,
+      "n": 521,
+      "proof": {
+        "config.json": "6583370ec9a96563673150cbba39ebf4b604a95fd450fcabe3a8f20e6f4d90d6",
+        "result.json": "c07c2ed1bc3e3f9794baca87ff3181910fdfed80a1003cb284cb7107d87b5521",
+        "artifacts.json": "8c0a3f1808a4e06fe9981ff45ec3b6f52682dbcb16642f5070b2aa53bf1c4cd4",
+        "complete.json": "164d246d5793cc7cdcc37aa939d1d1227a16961bc354cb742813907628212c10"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed11",
+      "status": "PASS",
+      "best_epoch": 36,
+      "n": 8359,
+      "proof": {
+        "config.json": "4fc7d320129d33d8a4b3a5c70f4e576bf89b55fa41203bb6e4e28ca83cf5ddb9",
+        "result.json": "928747680097e23365a67b081ae04a33bfb7c408aefadadda70c98b17ed951dc",
+        "artifacts.json": "4d24e5f13b0944c6fac39ea09311915710fd2eded7b7d193ed8ec24406476641",
+        "complete.json": "d792ef3d086000cc734f3761147cdbfe1fd2b7f8d5649a6ef73cc8f08c254fb5"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed11_mse",
+      "status": "PASS",
+      "best_epoch": 150,
+      "n": 8359,
+      "proof": {
+        "config.json": "cee9ab9e4cc154d1d597089201639702702457c5b3c4ad920cbdf45fc810e235",
+        "result.json": "15760adb1cabdda3bb81c93c4d4144999dc064bd621e5a81a66632297551f022",
+        "artifacts.json": "fcec643ad21b21ef40b427001180812decdde448e3d6ae72a3eb100df01870a2",
+        "complete.json": "33678ced39dfdc9e6ca9a6017f9c4272dc7482f7b76d84ffd3b78d49a350c49e"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed11_importance",
+      "status": "PASS",
+      "best_epoch": 75,
+      "n": 8359,
+      "proof": {
+        "config.json": "e10af2204570ba23c172f22c7ced49bd21d1996ac9507483ee7dd5617dd063de",
+        "result.json": "4098b0a477f5423ebb9c9abbbe41a9fb90c48f8058cc653841cc26815cf7783f",
+        "artifacts.json": "a07c8f7071a5588e7e30dac6dd233f8e1f831cf5b536c61a67bd25a1cdb5fb4f",
+        "complete.json": "148289dd3edb7f1099d3d48cd9a6870f50974c5ce7406a7285fae7526ebeff28"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed11_pearson",
+      "status": "PASS",
+      "best_epoch": 24,
+      "n": 8359,
+      "proof": {
+        "config.json": "857cc63054d4bb56f94a3b6f0d682e28df31b3d9eba0a345cfd73ebd53ce2431",
+        "result.json": "37c732da5ac70573245ca3107dd4b95706672d87a6ba49d2f4bf4e4020e3dba4",
+        "artifacts.json": "75847652c0af9bf1c7d8523ca4a88884ebe66a8cbc98dacbd3be2574a3e79a4f",
+        "complete.json": "09f1edbf583bfd92087cadc8e547adbe80566e32e8196da7b2c87586621ec5d1"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed23",
+      "status": "PASS",
+      "best_epoch": 74,
+      "n": 8359,
+      "proof": {
+        "config.json": "dc0afde01b20501f0f12a179c44c2954511a34a6b68b9b11b48d472843a7b98c",
+        "result.json": "ff2f5bdeed41c71c7920a5444a852698ebc88ab4569f51f49c75fb3b1cc3ffee",
+        "artifacts.json": "72edf5723e0305ab72bf11ad51e40eed12611cb09282a5d6181b1ea248b58916",
+        "complete.json": "47bba763cf95dd1551500703dff1a47d23520b58fa70ec2c9dd91cc1d6a821b1"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed23_mse",
+      "status": "PASS",
+      "best_epoch": 148,
+      "n": 8359,
+      "proof": {
+        "config.json": "93c6a79771af55a7b0f5e903a506e871dc75c83da1aea9bd817173914e52268b",
+        "result.json": "d742f14e4c125baee59fabe8fc596c6114bcc9863c0936461c02b0b959ba1998",
+        "artifacts.json": "a3cae4b7e49b9847c809fb419263148fa577ad4dc354f08298142901b4f66c2f",
+        "complete.json": "4a8755d44003b377057aa2b766b412a1ca9451f363646352be43118d185589a0"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed23_importance",
+      "status": "PASS",
+      "best_epoch": 148,
+      "n": 8359,
+      "proof": {
+        "config.json": "b5ec87d7dc0073186a3192dffa608248ea1a519d9cd8bf50877e3703e02c2497",
+        "result.json": "2b5a7e448feb8a3f04c2acc23c277ed77e8f16842fb03219faff6517c9935427",
+        "artifacts.json": "880a87cd2439d8d5247a372a5f59af17ff1854ed09e6844cd9b88eea6eb84d5c",
+        "complete.json": "7fc70e96ffeecbb24d6cf0cfd7d94269cdda4c4df85b1ca0f0fb59de4fa93b36"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed23_pearson",
+      "status": "PASS",
+      "best_epoch": 148,
+      "n": 8359,
+      "proof": {
+        "config.json": "435c831006121b4c1ec2eddd196f405e8345b4a093f8baed843e8332cd4248db",
+        "result.json": "b5d4ca80eaa99dc800303c3b80bc9bd7c0714791c1f91c5fec12f9ac8f29b354",
+        "artifacts.json": "a4350bcff997a17e7fad28e904ddec5f79665bc0af52642000027b64add3fefa",
+        "complete.json": "cedcc7f71f46eb0493a82e8d04d32807d02d00b2af76a2e13d458614bb8316d4"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed47",
+      "status": "PASS",
+      "best_epoch": 73,
+      "n": 8359,
+      "proof": {
+        "config.json": "f0ea53b9bc450b8d0e0c4af79c35412242b9b22191baea2edaafbadfffe8678f",
+        "result.json": "cfe233924a1d703d85184ba7faff3ec10d9ff31581e5c646a94ba57e31d2f19f",
+        "artifacts.json": "d24e2a73bff413539cb255ba35dea0e0b6bf8d89fc264c936de67eb47441bdff",
+        "complete.json": "8a6f48cd04dc3c1b79607ed4f82a0fa3ba8645e02939526fa92c6497180d3850"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed47_mse",
+      "status": "PASS",
+      "best_epoch": 150,
+      "n": 8359,
+      "proof": {
+        "config.json": "05cafd2fadeb538b247dc5b7459b08733624564025017400c78ddb39802bcb20",
+        "result.json": "eb6a922ec8264cd1260c79cdf2118649939f55150fdc17cd3d921ad002cd8b36",
+        "artifacts.json": "96531bf95725bfe5d56bfd888797cad8b96745feb732509e825daa0c82d9728b",
+        "complete.json": "0ee1c8a11bf9944fadab08472b4f75dc95ef69f22f6b5cc7642a51866891190f"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed47_importance",
+      "status": "PASS",
+      "best_epoch": 41,
+      "n": 8359,
+      "proof": {
+        "config.json": "aa15d09340b4eecdde827550059fea708ad502fec4bd313b3754973cbc54744d",
+        "result.json": "9c60454e92b12463150b84c919853438108a9340470fb8be6dc9d417fe5aeae6",
+        "artifacts.json": "e49e75ef4c3a6b704e885c73def033b0405ac5903a2468a8c917831d081c81ed",
+        "complete.json": "1a3170bf6cc2c58ac40208ac8d0d2cbd7da42b7a5ffa72c04a65182e5c535934"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed47_pearson",
+      "status": "PASS",
+      "best_epoch": 34,
+      "n": 8359,
+      "proof": {
+        "config.json": "72a711165164914104efcc9abf54ba3e1e23b921988a711d1e889f165ef01584",
+        "result.json": "155a125c8740df0e6bffc867f4781950b89b4c835d9ba5d0acceec5ccad4c8f3",
+        "artifacts.json": "e5dd46a8eb9cc8e71d8d43f5290f8ac4efa08e984c3342669779dd8076ece809",
+        "complete.json": "62015e9095bac54c7c9ab728c4203956fe44de1e42ef1f73079885d8af81ae09"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed71",
+      "status": "PASS",
+      "best_epoch": 42,
+      "n": 8359,
+      "proof": {
+        "config.json": "85e0b3986855292497c2e8ca21825ea58bf135f189cccbe8f4e8cf30be31baf2",
+        "result.json": "d5e20804b01d8e6cbd2eb3c24c3a667102a937f3f65e66a7f92ea392f22ae8fd",
+        "artifacts.json": "c1998f7970c22d09f66de8edb51184652b07dc5f5d374e21c3e7be2f8af13795",
+        "complete.json": "0b006844c24e8c3e76716ebcec8673289ca234a018ba5c54261d81b95d12798b"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed71_mse",
+      "status": "PASS",
+      "best_epoch": 150,
+      "n": 8359,
+      "proof": {
+        "config.json": "46e4f751b886698f774dce8f09ab9c79638d8f180cbb4537edbb66942775af25",
+        "result.json": "141e9238385e5340fe3080c11c52318e3b8bc752470ebb30faeeec26ca717654",
+        "artifacts.json": "01eff7e3bbf22969db644583f7880e3c9399e5714ef775ac4a55d020d6d0a078",
+        "complete.json": "fec12ef2e51e8cc6be1cacbb4790bb9d47b1209c328739333ed42ffe1ae02a4f"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed71_importance",
+      "status": "PASS",
+      "best_epoch": 65,
+      "n": 8359,
+      "proof": {
+        "config.json": "a07be2fa3b9e139c97254887eec932bce85e6b148248810f5489aadd97d4207d",
+        "result.json": "f3539c03a4d289d6f8af4a7a7cb66be5aa989a2a0c5c0246d8b5ecff07f11e63",
+        "artifacts.json": "d98d7a128282ba98af74ccea2e5b5921d7570f14f034d9dfe8c101decb35bde0",
+        "complete.json": "e5352c6e6683c8cb1fd5724c6a6ca775e0395a67d1c5fdaf0d0a4ed83c1dcd5b"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed71_pearson",
+      "status": "PASS",
+      "best_epoch": 102,
+      "n": 8359,
+      "proof": {
+        "config.json": "494733418d8cbc042c4cb08c0b2badbb27a800057ed0b798cd2c89b0bda68dcf",
+        "result.json": "673850689da3dbefd0fee4ddc0c89627950d33912a80d6ece5e84663b802062e",
+        "artifacts.json": "d12261b76eabe596b664c452cf9480bb5509d20d3410f980c6d9dbe1cd3c3a46",
+        "complete.json": "6dbbb7619d9ee1f4f0de11b1b88542afb290fbe886fc97b3f6a14e4a50af999f"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed101",
+      "status": "PASS",
+      "best_epoch": 38,
+      "n": 8359,
+      "proof": {
+        "config.json": "ba2310822f487b1a99fa1b4eff978d8c00e3e77acaf090454d72b413a2c467b5",
+        "result.json": "e140c463de7c41f9e501cf1a7fbfba45296d5aefd7545154e018cbad901b235a",
+        "artifacts.json": "05707b596055c546e09c00675bdc7eac50fd0907d875c87f9c7d8cdd8bccb795",
+        "complete.json": "3b3ffd33fbbd817d9801bf04016bfde607c4643c0fcf1805a77e3274389a03c3"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed101_mse",
+      "status": "PASS",
+      "best_epoch": 150,
+      "n": 8359,
+      "proof": {
+        "config.json": "d9eb8bfa89b806c383a0b722536ea84d202f11f225e3aadb62194112d42348c8",
+        "result.json": "2a177b07ec3d6e13c8b09bceb6d642f100844e3962fb5bbc9ac273e1646d3b2b",
+        "artifacts.json": "bdbe428dea9b660ae3d020c8eaa4b80ba4b2f5aad2b3e3336eab2d7ea6ddc25c",
+        "complete.json": "5dafb67edb4e8fe2028b83080b7cc48cce63521a98ccbbcbcfc86076fa37796c"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed101_importance",
+      "status": "PASS",
+      "best_epoch": 115,
+      "n": 8359,
+      "proof": {
+        "config.json": "1592d76ec46e32c3639677dc0a52b1b6eaecd55bb0667605548ad27697b4a40e",
+        "result.json": "8559a8c5a4f4b78f518ae899573ebb42a7287bb761c4fcf41f598f68b94a2e5d",
+        "artifacts.json": "0cc821213947461901c367623b01e50951d85a77978ee40746130a05a213e70d",
+        "complete.json": "c126b5cf6dece8e89a94f4d7b7ce2fb85dc93c4c358610853ff587ebf2587b3d"
+      }
+    },
+    {
+      "run": "pm25_tensor_seed101_pearson",
+      "status": "PASS",
+      "best_epoch": 63,
+      "n": 8359,
+      "proof": {
+        "config.json": "182a921e8c2817f21645d324af740e56699606009d170d3082f87a3211f76c94",
+        "result.json": "bea1d93505ab19221374391eb67f880b054688680ed2b08c854e0610cb99d46e",
+        "artifacts.json": "7f4df3e65df9fd9376c4bdf9ee60653f824ba4f2db80515c1a492c31b19dd67d",
+        "complete.json": "73a4f46240ce2885f41ffb6a5c30c0c80380ca4d54f7e394d12954f9d4c62bc1"
+      }
+    },
+    {
+      "run": "pm25_full_seed11",
+      "status": "PASS",
+      "best_epoch": 146,
+      "n": 8359,
+      "proof": {
+        "config.json": "db079a153c87c27b174d449bd31667458083c0ad87010b649dbd4da8d674802e",
+        "result.json": "6c86cffc42d8a2a055bab74754aee485ffbbdf5f75c1ffa4aac2328648a5db9f",
+        "artifacts.json": "8a5b06a8f5b1501fb93d1d7b732f3d206a12755f6af90b86aec894b0eb9a400d",
+        "complete.json": "77ecc1770c969b77ce33d0738617c5a150270d399dc3d7e871aeee24d7ea67fa"
+      }
+    },
+    {
+      "run": "pm25_full_seed11_mse",
+      "status": "PASS",
+      "best_epoch": 142,
+      "n": 8359,
+      "proof": {
+        "config.json": "92700e9f6d2016cb8707b3c4cbb463a5c27fb96a0d4dd23d4f23f386f2981f4a",
+        "result.json": "7f91ddaa6b102d2bd49e9d19c30442a35803831a8c3e93dabc40e64e44a90eb7",
+        "artifacts.json": "f0374c76da391024326d12ba59f692e91882ca9daa8d6b61fd484c69eb43d64e",
+        "complete.json": "bb4ffab07981047cac8d937445da64a4a973a72b66b69c1304efdcbe7987cbc9"
+      }
+    },
+    {
+      "run": "pm25_full_seed11_importance",
+      "status": "PASS",
+      "best_epoch": 143,
+      "n": 8359,
+      "proof": {
+        "config.json": "25a274fcd2da5af7d659d9b7041ca0790f0895f95706d9508bebe07c7665f9a1",
+        "result.json": "8e8761cb091643ba7cbb8cb64e96d52afe232b4848eb990c16b923928b1802e9",
+        "artifacts.json": "8b7047763049040c6c4214db23d4661f39ea28d84ecf1f674a3e5e1100c37d4b",
+        "complete.json": "44a546e77d670148af74180b95bece167b956772be65f145a778dfd4d3af57bd"
+      }
+    },
+    {
+      "run": "pm25_full_seed11_pearson",
+      "status": "PASS",
+      "best_epoch": 150,
+      "n": 8359,
+      "proof": {
+        "config.json": "2ba2afb51543850dac7af0986a7a5455fa14719a993f327fc13c9f0947ae7942",
+        "result.json": "6305b2688f7c702d1c80dbcea45fcacb55bcc99878e5505a473af5ddae82325d",
+        "artifacts.json": "2019d7b2eed23793bc1cafd227ac455e6b9ae25657b5fc92d576395bd929c67b",
+        "complete.json": "179a608d4aa583cd4746ccab835794aa5005ddde58f356c4b214391c0e0ff614"
+      }
+    },
+    {
+      "run": "pm25_full_seed23",
+      "status": "PASS",
+      "best_epoch": 148,
+      "n": 8359,
+      "proof": {
+        "config.json": "2f43de09f47019be6e3af2979b0403191021846bb2ce60dc973f3a0741a4faad",
+        "result.json": "fa1f42108c90b81d429ceaf16898631b05d1d5651b613e4bc81ab6e180a8a446",
+        "artifacts.json": "6e248ad3a7d92c8ddd7eefa9fa0b3e7a69da0bc51b9237440c18b0920ede120d",
+        "complete.json": "a791cafcf86b20528d5371905f391cfa9411c692cb5a47491fccfd7445819608"
+      }
+    },
+    {
+      "run": "pm25_full_seed23_mse",
+      "status": "PASS",
+      "best_epoch": 132,
+      "n": 8359,
+      "proof": {
+        "config.json": "a9d7d2f03cf5411ef59dfab8d250b17298b5e5157d8bb0f8e990e6e583462ab5",
+        "result.json": "fc537b24ca1d560ebf0b48c4db882c8d10ff512e7143a9ac524c5dcfc50522df",
+        "artifacts.json": "c8d58e725b06fb757b23c8b83cae0abb65347de21ca490d6d1fb4a641c75f9d0",
+        "complete.json": "fab952249e1cdd8ca30cc405479ff9f95bdbca33d74a9dfd2633eb20ecf870bc"
+      }
+    },
+    {
+      "run": "pm25_full_seed23_importance",
+      "status": "PASS",
+      "best_epoch": 89,
+      "n": 8359,
+      "proof": {
+        "config.json": "792857ebbda846bda993892c431a1245a39a1cb08fab5420cea6ffbd076d40d5",
+        "result.json": "38efca12ec347ce28b964c73765f8aa693657eb2d1f2d94404f626105435d8c9",
+        "artifacts.json": "b2f133f26714bc91185786af576900867545e5d28d58e5598b5a7b2df09be17b",
+        "complete.json": "63bdeb04d61c5c5229986c6e3b7f901317b0eb57a9e7372953ffae7e436aea77"
+      }
+    },
+    {
+      "run": "pm25_full_seed23_pearson",
+      "status": "PASS",
+      "best_epoch": 148,
+      "n": 8359,
+      "proof": {
+        "config.json": "10339d0d44338a7fb6a9898e75c631ee5ff11667399ce278120d3fc949f89b5c",
+        "result.json": "a0a089b45452898fd4a2f8ae1d1784ed0464939396f199670b42b7b633a125a7",
+        "artifacts.json": "f6e9093d2ec78ad0357586ac0b90b56bb5eaf08c89ac4cccf75ea98a4f3c7520",
+        "complete.json": "22905378fb786ac15c7c528dd772b7ae726d8565d0dc0ee3a2e53b875cc724b1"
+      }
+    },
+    {
+      "run": "pm25_full_seed47",
+      "status": "PASS",
+      "best_epoch": 148,
+      "n": 8359,
+      "proof": {
+        "config.json": "7848349591a1a48677f5324d109fbaeeabdaea7d0994a80f38c58eb1add509a8",
+        "result.json": "16db56c674cccefbc041f8e4f096417af905989159f8925d15721b7ae1f86109",
+        "artifacts.json": "c384607a7587914d5d82a6f734e4972e4f8f134b6d3766ccdeaf2274e322a934",
+        "complete.json": "418c3c27359c5286579b110db82f9dac0e58fa06cd2fe2f2d8625b975b259599"
+      }
+    },
+    {
+      "run": "pm25_full_seed47_mse",
+      "status": "PASS",
+      "best_epoch": 147,
+      "n": 8359,
+      "proof": {
+        "config.json": "5639e6a399435690ea2be5030e3d3da127ce21dc0fa77d006942d44c16e69d72",
+        "result.json": "30b85e96a9f55a0e19af5241d82ae099b7dc9f8d993eee4a9defeca9b7134e57",
+        "artifacts.json": "13f5fdb33a28335c689bfd636b1fd1648915c69812fd7d439c86e3fe9fc7efa1",
+        "complete.json": "267a946309cb28738698ee44d9c676749debe2db9dc48f3b9cd08999e69b9772"
+      }
+    },
+    {
+      "run": "pm25_full_seed47_importance",
+      "status": "PASS",
+      "best_epoch": 149,
+      "n": 8359,
+      "proof": {
+        "config.json": "6bc654c2ec343127c0445f8b21536106ad53a146d446c21df84624ed5481fa99",
+        "result.json": "d27f7ab31cb12257582e54682826ea06fa88b09625d523ba3dc1b9b7b6d31ec9",
+        "artifacts.json": "58daa4e62d9bca3e6c52e060d49270e7950f55d38a1d9c04d09c18cc734b3a1f",
+        "complete.json": "a5c2542674d9f32a9b60b282fbc2d493104fa01e8c7a97938c7abc9115d4b9eb"
+      }
+    },
+    {
+      "run": "pm25_full_seed47_pearson",
+      "status": "PASS",
+      "best_epoch": 136,
+      "n": 8359,
+      "proof": {
+        "config.json": "5a5cc18fb1b427ede8bbe089f10b074e4a3a77745537b74977e37f3832a92075",
+        "result.json": "79a979a0e2309bbb01b5070f8fcb15bb756dfbbce32434cde0b17e099f26a781",
+        "artifacts.json": "4dc339cab2cfeffa891b07e59f97430e7de9fec4f8fab8e054a620d80b79adae",
+        "complete.json": "6182d9117397dc9af2ea6c6c8f9d9f82ddeac64fab1d20f67fea211dac6da645"
+      }
+    },
+    {
+      "run": "pm25_full_seed71",
+      "status": "PASS",
+      "best_epoch": 140,
+      "n": 8359,
+      "proof": {
+        "config.json": "25f5bf5ab7bbc9fb9b71effdb011eb026f16b6165d6b56480c6e1154869d5e7a",
+        "result.json": "1512bb6f1be7fc67e05e0206bf097feba1d52c109af59845af6cc91b7633ad36",
+        "artifacts.json": "15f92fc8d530c1bd8beb857ed45c6dcb1a61c0b12631a650381d98430ed0e67f",
+        "complete.json": "da7c99842cb9711c63ba0340df4593a9b53a0903eba112accb30c395145b862a"
+      }
+    },
+    {
+      "run": "pm25_full_seed71_mse",
+      "status": "PASS",
+      "best_epoch": 144,
+      "n": 8359,
+      "proof": {
+        "config.json": "c5c543318cc24b0313f23f460472fba0ec0f409fa0f9a11d2f1588030b64f02c",
+        "result.json": "274dac6888b39dcf58c37ab52c4340b45dd0d1e039fef4d4de8a4d9a6f78fb0b",
+        "artifacts.json": "1ecbc02d1c0b7a26f00bf2af860469da12b18520de28f8d05eaf0ff8e750c41b",
+        "complete.json": "c2b25dd622537937c275db279c5daaec0363afdff57f6f22184e4e5520e3ffb1"
+      }
+    },
+    {
+      "run": "pm25_full_seed71_importance",
+      "status": "PASS",
+      "best_epoch": 142,
+      "n": 8359,
+      "proof": {
+        "config.json": "5fea656cc362241b16534e396c1d927b9951fec60c254b573eac40a138efe2e1",
+        "result.json": "ed24bb3b022f40a312d38cf6347629306c238ce6d2eda256ab293dd79caf9749",
+        "artifacts.json": "8624daf145d81c0f66105b6a91dabccc20c1cd9ebfc0002d4e50f28f3eb8ab22",
+        "complete.json": "6735aef0add34481c6c61213a8907acd2b7578a4e0b1b2370dded5df1efc8177"
+      }
+    },
+    {
+      "run": "pm25_full_seed71_pearson",
+      "status": "PASS",
+      "best_epoch": 150,
+      "n": 8359,
+      "proof": {
+        "config.json": "3f89909bd434fce790875601878b084674e310af29208d1a7481f2cc35ac3f9f",
+        "result.json": "d29bbc6421c93027006546999874c9f6d2c42444d4dc93bda218d7c3c3621b78",
+        "artifacts.json": "4340b188c2eda75e5679a3d2d03a9458870090951c30d969f21e513ea8c7ff6c",
+        "complete.json": "23d43096a531c7dd26028b0ab427b1a3e38fc754067bcba3d05484b4e5f5aee0"
+      }
+    },
+    {
+      "run": "pm25_full_seed101",
+      "status": "PASS",
+      "best_epoch": 146,
+      "n": 8359,
+      "proof": {
+        "config.json": "17cd44c10ca53f47b82119fd82a326b39f998e36343c40dba794d539880dd879",
+        "result.json": "c81621dadf6f5cf0cd00ec822d06ca2063caac7c263695cb36d4a0ce2c25b137",
+        "artifacts.json": "6ded0bdef9a2610075340c4c98b179d8053acd5aeba057c35b9a7842f8b26306",
+        "complete.json": "925ac82f4c01d805e1e9bbf5c38a7df32cb267f576ce88b8d001cf681b3f987a"
+      }
+    },
+    {
+      "run": "pm25_full_seed101_mse",
+      "status": "PASS",
+      "best_epoch": 149,
+      "n": 8359,
+      "proof": {
+        "config.json": "7f27e0e9e384103e4775ab75dd0d1769c1cb70a5773dd4c67c89949910805fdf",
+        "result.json": "ff1a607fe63724d48fde4795d8fb879b16a3374c355cd5a10b63c9d1013fe5c9",
+        "artifacts.json": "d4f49306db1c898d4dad0017e7b1e432dc915d59a8e69c4b366dc1537b510cfe",
+        "complete.json": "68f9b2f3eb9b57f64abbbf9872cc2ef40754df17152fed8870ffe940227fd064"
+      }
+    },
+    {
+      "run": "pm25_full_seed101_importance",
+      "status": "PASS",
+      "best_epoch": 149,
+      "n": 8359,
+      "proof": {
+        "config.json": "f09d31379e48c809b4c97f83227239d6190a20095bd25205034a97cfd3b10dbd",
+        "result.json": "93f1e9f42e01c9066ae951a077f946f0f2139c71621fdddacfc2326d7b5ff271",
+        "artifacts.json": "71ef8472799a8e52c1dbaf0992b5d50dc1893f929b2b68b83cb23b751bf41aba",
+        "complete.json": "f21984802783df07d4bc1668039a5b73ff47d961fd8a7452e5e007a99a4c3728"
+      }
+    },
+    {
+      "run": "pm25_full_seed101_pearson",
+      "status": "PASS",
+      "best_epoch": 149,
+      "n": 8359,
+      "proof": {
+        "config.json": "ea18317fe622984479417670b056a94e10b8bebebe60e55b3a722fb0b0e82d01",
+        "result.json": "08af3184a7872cc83a2d337ce4341f9f5952cf73f414ce9014f0da4d6c44bf67",
+        "artifacts.json": "e1e3e8962bfc11edf3b3e1f533089024c3564ee35a7aa5859671df015c791a87",
+        "complete.json": "0a72ba001d389bdd380a3ff3257c473c5bd4df48521472646329934fac65777c"
+      }
+    },
+    {
+      "run": "pm25_lstm_seed11",
+      "status": "PASS",
+      "best_epoch": 92,
+      "n": 8359,
+      "proof": {
+        "config.json": "c3c6f21aa95ed290c1919f1a09f52384695657b792287b3bb5103d17718d88c7",
+        "result.json": "43f3a991de2922d8a87b50d480acf55b70a3ef50b8eb333d15ee23343cdc9d6f",
+        "artifacts.json": "7df328bef0b00318f1b8bf23f211d942050e00395231fe8fc8853705949dc4fe",
+        "complete.json": "428c8b119ed0c9d39d7bd20d3b36af98a86be7cf3edcb484e46782babd4b3925"
+      }
+    },
+    {
+      "run": "pm25_lstm_seed23",
+      "status": "PASS",
+      "best_epoch": 67,
+      "n": 8359,
+      "proof": {
+        "config.json": "4c9ae06289791ab721c12202285b2086eeced78e69a844fc7ddea0686c8b9ad8",
+        "result.json": "971ea0b5f76db1a66944afd723f9c22e62cce3398d0eb5f9b095f9c96129e41d",
+        "artifacts.json": "313deb9de9e8877f5672002cce5a864a2f4ad36fbc31a867b76dfbf6141fa987",
+        "complete.json": "1f5373444a4244a86acc83dd2ce6ff4ca470f64ba4a2fb845436fdea5a4510e9"
+      }
+    },
+    {
+      "run": "pm25_lstm_seed47",
+      "status": "PASS",
+      "best_epoch": 72,
+      "n": 8359,
+      "proof": {
+        "config.json": "504d36cac50f8e336a66cebefd4c9d0e83cca1fd02dc059ff5b1da38a096b575",
+        "result.json": "11939f4c5b09b707510038eb94e900ab76727555df1e6c4c742928ce83b63dd0",
+        "artifacts.json": "76d5d0a13a41bed8d78c0ed0665194e9e478b10332141a09bf83eca9e3cce7fd",
+        "complete.json": "0b84bcda47652aa858913db24c74da6852ecbf77b1f90ca590534d4b30ab06b3"
+      }
+    },
+    {
+      "run": "pm25_lstm_seed71",
+      "status": "PASS",
+      "best_epoch": 62,
+      "n": 8359,
+      "proof": {
+        "config.json": "16e497986229550c1be7eedf1766900637bbc0834fd23e5717632d125024f383",
+        "result.json": "d186d79c71a630451c26a901904fcc646e037661e3ca67ef13618178208b0466",
+        "artifacts.json": "0c81f936be1b7077232a5ad57a1f9a17b41938aca579a243e67ee118608b69bb",
+        "complete.json": "61c0c65146c283a5d2c7bc5db41f6b0d1d898e9772881575fa37e9290b9fbf5b"
+      }
+    },
+    {
+      "run": "pm25_lstm_seed101",
+      "status": "PASS",
+      "best_epoch": 95,
+      "n": 8359,
+      "proof": {
+        "config.json": "65e15346157c048767e081db156fd3cf405bb9718005afb5e03032dc1e9e5aaa",
+        "result.json": "5800065799e53d024fa9ea2451904f2178fb7d74a98698f7a9d033809fa0e15a",
+        "artifacts.json": "891585aac2444ce7ab82e3994c28456234f35b12e290e1597c261d06fbd5229c",
+        "complete.json": "b2bc708d08806dbd764b57f7f2e39ce722d336a2649822f8884f4ea94b928c7b"
+      }
+    },
+    {
+      "run": "pm25_dual_seed11",
+      "status": "PASS",
+      "best_epoch": 66,
+      "n": 8359,
+      "proof": {
+        "config.json": "adfa7a16f305ca8f2bcb92ed471fc7bcd97544dcfcb15d7f113ed2a93959e73a",
+        "result.json": "9c93a0552243e8d3a373a51e95b1244a86cab7ac70c4b49d86a8b3d246864bce",
+        "artifacts.json": "9daa6f2d76df9835155cd2fb539f9e64e60bf0cbf5f2c6fb00cecb2399da91f2",
+        "complete.json": "f75c52654e58c286f8ff78f51ffd21d178ca296634aa9135123ef3ae0b450a90"
+      }
+    },
+    {
+      "run": "pm25_dual_seed11_importance",
+      "status": "PASS",
+      "best_epoch": 35,
+      "n": 8359,
+      "proof": {
+        "config.json": "911c0aa2e3fa4da92c11bcfd2f6a2a4d894b0f0398950bce9f065b25fb275523",
+        "result.json": "a5f801d52d359a04e58908aa3f197e8a74c83cc9c003ddd683dfef66b2204f98",
+        "artifacts.json": "fc0bc2c58168011cb7a82fc19bfeb4bd5add2fad07a5131359669dfbc811f6ba",
+        "complete.json": "613025a16a2272cfa9cac2df9c5f711dc36776203528e903ec69a6dd1829bc5e"
+      }
+    },
+    {
+      "run": "pm25_dual_seed23",
+      "status": "PASS",
+      "best_epoch": 60,
+      "n": 8359,
+      "proof": {
+        "config.json": "0ff28fa139766ea0e93338a075fa9684e15dc03ab91817f1293ecd883c725787",
+        "result.json": "6c27a86741658d0dfd114a9467201638839b51c9bfaaf697f3e11997041308ee",
+        "artifacts.json": "2c1c0c71d0274882ea38aabaf8aca3ca7d31b150b432beb447cae21bbd4154a9",
+        "complete.json": "baa2679a75d70013ffc1c0a55571ee8c34d73c56a23c5836fe8feaaa58259340"
+      }
+    },
+    {
+      "run": "pm25_dual_seed23_importance",
+      "status": "PASS",
+      "best_epoch": 67,
+      "n": 8359,
+      "proof": {
+        "config.json": "63ca677675cfb5f3c87d5c23947c488d1e34f20ee8180f6972c5a9c5e6600b23",
+        "result.json": "3722c9e6bb86401a90bbb96be22db049dcfb9dbf3ae5df8673d883900bdce9aa",
+        "artifacts.json": "0f20d798f8578b87dd7d03f266d523f0cfb4eb1ff13d98dcb6be5502a5121443",
+        "complete.json": "e8444ba45138bde9f0dec13c935a43141edd2d9fb8a155576af7148c8ff096dc"
+      }
+    },
+    {
+      "run": "pm25_dual_seed47",
+      "status": "PASS",
+      "best_epoch": 49,
+      "n": 8359,
+      "proof": {
+        "config.json": "cfa952e27d286af9a4dcd6ea477f79db45e5c06615fc39023a4c7f14ef9cfe70",
+        "result.json": "3503f0bae0933d9d3e5a6353a37038b1bc260d159757cc2531d672841e532a77",
+        "artifacts.json": "bfc4bfb7053a6da5779e4467bd468d071eb68c1aca26753e11342d5cc243cfbd",
+        "complete.json": "518432d4dde5a947dfc358c2f2833632e81c7bfa9bdcdefc9da838180bda408a"
+      }
+    },
+    {
+      "run": "pm25_dual_seed47_importance",
+      "status": "PASS",
+      "best_epoch": 58,
+      "n": 8359,
+      "proof": {
+        "config.json": "5dfe3b7251897f33a241bda0e9d3d1dd370cfec478aaefee8cc78c8cfc02b16c",
+        "result.json": "bbfe0437c683591f0dd45a76b73e7c5092e948a7ea5b1baa63ab4b63cbf997f7",
+        "artifacts.json": "66fa04036ca15997d056d5f52a4858ec94e9194c5ebffa200059b773f8da5a19",
+        "complete.json": "fe2319abf4ab232193644720859eebf5a567fe9a70ecba028988f5ae5682004a"
+      }
+    },
+    {
+      "run": "pm25_dual_seed71",
+      "status": "PASS",
+      "best_epoch": 101,
+      "n": 8359,
+      "proof": {
+        "config.json": "212e1e988ea4de06ff331bc8c2323d5eb35c5457cbe841a3a0093ce71a769da4",
+        "result.json": "91eaa38d9a7ed7025e5b5e015e3816936177d828c7cf667c4d89002a68cca791",
+        "artifacts.json": "7f707b95762c9c6b2c6c1f7044464a077c8b5c1783ea95cde43ab41f8aa219e0",
+        "complete.json": "8e7fbb99a51cc7a9f99443f5e1c70ac758d94999fa55c593ba58e356d9046e7c"
+      }
+    },
+    {
+      "run": "pm25_dual_seed71_importance",
+      "status": "PASS",
+      "best_epoch": 101,
+      "n": 8359,
+      "proof": {
+        "config.json": "8f9aa77e627ffe59d6ab28cf625ea3a51787fcc2ee0be4357757b7c028b0f39e",
+        "result.json": "394f7685db61c696a4def406062a4f06bfdf586b66f1db07343f91f02331ee27",
+        "artifacts.json": "03c9f5df59243fc6db57e3f195c10693812fd96eb3e9cf943f61d5d8a3b26a3f",
+        "complete.json": "4d5390c67a5d7b67c78a7981d7d326657470de3c8ef34bee6ba91c1832f47f55"
+      }
+    },
+    {
+      "run": "pm25_dual_seed101",
+      "status": "PASS",
+      "best_epoch": 97,
+      "n": 8359,
+      "proof": {
+        "config.json": "bc96b781ce560e2b87cc8215ec43bcd6ec999f5420e895a23a7d15a9c4f50468",
+        "result.json": "cc3bb90e075b8c7f3e6e0c0cb518cf9b9c9172e1cf4bda6e0dbacbfeacf1a933",
+        "artifacts.json": "c868dab84451537bdb0f6e75faf0db41a41145b215231a812e7ee80806a6f68f",
+        "complete.json": "eed2c703a7a3b269a14f38b758b1834c8a2887462ab0a8d2d575e0ca423aca8d"
+      }
+    },
+    {
+      "run": "pm25_dual_seed101_importance",
+      "status": "PASS",
+      "best_epoch": 79,
+      "n": 8359,
+      "proof": {
+        "config.json": "a26d2c5775ae311a173ec77748be5f9a467299c661c0f35f71b407128aed4ea8",
+        "result.json": "56ed101981a2aaee02aee6b669d4f19c3ff9de55a119c16989eb78bf768578d7",
+        "artifacts.json": "a55312dfb33295312e925afd688922a9b69286cf1def2002e4a644e39fb2849b",
+        "complete.json": "03c2526d78cd332d8e213bc258689e8cb0004006f523926747120db5398abcf4"
+      }
+    },
+    {
+      "run": "pm25_retain_seed11",
+      "status": "PASS",
+      "best_epoch": 67,
+      "n": 8359,
+      "proof": {
+        "config.json": "42ab207ef255a5e3a08063ce35c7aaab4172d6ec79cbe7a678c55140ecd7ef8c",
+        "result.json": "7eab2f457ee80533802e5c98fcf3d44f6bc2ccf320008cb6178f18f865fc674d",
+        "artifacts.json": "984866f2d0d1ec0fda4935f0367dbc1734cdf50e6ae640205269d8e062d0b2d1",
+        "complete.json": "ed5f83e5c2f890bccd587b9770e1af007736dd798e53620684943d34c27c3c8a"
+      }
+    },
+    {
+      "run": "pm25_retain_seed11_importance",
+      "status": "PASS",
+      "best_epoch": 49,
+      "n": 8359,
+      "proof": {
+        "config.json": "5d459da0e5bf966e1fbdcdf89624e96b0f2e991a0535ce41efaa43b1f60552e4",
+        "result.json": "9cd05cde73d6d50d59de9902213f48a61745e71a1e62c8ea75d0fa0a6c5c2711",
+        "artifacts.json": "703c6856c794c7238a0c6a2553b3218e572bef292ef60336e57ef9257067fc22",
+        "complete.json": "e34c8e3c0fe3ed386bb91e19b9d117eb817e41dac0bd32de9d18552b6690f064"
+      }
+    },
+    {
+      "run": "pm25_retain_seed23",
+      "status": "PASS",
+      "best_epoch": 59,
+      "n": 8359,
+      "proof": {
+        "config.json": "e4d58329016a37c26d57d1906c2d4be9b5d71bd0cffe7d99cc4f4e5b31126de3",
+        "result.json": "e411c4c6d9772fda6cc7b6b0931c7b5329f0bb9719ab19103e847c575f9214a3",
+        "artifacts.json": "6619db3b934c9e7f8c6b45c8d0e12edee173aa0dbebf13d7f233463e75bbe0f6",
+        "complete.json": "8c725e2ac8abb115651120407af75601477b9ce75864bfd239d5306a6305a756"
+      }
+    },
+    {
+      "run": "pm25_retain_seed23_importance",
+      "status": "PASS",
+      "best_epoch": 43,
+      "n": 8359,
+      "proof": {
+        "config.json": "76bd6175a2ef92a8a75a8fb0bf75a75444c23574e59cc7e42660888134cfb03f",
+        "result.json": "6353de9d8229f0ff720d4a6706fea88ffbd402843f5acc5973f740fc992718f5",
+        "artifacts.json": "865a5a3ee1f29811fecda7fa283e81dfd7923755be6e98b453b8518391c3fcb4",
+        "complete.json": "679599729e2a2c8749805bde1ab977b7717c00f52a4f4c96dbb58b629c407dd9"
+      }
+    },
+    {
+      "run": "pm25_retain_seed47",
+      "status": "PASS",
+      "best_epoch": 40,
+      "n": 8359,
+      "proof": {
+        "config.json": "86174eb6e333547401d93a8719ee15803458d454075e2f7d33995eea80c4566f",
+        "result.json": "47bfcac83aa8b4290bc6fa804bb0f03fd5d862f4731b573615dda9da2843d122",
+        "artifacts.json": "ddc3b914ec517f119b534707e2ca7d6d078c46d3a2f124aeff20174258af2658",
+        "complete.json": "68c002657dacd51c1af1600203845f1c9429ccbd4dcf0170eb1f70d5b0f0bec0"
+      }
+    },
+    {
+      "run": "pm25_retain_seed47_importance",
+      "status": "PASS",
+      "best_epoch": 39,
+      "n": 8359,
+      "proof": {
+        "config.json": "917b179234ce7689be4b1e83c26917f99935dd0c9c815bf39c765bb23e83b42c",
+        "result.json": "bd985a1d212d31b0dd4d47d86917e007ba9ea0edbd4c289abe384501178494aa",
+        "artifacts.json": "ddb43805873d928f92c058e151cdaafafe84de9951c55f880c689340293f5439",
+        "complete.json": "2aa537bcc753a59b46bce57245da27a626595212ff8dd4d151aa00b2d3c30791"
+      }
+    },
+    {
+      "run": "pm25_retain_seed71",
+      "status": "PASS",
+      "best_epoch": 47,
+      "n": 8359,
+      "proof": {
+        "config.json": "5d4406bd5cf9c489004c6278598480a02d80b39c3f90d03c795ab5964cf98c87",
+        "result.json": "417e5e728386db07e6e081483e69deb4b0d57a872b5c75a891358cf5832cb201",
+        "artifacts.json": "8c26912a0f561e5df3ec79b025e8a287d763bd83e1be1b2520f457d3e90adca3",
+        "complete.json": "771a390c02f51434f4f519dcd834032b17ae8846f9f98b58b55046379f4a0043"
+      }
+    },
+    {
+      "run": "pm25_retain_seed71_importance",
+      "status": "PASS",
+      "best_epoch": 39,
+      "n": 8359,
+      "proof": {
+        "config.json": "1093ad6194799c1a2612ae3c114f8f828e07ae92ea49e1dcb0985b31b42fcdbb",
+        "result.json": "a0da5b3cff62692d3ba0083c679e308c8e3fc154ee26e43f01680529d0d87fa1",
+        "artifacts.json": "0dad0b40f5c39de75d524dcc4db21c9fb5cff88637f070080b37aac82bc26d43",
+        "complete.json": "6468b1d516cc9bf8f5d845baa25344829b30615708431d94d4b1a975d8bb525b"
+      }
+    },
+    {
+      "run": "pm25_retain_seed101",
+      "status": "PASS",
+      "best_epoch": 17,
+      "n": 8359,
+      "proof": {
+        "config.json": "b0e62546bfbfccd3acff36badaed4a5f2ef27c2dfde2ee191c5ef9496209ac32",
+        "result.json": "b0c85aadaa4f0ff9df6f5c1a00c1c52bc82ba4e26e1c5d0b1dadf8ab48371ee5",
+        "artifacts.json": "45cf867035be967023e6102cea384245325cdc7e0c8eaa9829fe26b32af42175",
+        "complete.json": "5c2b925de8fde1fe71386b979c49fec30020c61b08e276dee83993ed57b341c0"
+      }
+    },
+    {
+      "run": "pm25_retain_seed101_importance",
+      "status": "PASS",
+      "best_epoch": 33,
+      "n": 8359,
+      "proof": {
+        "config.json": "3a5c9c8550aea1c22d49f0b7e2da7f9ed1d90598c851d3bf28b20ad06579464e",
+        "result.json": "011e5110954f1d04f36de6796d4f0db5637259acefb892072e5e9fff543c7593",
+        "artifacts.json": "f27d522ffa89791e44ead5fe432d27aa6902ab48aa7463933a445272d995a806",
+        "complete.json": "7c70b2455ed7716a0d618b6ff3fbeb9896d65ba5a26997821c3531b29718be4b"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed11",
+      "status": "PASS",
+      "best_epoch": 70,
+      "n": 2730,
+      "proof": {
+        "config.json": "87ed1b8e4d0f6c45a32c57b7db2f0f9ea679ddb19bd4877bbac61f5c62dad85e",
+        "result.json": "da7d2002b2642edec86561dff2b81fb7177312aa175ec6e548a9a9003ed0c844",
+        "artifacts.json": "5b64ec9e0680f8aeb03d6050c5c74d0ad57f7d38f08ca36af2b74540c85ebfc0",
+        "complete.json": "32c92e89ce4a86fcdd697949acb09162ba9588208fec26f05e966d16e8b8d9bc"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed11_mse",
+      "status": "PASS",
+      "best_epoch": 21,
+      "n": 2730,
+      "proof": {
+        "config.json": "604068994750e787b8183986bc227eedd8fa9c70d52de6a90ac45ba0cfb00178",
+        "result.json": "38866d81be2b80c5ea80598efcad8dab245ee9b148df9697884f6fefedb0f578",
+        "artifacts.json": "93b7cb906e27c0efa19d595e157e97c23467020d27c1511367f09439475dc49d",
+        "complete.json": "1ee0580ad5a1131d576e6b7e88b2b9962d77cb4e34a5dbd65b65d9774602e703"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed11_importance",
+      "status": "PASS",
+      "best_epoch": 47,
+      "n": 2730,
+      "proof": {
+        "config.json": "1916adc82cbf7aa9f1b5965a3102b6a2dba5084e4933d2d2daa24351c33ab9a7",
+        "result.json": "550da21799ce768f8746b44ae4563a5073a108a796181ad879b969950ca342da",
+        "artifacts.json": "0a1f7a5dd3aba52f183570f9ae87cfc51615bee545f4404db60ed3a7887f61c0",
+        "complete.json": "5d6104b11f94b2729d4b10dd690307252980bf4a23d84ca531189fbe6225dfc6"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed11_pearson",
+      "status": "PASS",
+      "best_epoch": 55,
+      "n": 2730,
+      "proof": {
+        "config.json": "7711090c54af803a42f32cb4507015d7174efc0f475b50a84c16ed1e6025a36b",
+        "result.json": "19b058b6fee269274fa9c296a3133c41991f434cf8bdb6a96aee1a9215ebdb8d",
+        "artifacts.json": "54b7b130e3b433042933bbab40f07ad266a085abd9d415f20dbdf02b7bf65691",
+        "complete.json": "5943c02df3e4affddaa4ab247eb82a072e2087a00fb52e5f5a2b9f45bcbd1aaa"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed23",
+      "status": "PASS",
+      "best_epoch": 22,
+      "n": 2730,
+      "proof": {
+        "config.json": "fcb49e955b4acef07996667059d1743b52b4fd588e15d0704e9802a43c2e7368",
+        "result.json": "3dcf732b19ca428e6d89622d51556282f29b920ec8a68dfc846367825f69475c",
+        "artifacts.json": "21e44e89d452fcf73f434ec20b9ee653ae424ec0e9912737f49bbbb84de8bd53",
+        "complete.json": "d164ddffdd1e11358896833f3ee17e3c0bea3dc4870e537e0d99d78783254ed8"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed23_mse",
+      "status": "PASS",
+      "best_epoch": 9,
+      "n": 2730,
+      "proof": {
+        "config.json": "adfe5b82f94218400329b74e90a72bf5c30555ffb0bf5b6fbb2123f4486c77cb",
+        "result.json": "8b024d361beaf5b55e093127ee47e60a75241106c5cc6539a5e9a1d440638118",
+        "artifacts.json": "cb3450462435cecbffde346329982bf318c95a0ae940c251f3e0b11b4e818de8",
+        "complete.json": "ec59ba86c0a2cc80a2cf3f6251487b68fe2942d8a271cef016bcf260da0c2b0f"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed23_importance",
+      "status": "PASS",
+      "best_epoch": 14,
+      "n": 2730,
+      "proof": {
+        "config.json": "b5f0266173336fba818aac750a8328b3714fee57ec62154f3a534dec2574948f",
+        "result.json": "91469b1e96cff171dd2800b4d834c83afda9c0361384df6bf8a792f5ddc3ee14",
+        "artifacts.json": "5cbab9a2d64e124ae4195f15381394dd3677187abcd4aa2ff95a2d419edcd6be",
+        "complete.json": "9337a8edb2c5978a53894960f768547306c43ee2f4d8b66bf55565a37c8af7ca"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed23_pearson",
+      "status": "PASS",
+      "best_epoch": 76,
+      "n": 2730,
+      "proof": {
+        "config.json": "62f6e898f09c64d05a50e14f0f3ab7e9b94a67853b9c5bdb3f88a6382aeaa1b6",
+        "result.json": "73ee5a56f7cd73a1b13c785696730890cd741c6ccd64344496d8a62637064f78",
+        "artifacts.json": "d40882c47f4593643952f363b146e8ac926e3a207c03194550fc1e75b02c9ca3",
+        "complete.json": "f8155a9024ef7bf1e5cd7e43a8591c83dd478c402e79f8be46d507fa3a855669"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed47",
+      "status": "PASS",
+      "best_epoch": 80,
+      "n": 2730,
+      "proof": {
+        "config.json": "7397dd4ba3d18286ed005232e4a5f82b0b091c5e9ff59a8db2ea46f7c3b0179c",
+        "result.json": "b8ecb609ba043e612a300ecbcf0cec8f09a4a10ac749853ce686b2731a36dad0",
+        "artifacts.json": "f0a3e2ca33e3494d3d95f585d4e8f5991d9c66503e746334cdadf7ae153303cd",
+        "complete.json": "7a36be2cd7834b7a05020bc50c98ba20a2cf81a0e66b4fa1572b59bb78dd660e"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed47_mse",
+      "status": "PASS",
+      "best_epoch": 20,
+      "n": 2730,
+      "proof": {
+        "config.json": "d9b033c45037b13c887e660f849e19e1e79bf62365f4a5c420fd267143c24e5e",
+        "result.json": "90a6295a7af02569be5d5dbcce47fd79046b3f34a0385f7ab6daf8fd0162fff2",
+        "artifacts.json": "1a332355d4381181b54cb9a1e96ab1fd26ffe985039954265017217e5c573bc2",
+        "complete.json": "ccee60df4fac394e5e0938aa9d6431c30ba6893faac6479a0d854d29e2ce4a1d"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed47_importance",
+      "status": "PASS",
+      "best_epoch": 120,
+      "n": 2730,
+      "proof": {
+        "config.json": "95eb883282cb73618c6e30c95b1e9ea06bca6bbdb7e4656b38b0302e589508bf",
+        "result.json": "36826f6f1f91ef52196ef4143f9bb9bfe29df909bc90bfee5305a4cb0458a11a",
+        "artifacts.json": "5690a54f934a2bbdc596d59a4828cf744fba1fbcfc6ffe03edf74569b3dfa5ff",
+        "complete.json": "040f2f955e099d11fc11e58a7ed060d7196537bf26f9e7959fc28cf3362891f4"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed47_pearson",
+      "status": "PASS",
+      "best_epoch": 43,
+      "n": 2730,
+      "proof": {
+        "config.json": "e60f97066b3f6b8fdd0f983d613527e9ae8447a160f7f9ecb19beeb4051c1f6d",
+        "result.json": "ae0e1efd9669f232e0daa3d7b66a875c2dc85dc5e862103e7c5c3c0dce1145a8",
+        "artifacts.json": "44ba0d76d2690b4bc737b60bb618db87b9785aa375d994cf49173e25cc48f6f5",
+        "complete.json": "6d523e5b6b9380c0c70c1873172ec5f41651e552a9afe04a2bd12c348508137f"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed71",
+      "status": "PASS",
+      "best_epoch": 99,
+      "n": 2730,
+      "proof": {
+        "config.json": "584328f24fb69982de73c15718ee18daf5c528f2de49edd9dc9ef61d981bc830",
+        "result.json": "15bb6178229ab0ec14750cd948bce823bb1e3c740740896a7bb39e646ee08437",
+        "artifacts.json": "2f64d53292197b7fcd959c86a8e06b76036b0cbe4e42ae2de24da3f284fae997",
+        "complete.json": "9c3a5b8b1b36fbd56927e73a1ec8d93c0f0c479b0924d7c0bec3c71dcb0ee69b"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed71_mse",
+      "status": "PASS",
+      "best_epoch": 21,
+      "n": 2730,
+      "proof": {
+        "config.json": "6c52091da68d4d4ed33d67b3cda103ca06478d7efbced0f986961f218016016c",
+        "result.json": "6df4787a630110575a880698142082ac633adf21ba2cdb9f0280c417872ed488",
+        "artifacts.json": "61d7478d4b3de7ae24dcc36dd1a8dbf67d066a22da24170df76cd18bbfb7d702",
+        "complete.json": "454941f874897808b0f7da20a6c0938ffa0ff5db69596a127d2850971037fb00"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed71_importance",
+      "status": "PASS",
+      "best_epoch": 71,
+      "n": 2730,
+      "proof": {
+        "config.json": "ad798cbd5d8b3ea870c038b302c5e8d13d3e8e1d814ca7329e705efdbbe2ff06",
+        "result.json": "34261370641a75d7559bd7298fb34e942154aecfa4054f15e1d562614d10a6de",
+        "artifacts.json": "97b685438a2513fed46277319874ad77b65697c7360c71c45a795781b6cdb19d",
+        "complete.json": "f67fde2e99c1ec2aba2ab960f095a3f71975c7539b3e1c74edd6d6673b1e8ec1"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed71_pearson",
+      "status": "PASS",
+      "best_epoch": 127,
+      "n": 2730,
+      "proof": {
+        "config.json": "f61329d500899038d9357119e2b727b7a500a3595c2c25000cf5c5e0fe06048b",
+        "result.json": "5bdb83b83a0e4e6ce0867e17927b24d473ba0f0268a06dec4821f632a44011d6",
+        "artifacts.json": "542d1ef5c9cd06515c16b637f863f040d0808a7050dcef49145b1cd9ee5b3034",
+        "complete.json": "f9b52aa192041853d302813c8f04feceff78308762db8aa24d27c3a980a2ef13"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed101",
+      "status": "PASS",
+      "best_epoch": 47,
+      "n": 2730,
+      "proof": {
+        "config.json": "ce25702f4048d00771bdd79be0d6c8ec4a1eb503ef951f193a138c5e200a8c31",
+        "result.json": "19ca3b64224734153d71ee94c290da5a7279fbb792ea4732cb6fd18426c557cd",
+        "artifacts.json": "cf731fe67811c53c90de26b98a952c48b3b11004994173aa4de66b68dbf4aeaf",
+        "complete.json": "95eff26ed6d32cdebba4dc2ec8b0d849595bb3a6ec8f57228019ed10da1e70f9"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed101_mse",
+      "status": "PASS",
+      "best_epoch": 33,
+      "n": 2730,
+      "proof": {
+        "config.json": "bee7e9cb44e754c29ded7464b20ce970b2f3561d12203e7fe56d54549009ccdd",
+        "result.json": "485a52ffdd51b9c271c424d01211746cd56d845a242efabc2894906447d69297",
+        "artifacts.json": "cb5bdaae6c834b0f3771334a053c697d642b8959fae21d24575e544b44cfb941",
+        "complete.json": "a5052908686d809b846ae3b53d9a296f3fab976e4315738c64f39f142d94146b"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed101_importance",
+      "status": "PASS",
+      "best_epoch": 57,
+      "n": 2730,
+      "proof": {
+        "config.json": "45131d77b9a7477be0261ce32a15bbb9db7e773f1832e81937772064c1c8cc86",
+        "result.json": "d3c58ed55f627b922a3336e99973aacf588cb3f3511f5b3ba5442b680f57d052",
+        "artifacts.json": "18d228e0c3c8f2683566d15bb421fb12ae3ff7972c6ce88c991300be2b51288a",
+        "complete.json": "de694e29ec94fa3f6ec6d62fa9dd234ffe1774b768d73711d53ed3a19dbc5f2d"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_tensor_seed101_pearson",
+      "status": "PASS",
+      "best_epoch": 30,
+      "n": 2730,
+      "proof": {
+        "config.json": "e29df3902a25bebfc90d2464b47774f1bf3159370a40ad033eea6e4f85fda42c",
+        "result.json": "32164217856456b86ea36b1d69a1467c7c11bc5374025dfc89c4dd9305a7b209",
+        "artifacts.json": "7b9d6e789c92d3618cdaf881f4960985907c628bb5855b0e7b67d93c6b4a50ec",
+        "complete.json": "b5abc7b22bd9ac78dba6e6c4dd422e23f1a5683cd24f138ede0b061e77aa2fa5"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed11",
+      "status": "PASS",
+      "best_epoch": 29,
+      "n": 2730,
+      "proof": {
+        "config.json": "4406a94fa59c6aed2c8119485c881def6a428f3b25cbb369c69a742b373de38e",
+        "result.json": "b31b8fbb4c5a996b72b97365b4cb07721b14b1783469bd88c64422559b3ca3c3",
+        "artifacts.json": "9480cf2c9f635547e98e054bec563139104bf3efe82350462cd6b9860266c776",
+        "complete.json": "48d3a55cf9ccde724bd968f779a12c47be27d86a998e7e56eb8e1aba8532d417"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed11_mse",
+      "status": "PASS",
+      "best_epoch": 27,
+      "n": 2730,
+      "proof": {
+        "config.json": "f783c9d6a8c0197f15dec13c12ea276c25b7d3f08dda4ce56b6ccade17a725a6",
+        "result.json": "f1922578a3779e3eaaa0ecd534f45cdd327237188d904b86ec401052e44e0b60",
+        "artifacts.json": "bd32860a5888828f470b3b1db2afefa8e581c984742689c50cc1a9620a140d3b",
+        "complete.json": "f7aaeac59b4bdc4390a25e0185888970188684a249252d01e65f0979207140a8"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed11_importance",
+      "status": "PASS",
+      "best_epoch": 90,
+      "n": 2730,
+      "proof": {
+        "config.json": "4f02960f5ece9e3aa3351d41c19f206229b3a8e1d5be931134c4bcf07010bfb5",
+        "result.json": "5363e1bb9a55fc2fe2b1644120f6d7ed4b6661f86ef829daa989616304be044b",
+        "artifacts.json": "ebda4f598866d260651e63d7fe587fe33e117c21d2ae2c4a8624ab0b9d2385df",
+        "complete.json": "0c68d5104b1fc579eefa0685a05dc72b7481292c018288ef8f1d068b713331c7"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed11_pearson",
+      "status": "PASS",
+      "best_epoch": 119,
+      "n": 2730,
+      "proof": {
+        "config.json": "6a4cb9422b5723c3c1d5a85b5caeb06107cf81cb66c6c736fb87aadb8537dd6f",
+        "result.json": "7c475f5920040d01634f6400ac929391d7b1f0fb7d4e71ba34cde9dd93a72c18",
+        "artifacts.json": "6e3abe94d10a8989984ccd0573c5080a7d147eca3969d63b0f895d634a17a7b7",
+        "complete.json": "5762d591e9d053e1d4b4a1ef2fa41e1d47616f0ed271d28422f407a63d424e51"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed23",
+      "status": "PASS",
+      "best_epoch": 22,
+      "n": 2730,
+      "proof": {
+        "config.json": "4804374b9868c026e5fb45ca4adfcaba1d88d2e621eeb8505ffaf82e93f25699",
+        "result.json": "91664cfc7aee7bda936feaff2da15f541099fa56a667037c3830783f9812387a",
+        "artifacts.json": "9a3e644a7fb4e302a8305c55220201f1a6350b67c5a4432963dac34f8035c407",
+        "complete.json": "2f0f190acc543167c234ee6400e65d413a4af53705d9e5513c992f0b26c85fc5"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed23_mse",
+      "status": "PASS",
+      "best_epoch": 11,
+      "n": 2730,
+      "proof": {
+        "config.json": "6fa477d65b9315b7b6a62b3b137867df00a97a2d827ca78bda4523819e083404",
+        "result.json": "5ef7c08e248cfc0a0674cbdad7ed23ca24eacfafa1c72a3d8378654f79d5b65f",
+        "artifacts.json": "472d9d96d00170bbb4e737253d9298f3bbb6db36cc63e11454f98821351b9037",
+        "complete.json": "5e74204de9311afaa8d97b2832aace897a6c0a172f558f7afb0320161f2b57ec"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed23_importance",
+      "status": "PASS",
+      "best_epoch": 24,
+      "n": 2730,
+      "proof": {
+        "config.json": "66c63264c297e940da27a1fd75b296cc36828e32f1c0a10d3665eeb87c70be4e",
+        "result.json": "cf84c269c70238e45e567d088d2c5d5aa71c2cbe24b2e1db65d3f07c0b32ef25",
+        "artifacts.json": "e9379495c10cdf8eaedf640d209fc691c0617b475e839f1f27eecdc2e4fa48f7",
+        "complete.json": "0053af002da61061c8d3daa73132d9b89daf83a9d95592d24830449aef93dd4d"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed23_pearson",
+      "status": "PASS",
+      "best_epoch": 73,
+      "n": 2730,
+      "proof": {
+        "config.json": "020f14bced67005784c040fc4582dfdc28f0c5bca497fe4af9b162ba76b0d758",
+        "result.json": "e9a1a617f2aa7a2662418118a3c75305ffabda5f6485f617ea336282170b9222",
+        "artifacts.json": "246d8560c46b2c49816702b2f2b1999319fbf81f11fd951ed1053a8845ffeea8",
+        "complete.json": "54c240e3858aee31edf95b65c65916712d187458b1be31b1169b5b330fdb2a4b"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed47",
+      "status": "PASS",
+      "best_epoch": 19,
+      "n": 2730,
+      "proof": {
+        "config.json": "6e31f202b55381775699bc2f50142f8519cd6248666752943ed683136cdbdda1",
+        "result.json": "a1533f8b3fe7a7858bf154d82bedeb31831699317ff8ce0efd43ec76598b7dcd",
+        "artifacts.json": "2b386ecec926046646f868554d2e95b9b334adeeda284a1f5b0ffefa769a6722",
+        "complete.json": "0bd827edff74bf75e5d7925a18b88e82451495f9c549c52f2cac02d88ae73e8a"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed47_mse",
+      "status": "PASS",
+      "best_epoch": 137,
+      "n": 2730,
+      "proof": {
+        "config.json": "1aef60bf0ec2e2434f7836ce98529d93192e716bb1fba86ad5c6ba3a7e57d315",
+        "result.json": "744652f3c1d067c28a20c9770c2fc30b0229c4aa7583e5d20d0093273f54cde6",
+        "artifacts.json": "b305aafd414b43c991c682e8c9dfa91935d2f391b0ea15b6727134a6b923f07a",
+        "complete.json": "a90a5a2c7b47a11f15f265e3a7c5fbe88a40ec3c32a74b5166cae875d462cafb"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed47_importance",
+      "status": "PASS",
+      "best_epoch": 36,
+      "n": 2730,
+      "proof": {
+        "config.json": "c1fc5070622de209beb3ee66cb5fe5d26786ebe091f859c80e283395a1faacbd",
+        "result.json": "bfcf3d2ad0b3ae3cae4c698872de3912249bcbb4132932ed9d90157130fe5984",
+        "artifacts.json": "959e9d79a4e3aa98a4cc9e169d7f01282e46c55e418a7ce66ccb87b54a6f1cea",
+        "complete.json": "492016e3523c8d866e579dcea92623b4cc245dde784487dcf3f7c7959352f4bc"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed47_pearson",
+      "status": "PASS",
+      "best_epoch": 57,
+      "n": 2730,
+      "proof": {
+        "config.json": "fd4677a5c3ac1a85a49554fa1027cd90c944eed81b1a54dd95677069f383be20",
+        "result.json": "2bae295a3f0baa2109f4b2d1061f19e6091a3951e0b660e1ef68ca6ba7e1086b",
+        "artifacts.json": "8a5477ad016a5baf25f2734c43382a230d66f507e8b97fb43d4ab45a5353cf76",
+        "complete.json": "28cc9f8429514a2ff6c0dc118db37aeb5c922087547e574cf51e28bb125687f0"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed71",
+      "status": "PASS",
+      "best_epoch": 23,
+      "n": 2730,
+      "proof": {
+        "config.json": "5d2a8bd848d9c189fb4ed27cb250298896ed061468cf365379dd5b819a7efe1a",
+        "result.json": "42b9513a5a75bf41c247f51e9d2a4142b16aaa0bb0dd461e09a4fd7125c4f4da",
+        "artifacts.json": "e38395290059e12cedbdf063e855f7078e5c0ead754ef6d9742d9d20b9e54e74",
+        "complete.json": "6caf19d9f4abb3d0f9e6a41e4400b41c099b958c6e343891c03a5e8d21b867ba"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed71_mse",
+      "status": "PASS",
+      "best_epoch": 128,
+      "n": 2730,
+      "proof": {
+        "config.json": "f49d11896dbe6f6c3f3e29676a280863d7649a334622f9e066104e792f00c0f8",
+        "result.json": "acb967d0d0b5b0c4be663366aaf91667a3959edb618621101536b3942a45ee4c",
+        "artifacts.json": "f7b67cc717f78381fa738c76565fd511b4fb2f3d4e9fa55a12abc76a2639b00e",
+        "complete.json": "f5571d90f08d650d27591a57a60da97829474b36a497b5e40024392583d6eb03"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed71_importance",
+      "status": "PASS",
+      "best_epoch": 11,
+      "n": 2730,
+      "proof": {
+        "config.json": "fac3223eb957586fe04dd40fed07e3c4fbe62d8e3ba9b60f747bc085133c8d4f",
+        "result.json": "9919ee0d28b060d143572d7dea52722fea00aafffdb8ef405385573c6a497d45",
+        "artifacts.json": "a365dea057f444234ec75718b8cfdbb7119ad5dba81503c1a1ed854ebb802381",
+        "complete.json": "c8f40a6d91c9e6cb6586ba705fd6afd45d9e80320314409a01747d0b996bc7e1"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed71_pearson",
+      "status": "PASS",
+      "best_epoch": 128,
+      "n": 2730,
+      "proof": {
+        "config.json": "f8322be5650d3ca17921e7436029aeb01c6b22be4c81bcd2429c9b9d45c724ed",
+        "result.json": "2a38cd8b6254ab1b50d643e62172acbbf73cccaaf8ae41f7e36e07c0e0669e41",
+        "artifacts.json": "91d6360b5fa740566a9593f2a92e51a0cccb086474c63940a5a35a4f84bf53ba",
+        "complete.json": "71d8aec7588dd104837feff05f4bdd0c128a1f6e932fbb429d4a737cb4a189b4"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed101",
+      "status": "PASS",
+      "best_epoch": 118,
+      "n": 2730,
+      "proof": {
+        "config.json": "bb7368c130b6e08b1fc36811e855674b789b628a4e3418ff31720679e2d29e10",
+        "result.json": "def64796ffb49ca1d6c83e13dff30d0467e128ed2997647c9787a28743c55a2d",
+        "artifacts.json": "9d04989293cd583289e09dfa1d66cab55a8eaff553c53e4170f9789fe946d942",
+        "complete.json": "bfc2cc365955a9fd7e068de351516d07e8485991c95a0e18cabfe94969f1dabb"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed101_mse",
+      "status": "PASS",
+      "best_epoch": 27,
+      "n": 2730,
+      "proof": {
+        "config.json": "582c3d34b5be70e096f11c1284dfb1e2ae9369c9b003a9be871ff88db8c60bc6",
+        "result.json": "38f60066372cbe35df8f8f21abd505fec7e1f6a1c83b5d26738c1449ac379c8f",
+        "artifacts.json": "4d1b7080de074c857ed5d04d7b43d4123c2905bedca129bf7cedcf36050c3299",
+        "complete.json": "e359a81f43158841521a763c67ffca080e2db6514247159056f4a716662d262c"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed101_importance",
+      "status": "PASS",
+      "best_epoch": 44,
+      "n": 2730,
+      "proof": {
+        "config.json": "4fb8807028ceda17cd29c05b28f79df0bc54ce8bfd595fb953d5dced16d93341",
+        "result.json": "4eaec1761f6ca114d0c4bf178f1ed28954eb6749f28ec8e1bd97a27096a3859d",
+        "artifacts.json": "1706371443c38672ab2d70f2327799204ad4ce92abceb226fadf8149e82b2598",
+        "complete.json": "e25462879b1b31ad8d27456811075690282758f81bb9961e117fbd6a785f49e5"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_full_seed101_pearson",
+      "status": "PASS",
+      "best_epoch": 101,
+      "n": 2730,
+      "proof": {
+        "config.json": "668f549fce30272de0ec06f0ba729478778a48b100324c77f4533836eee24394",
+        "result.json": "e199d0ee0df306d3489db1ce7f05ff8ee88c74b20e242d4c4f1b9ae51f54072b",
+        "artifacts.json": "55607149cd97e28958cff192f98360cfc45f513a935d3effdca2409bca8738b3",
+        "complete.json": "831efcbf410a3fca2e5f7fe911aa9e46bcff04ae66ddc7d2e3b96a6d08254130"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_lstm_seed11",
+      "status": "PASS",
+      "best_epoch": 56,
+      "n": 2730,
+      "proof": {
+        "config.json": "e441dc9bebab2662fd6f1a57a8db591836b15cbf472d663103888d9b6d521b73",
+        "result.json": "be1184ce7a029befef1612705bc05dfa87cd0ae5acf54484018c8795a75fece7",
+        "artifacts.json": "beccd3ab8c526c77c8d5c49b590401a754ba16047e9c3f669e312e74b35840e6",
+        "complete.json": "b8a8656c65cdd19f9494630c851a823741634e1e2f6fb2279898792b15cc51a5"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_lstm_seed23",
+      "status": "PASS",
+      "best_epoch": 83,
+      "n": 2730,
+      "proof": {
+        "config.json": "18fd2895fbb6c116aab3788d1ca922104e8b398a44e9ee8e24e2ca5bea1f8140",
+        "result.json": "6f3a7e37a5d22d148030b4876074272f91776c5122eef992ac70f23544acc18a",
+        "artifacts.json": "aa5375847c325a70fc261365b76c5900e6e14a6eb1d5674b2186c33551e63fe6",
+        "complete.json": "e6df688527269b7ba4b68296d34c472dd4f8c8693784a8716c1f9ad59d57a41b"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_lstm_seed47",
+      "status": "PASS",
+      "best_epoch": 75,
+      "n": 2730,
+      "proof": {
+        "config.json": "87b2b3be67961996cbc69c9a5de29adb372db28c5dbb0568508e563ff76278b3",
+        "result.json": "730cd702c7470a25781dbc4fe61b95b6a6ba5658b0b9ad6a0114ebd7d47509d0",
+        "artifacts.json": "3c8b738f7719574d175365634ffb44b2e4b0078c6a32b379af2075b91e67fe8e",
+        "complete.json": "41e976aeefea4de26dd4dc762253ef06c1edde426af9677c91a03c3072c30b1a"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_lstm_seed71",
+      "status": "PASS",
+      "best_epoch": 84,
+      "n": 2730,
+      "proof": {
+        "config.json": "32908d100a39ccc218dff093908a7d068e0ff0cba95e07e24eb497941369918b",
+        "result.json": "b032a66d7d4c1bd7307ce28ad68e8f4856e69263affb667fd9735fc071f5ba56",
+        "artifacts.json": "07217c6646486e70aab8bb03ec46ef9ccd38f339db19763719d6dc33ce270bbd",
+        "complete.json": "04ebe905445f7383ea808688301c58d8c65695224310789668a532246e69abe7"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_lstm_seed101",
+      "status": "PASS",
+      "best_epoch": 122,
+      "n": 2730,
+      "proof": {
+        "config.json": "a1885c6a6076f3bf5f18fae9e5cac6cde30620ee1f32db339d4bcada9db99804",
+        "result.json": "18fdf7a52885bf4991e5fdcee5583f0106a7b8c610b7082e10a829ff45aa3b57",
+        "artifacts.json": "ff4e53768eea4b9df240276be9349320fc93de7ea3931a829d710072fd388b8b",
+        "complete.json": "c9e2e268c4f558bde559ff3690e47a19517edd6a3e7afe57315713f1823151e1"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_dual_seed11",
+      "status": "PASS",
+      "best_epoch": 121,
+      "n": 2730,
+      "proof": {
+        "config.json": "234dae20a4aed812b928dcc254d49adb3d3af9840a7a619e0ab14448c9912cee",
+        "result.json": "53a18444d9aecdc80644da280f08f1eeb0f42cffcf6865f8ea9d496653ac28f9",
+        "artifacts.json": "e6db26544b60e6dbdf0d73a4c150d57f2b80ac3124ac1d0c8f2654555e10941f",
+        "complete.json": "a7798d7e2d9c730cb39eb10c06dc45d8b7630af01051298873134ad662a07e51"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_dual_seed11_importance",
+      "status": "PASS",
+      "best_epoch": 94,
+      "n": 2730,
+      "proof": {
+        "config.json": "f4995ad3392300f2dbde1b7f0eed863a03e22c4c7dca79c32b3cb39e7202daec",
+        "result.json": "16c02296344668775135ec75720a717c44ae85f254cf9c34fbf56d3591ac374f",
+        "artifacts.json": "464f7e23a65ab6fffdd690c2024e0a5a871af4356eabafb99b945cce141de62f",
+        "complete.json": "13feb9f88f09e0a31472b88012220fd604a324a6ba3610caaa4be20e603a0915"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_dual_seed23",
+      "status": "PASS",
+      "best_epoch": 100,
+      "n": 2730,
+      "proof": {
+        "config.json": "ebefbc86386feedb9e2d2e13e1ef993f4596962a5906b3eb4fc7baa6ba049a66",
+        "result.json": "51a24005595a3bd023ad23ba1ae727faac799fc5d59035c36b4d7e87e924310d",
+        "artifacts.json": "8ab67a99403b8773bc7706f01b472ed3b53cb9145c34b92944c33cf20e6ec23a",
+        "complete.json": "399ccff9f9cc5150d6d1ffe741a1dffac062de9b81640e897dfcc58c9be379e4"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_dual_seed23_importance",
+      "status": "PASS",
+      "best_epoch": 104,
+      "n": 2730,
+      "proof": {
+        "config.json": "f20e3a0e70a998ed7963c38dd0894c3c215772f9a882f249399325c0310a6d46",
+        "result.json": "0c25b0f0263c34a98d3eaf42266aa5746bc9c145e841810271bab9311c43b0db",
+        "artifacts.json": "a785d9e80d8c133157cabb4eaa3280380ee492daa3c1bb8f4bb1f73fcc21203a",
+        "complete.json": "33bc3d35add37f7359a37b9ca9ef3e35da38983e1104380e16193a5eb3ac96ce"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_dual_seed47",
+      "status": "PASS",
+      "best_epoch": 106,
+      "n": 2730,
+      "proof": {
+        "config.json": "fd420b553dec4f6f1285b30dab1541e2db99f9d90248d42de3e42b877dd7ebe1",
+        "result.json": "f7afeddb3f9015aba24977b82ff378c801b417db4ea5bb82587ad490d9ee9b86",
+        "artifacts.json": "b31d2f14b450b30d2c015e4840465df2a1bd44ab8a7aaa716275cd8f332ec224",
+        "complete.json": "082bfad237667c386824d8ece452bb9ac67dfbd2825ca5a91d653ce0a8d2ddaa"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_dual_seed47_importance",
+      "status": "PASS",
+      "best_epoch": 117,
+      "n": 2730,
+      "proof": {
+        "config.json": "e0ebcba815f41aace4fb4eebc7222345a80cdc02d038a1e90cf808aeb1a3cc6a",
+        "result.json": "3bf05846577a5eeda99723f4242a969a4b58da230700299c972b82fa26eef365",
+        "artifacts.json": "936aeea4e419d913e8fd50323f524d419a97440fa56219f3d6eed9d4323e3f03",
+        "complete.json": "b6c224afa0b74dbea3d3d07f532c313768877c397e98e850ffdbd0223679d833"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_dual_seed71",
+      "status": "PASS",
+      "best_epoch": 132,
+      "n": 2730,
+      "proof": {
+        "config.json": "b9c20425b52f23cbf5186a7d346774a90cf9047a7622671f8b6a9f472a2b3381",
+        "result.json": "353d5f88542fec25e34a3ec7a3c28af1a648e3f24166e32200e1da159f84ac51",
+        "artifacts.json": "5a34c322cf83b6c1b96c021116ea74f1d3ddc78d23f42ef2cb54326970ea2621",
+        "complete.json": "9421f8056dae84a3c53e44492320eccee6bbcf77fb5f7d5f429137e374289b5a"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_dual_seed71_importance",
+      "status": "PASS",
+      "best_epoch": 125,
+      "n": 2730,
+      "proof": {
+        "config.json": "a12b9d54aa5fd4c3a4c6aff4926dad07d993f88e5ef1b271721c55485bc0b9b5",
+        "result.json": "6927663fa0b77aae15d6a1f204be792dafa9b49d7df6db3a3d295564a7ca9cf0",
+        "artifacts.json": "34022f04283242fe8e059367338b7c0e9b53c7e55f476e28f4524c4d1467fca6",
+        "complete.json": "f364ecfec112d02e10446564f01e286d0c8df7dd739ddaa32200990ba0982634"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_dual_seed101",
+      "status": "PASS",
+      "best_epoch": 119,
+      "n": 2730,
+      "proof": {
+        "config.json": "ff29182ca5a3afce1def4db6a42cf29671c4586ed785be7c4392d672412bccfa",
+        "result.json": "d0d88221dcad8326daf502ac7ae053e1cf37b1d38101f8c0c7a1a14f1e2f98f2",
+        "artifacts.json": "e324c125dc360ecaae271f5a237d229d8505f070a47165bf121cf6c6a1cc720b",
+        "complete.json": "d3f65c8644aa418b7054fa53e5e7b535860d8dd6e265176047bee26db7a11f00"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_dual_seed101_importance",
+      "status": "PASS",
+      "best_epoch": 73,
+      "n": 2730,
+      "proof": {
+        "config.json": "15d5ff8392047c15766b9e857841e72a07f11cd8754347928c0a902f12af9030",
+        "result.json": "207e72bafccc9bf3aa2b085e30753148113733d7543a54ac8c06084a4e381ee8",
+        "artifacts.json": "b7152128984bc1fc908afde35c5e2d74f09f3571faeafb81a5f7a10d2879de4c",
+        "complete.json": "5f6f5236a77c8f14f379af3deed69a3ae5f58236dfcc5a2e851cd5c03079139b"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_retain_seed11",
+      "status": "PASS",
+      "best_epoch": 80,
+      "n": 2730,
+      "proof": {
+        "config.json": "32869afaffe3ea687e9077663ecf18ca936c0ff305a0ae9970ca6476759abc7e",
+        "result.json": "7149e93c6addd2305b93ce25988cc58b5be317e631d21f6af70d5351f390dd8f",
+        "artifacts.json": "44437a3ac1118289518a74995a082e1c53d1921f320964ed6388f46fee44a185",
+        "complete.json": "1e3c1a15338d453930a1290a443a33eadfc959cc50fcbdaa424ad556a736f97f"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_retain_seed11_importance",
+      "status": "PASS",
+      "best_epoch": 36,
+      "n": 2730,
+      "proof": {
+        "config.json": "9439ce7143fe200d41a53c7fe4b939d1b3ec50601014227d0b1ee48f68638331",
+        "result.json": "2b31abbc8426dddc27f1b8a458d3d7009b806332a24defcf6f42f7ef0e24b6e7",
+        "artifacts.json": "fa6d1701b8ce46fdb337155b52438d224eef968927e5b0e7431e363189b7ea6a",
+        "complete.json": "6f8fc13401c75cf356da8915f0efd9a6a71bbb84b6772bdba993b9aafba6152a"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_retain_seed23",
+      "status": "PASS",
+      "best_epoch": 149,
+      "n": 2730,
+      "proof": {
+        "config.json": "bb6b0b09e7cccc35cf346d3fa5917fa3b100af465090d265c253a97b11f9a79a",
+        "result.json": "5f4c8de0814de9d7ed3886b544a041565b31d2b1414fad57b0f9da41f81d06f2",
+        "artifacts.json": "7cb88c662faf1c10464d44a3865a3d32afd4b8bf54afe30ea578e308d6bdb2df",
+        "complete.json": "b31578cbffb519b1f92d78a1859d3fa24100158665cdfa0640745275c37002b5"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_retain_seed23_importance",
+      "status": "PASS",
+      "best_epoch": 34,
+      "n": 2730,
+      "proof": {
+        "config.json": "e2036129e64b9bc7e3b85ea70f7ea12186f49bbd9d89bcc4ff148e1d4231662b",
+        "result.json": "95ad2018943340dffb73896575b121592d59f16b05cdde1636ccb5f9a3b013fd",
+        "artifacts.json": "083fc8102bf2a86ba14d1b3fde253c4bdd7dce0c42927505465eaf58d6388ef4",
+        "complete.json": "3031b2d72b4a2cbdede92fb061d1d2311a4ff6b060a08d6dbc01ef46205e68e1"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_retain_seed47",
+      "status": "PASS",
+      "best_epoch": 48,
+      "n": 2730,
+      "proof": {
+        "config.json": "40d661fae3657f9962d1f6310d6eab2f26ccae03dfcd9371557a734a2226609a",
+        "result.json": "7c070f73b50415c3dcf8adc4d53bea68d365bb9fefa9ceb8bd315dbba08122ac",
+        "artifacts.json": "2a95711b92d5a14ec85a840284fdf0e55694f285bc142a862969f04b5dc54e71",
+        "complete.json": "9d7dd2653da7bb5fbf502ccd3a63efe1f8543b88808ff32b629f237a6fc92bc4"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_retain_seed47_importance",
+      "status": "PASS",
+      "best_epoch": 60,
+      "n": 2730,
+      "proof": {
+        "config.json": "93f8ef5bd959e90e62083f4029fb7ee629feb69ffd885941b69938aa01d8f6c1",
+        "result.json": "bdc7b87bc909603a17a403294d059b3699451feb2edeac32781f703efa8c6340",
+        "artifacts.json": "784d6fc5928703208ca5429391bb825bc3d8fa1ee8ea5d0e668cd75df59b8d13",
+        "complete.json": "b4f944cfbaade259ff530c238c426a65e9e363dd001279be2a3b37d5d4d54c76"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_retain_seed71",
+      "status": "PASS",
+      "best_epoch": 140,
+      "n": 2730,
+      "proof": {
+        "config.json": "a64200525f3178d275b5df3477579019e524396b4ca4c2ec05871bf8ccb3e7b3",
+        "result.json": "f7614c351ac3dbc4541fa961178bcaca82de3f633b42c0031d92dca24cfcdcde",
+        "artifacts.json": "c0160fb743db94b0a0b8c49c72510984e368adb8cf5065e26430362a006bb1f5",
+        "complete.json": "82add4fa3b8364f9099588e67cf32f3026a622323045992350b7d3467ff460e2"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_retain_seed71_importance",
+      "status": "PASS",
+      "best_epoch": 135,
+      "n": 2730,
+      "proof": {
+        "config.json": "a05237a229302c982703ee63e083da69b19ffe1f65dab0cce2e40f2aaa6e6435",
+        "result.json": "80117e3df906170a5d18ff69ba3e3009d0e3d5139fd38cec8e827a1ed2c21225",
+        "artifacts.json": "9ba12362ea01ab8c99d7d601e44621d3974623239d078ec2723e606d66a3ae22",
+        "complete.json": "63203eb650bfc0e96a6d195d4bb19954f256636436b178f3a9ab9e3b102ebcf9"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_retain_seed101",
+      "status": "PASS",
+      "best_epoch": 149,
+      "n": 2730,
+      "proof": {
+        "config.json": "a824613a550ce6c27bf4752ea555673d1007f3540d7461e291a817385dbf94fb",
+        "result.json": "18de871b8f8304852a3dc740d6ba5df0568a842a56884b2d2e2b75ba9a05391c",
+        "artifacts.json": "f4ce8a974cf891ebdeba4fac7004c9d7c1bd683027935ddd6077fca81c7c0b81",
+        "complete.json": "e7468f4f629d7313accf080317488d4eab47d33f21d766cb2440bb7fa115f430"
+      },
+      "verification_device": "cuda"
+    },
+    {
+      "run": "nasdaq_retain_seed101_importance",
+      "status": "PASS",
+      "best_epoch": 51,
+      "n": 2730,
+      "proof": {
+        "config.json": "1ee5e7ea41ad9425f3b20b194f9fbea70519be0f25a996460e44b18ea5dcc28f",
+        "result.json": "80a6bc00595aeb798eb68f7e781589a15d8bab64a184aaa127ac625cca4a41d5",
+        "artifacts.json": "e2e3a2c8b990b478eed0605660e439b03a90504af551766ab92990baa8f4106f",
+        "complete.json": "c4446f01bba04b1028e52b3765256b9d4977cefbeeeb126d4dec1d5d329a2748"
+      },
+      "verification_device": "cuda"
+    }
+  ]
+}

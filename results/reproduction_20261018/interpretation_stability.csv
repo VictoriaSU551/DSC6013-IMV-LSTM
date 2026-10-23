@@ -1,0 +1,7 @@
+dataset,model,mean_pairwise_spearman,top3_seed11
+sml,tensor,0.4703431372549021,"4:Temperature_Habitacion_Sensor, 3:Temperature_Comedor_Sensor, 22:Temperature_Exterior_Sensor"
+sml,full,0.4745098039215686,"4:Temperature_Habitacion_Sensor, 3:Temperature_Comedor_Sensor, 5:Weather_Temperature"
+pm25,tensor,0.6781818181818183,"pm2.5, wind_NW, wind_SE"
+pm25,full,0.24727272727272726,"DEWP, pm2.5, wind_cv"
+nasdaq,tensor,0.6623175629346656,"NDX, AAPL, AMZN"
+nasdaq,full,-0.017249428801075366,"NDX, VIAB, NXPI"

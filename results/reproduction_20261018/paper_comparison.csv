@@ -1,0 +1,7 @@
+dataset,model,paper_rmse,paper_mae,our_rmse_raw,our_rmse_scaled,directly_comparable,reason
+pm25,full,24.47,15.23,21.13139945806709,0.021258953100534033,False,paper scaling and/or exact preprocessing not fully specified
+pm25,tensor,24.29,14.87,52.52236377037885,0.05283940008810125,False,paper scaling and/or exact preprocessing not fully specified
+sml,full,0.015,0.012,0.22512657590698168,0.012884991469782068,False,paper scaling and/or exact preprocessing not fully specified
+sml,tensor,0.009,0.006,0.8259258202485824,0.04727139508816843,False,paper scaling and/or exact preprocessing not fully specified
+nasdaq,full,0.27,0.23,22.002671200469543,0.08386858304828378,False,paper scaling and/or exact preprocessing not fully specified
+nasdaq,tensor,0.09,0.07,101.9215732905384,0.3884990992852469,False,paper scaling and/or exact preprocessing not fully specified

@@ -1,0 +1,74 @@
+{
+  "params": [
+    32,
+    0.005,
+    0.2,
+    0.001
+  ],
+  "val_rmse_scaled": 0.007248496719824914,
+  "run": "sml_retain_01",
+  "all_valid": [
+    {
+      "params": [
+        16,
+        0.001,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.007990706759384947,
+      "run": "sml_retain_00"
+    },
+    {
+      "params": [
+        32,
+        0.005,
+        0.2,
+        0.001
+      ],
+      "val_rmse_scaled": 0.007248496719824914,
+      "run": "sml_retain_01"
+    },
+    {
+      "params": [
+        64,
+        0.001,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.007916455214736905,
+      "run": "sml_retain_02"
+    },
+    {
+      "params": [
+        128,
+        0.0005,
+        0.2,
+        0.001
+      ],
+      "val_rmse_scaled": 0.00792358438549188,
+      "run": "sml_retain_03"
+    },
+    {
+      "params": [
+        256,
+        0.001,
+        0.5,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.009905974765045797,
+      "run": "sml_retain_04"
+    },
+    {
+      "params": [
+        512,
+        0.0005,
+        0,
+        0.0001
+      ],
+      "val_rmse_scaled": 0.011779979446078179,
+      "run": "sml_retain_05"
+    }
+  ],
+  "selection_criterion": "validation RMSE, never test",
+  "candidate_count": 6
+}
