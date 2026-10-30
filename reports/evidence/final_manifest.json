@@ -3147,8 +3147,8 @@
   ],
   "files": {
     ".gitattributes": {
-      "sha256": "21c288ef9aa13c43384fc5b4536cf00885937fd5bcb281d74535253dcdda086b",
-      "bytes": 107
+      "sha256": "19772ec6d2e1e5097c89803928bb61e3a5f676d82ec52d0fcbc4587a8e005a86",
+      "bytes": 177
     },
     ".github/workflows/tests.yml": {
       "sha256": "5b3006c2376b0f1d852792411c68cda9a99a8225aad292360f71bd35ce76240f",
