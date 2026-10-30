@@ -1,0 +1,95 @@
+{
+  "source_assets": 29,
+  "final": 105,
+  "selection": 90,
+  "accepted_classical": 15,
+  "hpo": 150,
+  "hpo_rejected": 0,
+  "status": "PASS",
+  "seconds": 27.64099999999962,
+  "classical": [
+    {
+      "key": "sml_enet",
+      "folder": "output/reproduction/classic/sml_enet"
+    },
+    {
+      "key": "sml_rf",
+      "folder": "output/reproduction/classic/sml_rf"
+    },
+    {
+      "key": "sml_xgt",
+      "folder": "output/reproduction/classic/sml_xgt"
+    },
+    {
+      "key": "sml_strx",
+      "folder": "output/reproduction/repairs/sml_strx_auditv2_742e1bcf_a1de13e0_d05027a4"
+    },
+    {
+      "key": "sml_arimax",
+      "folder": "output/reproduction/repairs/sml_arimax_ea4d3b2c40_d0121cc114"
+    },
+    {
+      "key": "pm25_enet",
+      "folder": "output/reproduction/classic/pm25_enet"
+    },
+    {
+      "key": "pm25_rf",
+      "folder": "output/reproduction/classic/pm25_rf"
+    },
+    {
+      "key": "pm25_xgt",
+      "folder": "output/reproduction/classic/pm25_xgt"
+    },
+    {
+      "key": "pm25_strx",
+      "folder": "output/reproduction/repairs/pm25_strx_ea4d3b2c40_9710f836c1"
+    },
+    {
+      "key": "pm25_arimax",
+      "folder": "output/reproduction/repairs/pm25_arimax_ea4d3b2c40_d16815aed6"
+    },
+    {
+      "key": "nasdaq_enet",
+      "folder": "output/reproduction/classic/nasdaq_enet"
+    },
+    {
+      "key": "nasdaq_rf",
+      "folder": "output/reproduction/classic/nasdaq_rf"
+    },
+    {
+      "key": "nasdaq_xgt",
+      "folder": "output/reproduction/classic/nasdaq_xgt"
+    },
+    {
+      "key": "nasdaq_strx",
+      "folder": "output/reproduction/repairs/nasdaq_strx_auditv2_742e1bcf_61769b09_d05027a4"
+    },
+    {
+      "key": "nasdaq_arimax",
+      "folder": "output/reproduction/repairs/nasdaq_arimax_auditv2_742e1bcf_7969af03_d05027a4"
+    }
+  ],
+  "source_sha256": {
+    "code/common.py": "86e26129e775967023132bd42ecb9943385e445d18509842f90e452facbc075a",
+    "code/model.py": "b2b7349165e8afa2e16c9b83baec728fe4e8f905c887e9ac2e58f48d5265cbac",
+    "code/prepare_data.py": "e97bdc20993ea54d2b51c510861a374670387fc362fc5b81126bcba6abbdb751",
+    "code/setup_project.py": "b2c214aad1a5def879b4e1b427cd99c44a827f816e9b1cd0188bc27ce1cb8a80",
+    "code/train.py": "9c641ba267ec320c8c5f4c51b04f8343a6a6aa1c244134d1e391fa2fb739fa8f",
+    "code/verify_results.py": "c6313b971c13076c6ff50250e6f8f36416735389433a60c7588c4429b3651100",
+    "code/repro/audited_repairs.py": "742e1bcfe339fa616ca07beae50b2c66874a17da2956f0a331ee40962b29744b",
+    "code/repro/audit_stats.py": "94e2014fb923e64f347a6baf47cba7a15472df284b5b56ba04e1a74982e46839",
+    "code/repro/audit_stats_multistep.py": "8d0266669c20568db7572754df31c58aa6a2e5dcc175b35224419be8d9e33598",
+    "code/repro/classical.py": "89fa3dc884d1527a37163de08923ad7a73f097c11350160af06e11af8125ed6a",
+    "code/repro/engine.py": "e4ccf129cc65e21e0bc563e02132d54c1d0a023ea4541cc3ab8226d6eb5cd791",
+    "code/repro/lifecycle.py": "580c2023c8b7ccb0baadb60718a05df2bfdbe2dcc5ecc424ac6cea4fb52fc30c",
+    "code/repro/models.py": "d5c8ccd69e79917f20a9dc8e0af016b9888a05922ca17762117a792d3e4d2740",
+    "code/repro/repairs.py": "ea4d3b2c40ffa517eb389477d42d5a39c1b5c6d7e7c951fb64ff04617dc67568",
+    "code/repro/report.py": "f96fb3261d0fd632712abb3bb9cd7a7d8e05aa4da69e27357a8908436af6e3b6",
+    "code/repro/stats_certify.py": "fc74db4db3eed1f5088d0149d2d631525752d61cd7061734ef7b120d3f869964",
+    "code/repro/stats_solver.py": "6d71fea26bb1b607f4ca2f51191884cf536b4b57f94874af29b2e1c7a58bb4d4",
+    "code/repro/suite.py": "9cb8cb4a1a6b89ff21051bbef22365e295c652c97eee73c858e2a7587937a9b5",
+    "code/repro/verify.py": "b5d9911a0a3c73ebc94f53b499309d9a9ae1b2c7c3f60dbdb1de44e552439eb0",
+    "code/repro/worker.py": "147385790ad3228b30d59aadf2fc0c4b296c712f236272a701c5523d4b2f0f3b",
+    "code/repro/__init__.py": "15c0ff1eb243e96e4b89701253af9563b94c338ce411e6bc4b79b88e3d5f6f82"
+  }
+}

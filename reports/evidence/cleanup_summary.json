@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "date": "2026-10-30",
+  "timezone": "Asia/Shanghai",
+  "method": "Windows Recycle Bin; no permanent purge",
+  "old_snapshot_removed_from_project": true,
+  "old_snapshot_bytes": 15981764699,
+  "old_short_runs_removed": true,
+  "duplicate_reports_removed": true,
+  "old_environments_removed": true,
+  "retained_runtime": ".venv-final",
+  "kept_best_deep_checkpoints": 195,
+  "kept_accepted_classical_groups": 15,
+  "kept_hpo_trials_in_compact_evidence": 150,
+  "negative_completed_experiments_retained": true,
+  "note": "Recovery weights, failed diagnostics, caches, logs and obsolete prototypes are absent from the project; reversible deletions remain in the Windows Recycle Bin."
+}

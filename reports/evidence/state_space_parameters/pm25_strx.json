@@ -1,0 +1,67 @@
+{
+  "train_loglike": 53032.86843374642,
+  "parameters": [
+    2.657244470697808e-34,
+    0.0005942641531290133,
+    1.339789516918355e-47,
+    0.127437962358061,
+    -0.060912569072766536,
+    -0.04116314997255393,
+    -0.006370316066782188,
+    0.0026491997381615563,
+    -0.03281583010222574,
+    6.233916430985759e-05,
+    -0.0015652555880036254,
+    0.0005461357625722864
+  ],
+  "parameter_names": [
+    "sigma2.irregular",
+    "sigma2.level",
+    "sigma2.trend",
+    "beta.x1",
+    "beta.x2",
+    "beta.x3",
+    "beta.x4",
+    "beta.x5",
+    "beta.x6",
+    "beta.x7",
+    "beta.x8",
+    "beta.x9"
+  ],
+  "initialization": "exact_diffuse",
+  "concentrate_scale": false,
+  "exogenous_original_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "first": 34,
+  "cut": 26260,
+  "converged": true,
+  "repair": true,
+  "optimizer": {
+    "method": "Powell",
+    "success": true,
+    "message": "Optimization terminated successfully.",
+    "iterations": 2,
+    "train_loglike": 53032.86843374642,
+    "max_coordinate_score_per_observation": 4.257995637942958e-09,
+    "max_boundary_variance_violation": 0.0,
+    "seconds": 19.974627681076527
+  },
+  "checks": {
+    "status": "PASS",
+    "qr_max_absolute_prediction_difference": {
+      "val": 1.1102230246251565e-16,
+      "test": 1.1102230246251565e-16
+    },
+    "causal_checks": "mutated current and all future validation/test targets at first/middle/last rows; prefix forecasts bit-identical",
+    "variance_protocol": "fixed training estimate; concentrate_scale=False during replay"
+  }
+}

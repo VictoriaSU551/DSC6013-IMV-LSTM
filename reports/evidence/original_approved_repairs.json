@@ -1,0 +1,113 @@
+{
+  "sml_arimax": {
+    "folder": "repairs/sml_arimax_ea4d3b2c40_d0121cc114",
+    "manifest_sha256": "c592b5b06d780210e3164ac56411ffa76af5427468bbba522a6225d64359a604",
+    "verification": {
+      "status": "PASS",
+      "run": "sml_arimax_ea4d3b2c40_d0121cc114",
+      "training_loglike": 14623.416184890819,
+      "checks": {
+        "status": "PASS",
+        "qr_max_absolute_prediction_difference": {
+          "val": 6.661338147750939e-16,
+          "test": 5.551115123125783e-16
+        },
+        "causal_checks": "mutated current and all future validation/test targets at first/middle/last rows; prefix forecasts bit-identical",
+        "variance_protocol": "fixed training estimate; concentrate_scale=False during replay"
+      }
+    }
+  },
+  "pm25_strx": {
+    "folder": "repairs/pm25_strx_ea4d3b2c40_9710f836c1",
+    "manifest_sha256": "1dc5835178f989a5a88764e6bef6c11688bd6b80f91c9fb6e54212fb905c7d2a",
+    "verification": {
+      "status": "PASS",
+      "run": "pm25_strx_ea4d3b2c40_9710f836c1",
+      "training_loglike": 53032.86843374642,
+      "checks": {
+        "status": "PASS",
+        "qr_max_absolute_prediction_difference": {
+          "val": 1.1102230246251565e-16,
+          "test": 1.1102230246251565e-16
+        },
+        "causal_checks": "mutated current and all future validation/test targets at first/middle/last rows; prefix forecasts bit-identical",
+        "variance_protocol": "fixed training estimate; concentrate_scale=False during replay"
+      }
+    }
+  },
+  "sml_strx": {
+    "folder": "repairs/sml_strx_auditv2_742e1bcf_a1de13e0_d05027a4",
+    "manifest_sha256": "6300f33ea96ccfe30a73fd2611b2f9aa101bfd665d3b23223a0c6e076afde5a7",
+    "verification": {
+      "status": "PASS",
+      "run": "sml_strx_auditv2_742e1bcf_a1de13e0_d05027a4",
+      "training_loglike": 14496.573810293801,
+      "checks": {
+        "status": "PASS",
+        "qr_max_absolute_prediction_difference": {
+          "val": 4.440892098500626e-16,
+          "test": 5.551115123125783e-16
+        },
+        "causal_checks": "mutated current and all future validation/test targets at first/middle/last rows; prefix forecasts bit-identical",
+        "variance_protocol": "fixed training estimate; concentrate_scale=False during replay"
+      }
+    },
+    "approval_policy_version": 2
+  },
+  "pm25_arimax": {
+    "folder": "repairs/pm25_arimax_ea4d3b2c40_d16815aed6",
+    "manifest_sha256": "50d715e2c3952f6c390e8f1db7318060ac564df461c3d41e851f04d513658eae",
+    "verification": {
+      "status": "PASS",
+      "run": "pm25_arimax_ea4d3b2c40_d16815aed6",
+      "training_loglike": 53795.01742127884,
+      "checks": {
+        "status": "PASS",
+        "qr_max_absolute_prediction_difference": {
+          "val": 5.662137425588298e-15,
+          "test": 3.219646771412954e-15
+        },
+        "causal_checks": "mutated current and all future validation/test targets at first/middle/last rows; prefix forecasts bit-identical",
+        "variance_protocol": "fixed training estimate; concentrate_scale=False during replay"
+      }
+    }
+  },
+  "nasdaq_strx": {
+    "folder": "repairs/nasdaq_strx_auditv2_742e1bcf_61769b09_d05027a4",
+    "manifest_sha256": "91909ab68d1cef3768abf5d9dc0f0ed85f6ebc33873b1b812a463fd8287ef67d",
+    "verification": {
+      "status": "PASS",
+      "run": "nasdaq_strx_auditv2_742e1bcf_61769b09_d05027a4",
+      "training_loglike": 127789.91037277084,
+      "checks": {
+        "status": "PASS",
+        "qr_max_absolute_prediction_difference": {
+          "val": 2.6645352591003757e-15,
+          "test": 2.6645352591003757e-15
+        },
+        "causal_checks": "mutated current and all future validation/test targets at first/middle/last rows; prefix forecasts bit-identical",
+        "variance_protocol": "fixed training estimate; concentrate_scale=False during replay"
+      }
+    },
+    "approval_policy_version": 2
+  },
+  "nasdaq_arimax": {
+    "folder": "repairs/nasdaq_arimax_auditv2_742e1bcf_7969af03_d05027a4",
+    "manifest_sha256": "b19a447cd9034e3a50dce1dbe861e2e66887bc90038c49512d7d738caf5ef7bf",
+    "verification": {
+      "status": "PASS",
+      "run": "nasdaq_arimax_auditv2_742e1bcf_7969af03_d05027a4",
+      "training_loglike": 127803.76167075761,
+      "checks": {
+        "status": "PASS",
+        "qr_max_absolute_prediction_difference": {
+          "val": 3.1086244689504383e-15,
+          "test": 2.6645352591003757e-15
+        },
+        "causal_checks": "mutated current and all future validation/test targets at first/middle/last rows; prefix forecasts bit-identical",
+        "variance_protocol": "fixed training estimate; concentrate_scale=False during replay"
+      }
+    },
+    "approval_policy_version": 2
+  }
+}

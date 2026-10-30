@@ -1,4 +1,6 @@
 .venv/
+.venv-final/
+imv_lstm_20261018/
 .cache/
 __pycache__/
 .pytest_cache/

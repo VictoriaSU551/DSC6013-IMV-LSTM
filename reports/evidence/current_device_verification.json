@@ -1,0 +1,145 @@
+{
+  "status": "PASS",
+  "scope": "retained_public_data_experiments",
+  "verified_files": 2235,
+  "full_paper_reproduction": false,
+  "runtime": {
+    "python": "3.12.3",
+    "torch": "2.6.0+cpu"
+  },
+  "prior_checkpoint_inference_certificates_revalidated": 195,
+  "hpo_trials": 150,
+  "deep_saved_metrics": 195,
+  "classical_groups": 15,
+  "report_reconciliation": {
+    "seed_rows": 234,
+    "summary_groups": 54
+  },
+  "raw_data_rebuild": [
+    {
+      "dataset": "sml",
+      "status": "PASS",
+      "arrays": 16
+    },
+    {
+      "dataset": "pm25",
+      "status": "PASS",
+      "arrays": 16
+    },
+    {
+      "dataset": "nasdaq",
+      "status": "PASS",
+      "arrays": 16
+    }
+  ],
+  "current_checkpoint_replays": [
+    {
+      "run": "sml_tensor_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 2.299942016836809e-07
+    },
+    {
+      "run": "sml_full_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 2.645782470889202e-07
+    },
+    {
+      "run": "sml_lstm_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 1.4844741824671104e-07
+    },
+    {
+      "run": "sml_dual_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 1.4856414798369855e-07
+    },
+    {
+      "run": "sml_retain_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 2.247955321887929e-07
+    },
+    {
+      "run": "pm25_tensor_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 9.697723390988955e-08
+    },
+    {
+      "run": "pm25_full_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 1.5735054015308947e-07
+    },
+    {
+      "run": "pm25_lstm_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 1.2061325072032503e-07
+    },
+    {
+      "run": "pm25_dual_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 1.8146286007159063e-07
+    },
+    {
+      "run": "pm25_retain_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 1.3170013429819605e-07
+    },
+    {
+      "run": "nasdaq_tensor_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 2.631164550681575e-07
+    },
+    {
+      "run": "nasdaq_full_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 3.947586060260022e-07
+    },
+    {
+      "run": "nasdaq_lstm_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 2.9628753672739094e-07
+    },
+    {
+      "run": "nasdaq_dual_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 2.774826048934642e-07
+    },
+    {
+      "run": "nasdaq_retain_seed11",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 6.214401244708512e-07
+    }
+  ],
+  "current_fixed_parameter_statistics_replays": [
+    {
+      "group": "sml_strx",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 5.551115123125783e-16
+    },
+    {
+      "group": "sml_arimax",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 8.881784197001252e-16
+    },
+    {
+      "group": "pm25_strx",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 1.3877787807814457e-16
+    },
+    {
+      "group": "pm25_arimax",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 5.329070518200751e-15
+    },
+    {
+      "group": "nasdaq_strx",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 1.1102230246251565e-15
+    },
+    {
+      "group": "nasdaq_arimax",
+      "status": "PASS",
+      "max_abs_scaled_prediction_difference": 1.3322676295501878e-15
+    }
+  ],
+  "seconds": 684.4219999999987
+}

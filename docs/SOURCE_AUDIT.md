@@ -4,10 +4,10 @@
 - 论文：用户提供17页PDF（含附录）；正式出版页面 https://proceedings.mlr.press/v97/guo19b.html ，正文与补充材料可交叉核对。
 - 原作者仓库 https://github.com/weilai0980/IMV-LSTM ，固定commit eb7720175975f106ab3b8fd415e764e59bc574b4。README推荐KurochkinAlexey PyTorch实现；作者数据config只列本地 `../../dataset/dataset_ts/*dat`，没有对应文件/下载URL。
 - 推荐PyTorch仓库commit c2552282d9995dfb03ef714168c78329e01374cf，公开SML/PM25/NASDAQ。29项资产SHA见sources.lock.json。
-- 现有用户复现代码89433d8明确采用MSE、时间attention覆盖T个状态，并未实现论文EM。新代码是基于论文公式独立编写，不重新发布无明确许可的第三方代码。
+- 最终正式实验采用本项目基于论文公式独立编写的`code/repro/`，实现概率混合和冻结后验责任概率训练；MSE是同结构消融。早期第三方MSE短跑已清理，不混入正式结论。未重新发布无明确许可的第三方代码。
 
 ## PLANT可得性
-2026-10-18检索作者仓库、推荐PyTorch仓库、论文Ceci et al. 2017所指来源。未发现可核实为IMV-LSTM论文20842序列、9天气变量的同一原始快照。Ceci论文原始研究含多个意大利PV站点，本论文没有指定足以唯一重建的数据选择/清洗细节。
+2026-10-18调查，2026-10-30重新核查作者仓库、推荐PyTorch仓库、论文Ceci et al. 2017所指来源。未发现可核实为IMV-LSTM论文20842序列、9天气变量的同一原始快照。Ceci论文原始研究含多个意大利PV站点，本论文没有指定足以唯一重建的数据选择/清洗细节。
 - 原研究作者托管全文 https://e6.ijs.si/~arashkovska/docs/pub/2017_IEEE_II_PV_Energy_Prediction.pdf
 - 大学文献记录 https://ricerca.uniba.it/handle/11586/175028
 - 研究组项目说明 https://kdde.di.uniba.it/projects/

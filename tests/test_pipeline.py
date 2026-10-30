@@ -1,10 +1,9 @@
-"""Permanent regression checks for data integrity and the CPU compatibility patch."""
+"""Permanent regression checks for final data preparation and metric definitions."""
 import sys
 from pathlib import Path
 
 import numpy as np
 import pytest
-import torch
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'code'))
 
@@ -43,39 +42,8 @@ def test_train_only_scaling_constant_feature_and_disjoint_targets():
     assert np.array_equal(d['train_y'] * d['y_scale'] + d['y_min'], y[:3])
 
 
-@pytest.mark.parametrize('kind', ['tensor', 'full'])
-@pytest.mark.parametrize('batch', [1, 4])
-def test_model_cpu_gradient_and_attention(kind, batch):
-    from model import build_model
-    torch.manual_seed(42)
-    m = build_model(kind, 3, 10)
-    x = torch.randn(batch, 10, 3)
-    pred, alpha, beta = m(x)
-    assert pred.shape == (batch, 1)
-    assert alpha.shape == (batch, 10, 3, 1)
-    assert beta.shape == (batch, 3, 1)
-    torch.testing.assert_close(alpha.sum(1), torch.ones(batch, 3, 1))
-    torch.testing.assert_close(beta.sum(1), torch.ones(batch, 1))
-    pred.square().mean().backward()
-    assert all(p.grad is not None and torch.isfinite(p.grad).all() for p in m.parameters())
-
-
 def test_metric_definition():
-    from train import metrics
+    from repro.engine import metrics
     d = metrics(np.array([1., 3.]), np.array([2., 1.]))
     assert d['rmse'] == pytest.approx(np.sqrt(2.5))
     assert d['mae'] == 1.5
-
-
-def test_incomplete_matrix_cannot_pass(tmp_path, monkeypatch):
-    import json
-    import verify_results
-    folder = tmp_path/'output/runs/partial/sml_tensor_seed42'
-    folder.mkdir(parents=True)
-    (folder/'config.json').write_text(json.dumps({'datasets': ['sml'], 'models': ['tensor', 'full'], 'seed': 42}))
-    (folder/'metrics.json').write_text('{}')
-    monkeypatch.setattr(verify_results, 'ROOT', tmp_path)
-    monkeypatch.setattr(sys, 'argv', ['verify_results.py', '--run-tag', 'partial'])
-    with pytest.raises(ValueError, match='Incomplete experiment matrix'):
-        verify_results.main()
-    assert not (tmp_path/'output/verification_partial.json').exists()
